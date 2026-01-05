@@ -1,0 +1,86 @@
+import type { Metadata } from "next";
+import Link from "next/link";
+import { ArrowRight, CheckCircle2 } from "lucide-react";
+import { SectionHeading } from "@/components/home/section-heading";
+import { ServiceIcon } from "@/components/common/service-icon";
+import { getActiveServices, getActiveCities } from "@/lib/site";
+
+export const metadata: Metadata = {
+  title: "Our Services",
+  description:
+    "Household shifting, office relocation, car transport, packing & unpacking, and warehousing services across Madhya Pradesh and Maharashtra.",
+};
+
+export default async function ServicesIndexPage() {
+  const [services, cities] = await Promise.all([getActiveServices(), getActiveCities()]);
+
+  return (
+    <>
+      <section className="bg-brand-950">
+        <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
+          <h1 className="font-display text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
+            Our Moving Services
+          </h1>
+          <p className="mt-4 max-w-2xl text-lg text-slate-300">
+            End-to-end relocation solutions tailored for homes, offices, vehicles, and storage.
+          </p>
+        </div>
+      </section>
+
+      <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
+        <SectionHeading
+          title="Choose the Right Service"
+          description="Every move is different. Explore our specialized relocation services below."
+        />
+        <div className="grid gap-6 md:grid-cols-2">
+          {services.map((service) => (
+            <Link
+              key={service.slug}
+              href={`/services/${service.slug}`}
+              className="group rounded-xl border border-black/10 bg-white p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-card-hover"
+            >
+              <div className="mb-5 flex items-center gap-4">
+                <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-950 transition-colors group-hover:bg-accent-600">
+                  <ServiceIcon name={service.icon} className="h-6 w-6 text-white" />
+                </span>
+                <h2 className="font-display text-xl font-bold text-brand-950">{service.name}</h2>
+              </div>
+              <p className="mb-5 text-sm leading-relaxed text-muted">{service.fullDesc}</p>
+              <ul className="mb-5 space-y-2">
+                {JSON.parse(service.features).slice(0, 4).map((f: string) => (
+                  <li key={f} className="flex items-start gap-2 text-sm text-muted">
+                    <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-emerald-600" />
+                    {f}
+                  </li>
+                ))}
+              </ul>
+              <span className="inline-flex items-center gap-1 text-sm font-semibold text-accent-700">
+                View service details
+                <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+              </span>
+            </Link>
+          ))}
+        </div>
+      </section>
+
+      <section className="bg-surface">
+        <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
+          <h2 className="mb-6 font-display text-2xl font-bold text-brand-950">
+            Available in Your City?
+          </h2>
+          <div className="flex flex-wrap gap-2">
+            {cities.map((city) => (
+              <Link
+                key={city.slug}
+                href={`/packers-movers/${city.slug}`}
+                className="rounded-full border border-black/15 bg-white px-4 py-2 text-sm font-medium text-muted transition-colors hover:border-accent-600 hover:text-accent-700"
+              >
+                Packers & Movers in {city.name}
+              </Link>
+            ))}
+          </div>
+        </div>
+      </section>
+    </>
+  );
+}
