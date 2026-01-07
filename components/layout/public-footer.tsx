@@ -1,0 +1,120 @@
+import Link from "next/link";
+import { Phone, Mail, MapPin, Clock, PackageOpen } from "lucide-react";
+import { telLink } from "@/lib/phone";
+
+interface FooterProps {
+  settings: Record<string, string>;
+  cities: { name: string; slug: string }[];
+  services: { name: string; slug: string }[];
+}
+
+export function PublicFooter({ settings, cities, services }: FooterProps) {
+  const phone = settings.phone;
+
+  return (
+    <footer className="border-t border-black/10 bg-surface text-muted">
+      <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:grid-cols-2 sm:px-6 lg:grid-cols-4 lg:px-8">
+        <div>
+          <div className="mb-4 flex items-center gap-2">
+            <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent-100 ring-1 ring-accent-200">
+              <PackageOpen className="h-5 w-5 text-brand-700" />
+            </span>
+            <span className="font-display text-lg font-bold tracking-tight text-foreground">
+              Packers<span className="text-brand-600">&</span>Movers
+            </span>
+          </div>
+          <p className="text-sm leading-relaxed text-muted">
+            Trusted relocation services across Madhya Pradesh and Maharashtra. Home shifting, office
+            relocation, vehicle transport and warehousing — done right.
+          </p>
+        </div>
+
+        <div>
+          <h3 className="mb-4 font-display text-sm font-semibold uppercase tracking-wider text-foreground">
+            Services
+          </h3>
+          <ul className="space-y-2.5 text-sm">
+            {services.slice(0, 6).map((s) => (
+              <li key={s.slug}>
+                <Link href={`/services/${s.slug}`} className="text-muted transition-colors hover:text-brand-700">
+                  {s.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="mb-4 font-display text-sm font-semibold uppercase tracking-wider text-foreground">
+            Service Cities
+          </h3>
+          <ul className="space-y-2.5 text-sm">
+            {cities.slice(0, 8).map((c) => (
+              <li key={c.slug}>
+                <Link
+                  href={`/packers-movers/${c.slug}`}
+                  className="text-muted transition-colors hover:text-brand-700"
+                >
+                  Packers & Movers in {c.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <div>
+          <h3 className="mb-4 font-display text-sm font-semibold uppercase tracking-wider text-foreground">
+            Contact
+          </h3>
+          <ul className="space-y-3 text-sm text-muted">
+            {settings.address && (
+              <li className="flex items-start gap-3">
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-brand-600" />
+                <span>{settings.address}</span>
+              </li>
+            )}
+            {phone && (
+              <li className="flex items-center gap-3">
+                <Phone className="h-4 w-4 shrink-0 text-brand-600" />
+                <a href={telLink(phone)} className="transition-colors hover:text-brand-700">
+                  {phone}
+                </a>
+              </li>
+            )}
+            {settings.email && (
+              <li className="flex items-center gap-3">
+                <Mail className="h-4 w-4 shrink-0 text-brand-600" />
+                <a href={`mailto:${settings.email}`} className="transition-colors hover:text-brand-700">
+                  {settings.email}
+                </a>
+              </li>
+            )}
+            {settings.workingHours && (
+              <li className="flex items-center gap-3">
+                <Clock className="h-4 w-4 shrink-0 text-brand-600" />
+                <span>{settings.workingHours}</span>
+              </li>
+            )}
+          </ul>
+        </div>
+      </div>
+
+      <div className="border-t border-black/10">
+        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-6 text-xs text-faint sm:flex-row sm:px-6 lg:px-8">
+          <p>© {new Date().getFullYear()} Packers & Movers Logistics. All rights reserved.</p>
+          <div className="flex gap-4">
+            <Link href="/faq" className="transition-colors hover:text-brand-700">
+              FAQ
+            </Link>
+            <Link href="/locations" className="transition-colors hover:text-brand-700">
+              Locations
+            </Link>
+            <Link href="/testimonials" className="transition-colors hover:text-brand-700">
+              Reviews
+            </Link>
+          </div>
+        </div>
+      </div>
+    </footer>
+  );
+}
