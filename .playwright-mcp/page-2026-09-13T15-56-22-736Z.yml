@@ -1,0 +1,283 @@
+- generic [ref=f14e2]:
+  - banner [ref=f14e3]:
+    - generic [ref=f14e4]:
+      - link "Packers&Movers" [ref=f14e5] [cursor=pointer]:
+        - /url: /
+      - button "Toggle menu" [ref=f14e13]
+  - main [ref=f14e15]:
+    - generic [ref=f14e19]:
+      - generic [ref=f14e20]:
+        - paragraph [ref=f14e21]: Trusted Since 2010
+        - heading "Move Safe, Move Smart" [level=1] [ref=f14e22]
+        - paragraph [ref=f14e23]: Verified packers & movers across Madhya Pradesh & Maharashtra. Household shifting, office relocation, vehicle transport — handled with care.
+        - generic [ref=f14e24]:
+          - generic [ref=f14e25]: 5000+ Successful Moves
+          - generic [ref=f14e27]: 100% Damage-Free Guarantee
+      - generic [ref=f14e29]:
+        - heading "Get a Free Quote" [level=3] [ref=f14e30]
+        - generic [ref=f14e31]:
+          - generic [ref=f14e32]:
+            - generic [ref=f14e33]:
+              - text: Moving From
+              - combobox "Moving From" [ref=f14e34]:
+                - generic: Select city
+              - combobox [aria-hidden] [ref=f14e37]
+            - generic [ref=f14e38]:
+              - text: Moving To
+              - combobox "Moving To" [ref=f14e39]:
+                - generic: Select city
+              - combobox [aria-hidden] [ref=f14e42]
+          - generic [ref=f14e43]:
+            - text: Phone Number
+            - textbox "Phone Number" [ref=f14e44]:
+              - /placeholder: e.g. 98765 43210
+          - button "Get Free Quote" [ref=f14e45]
+        - paragraph [ref=f14e46]:
+          - text: Or call us directly at
+          - link "+91 98765 43210" [ref=f14e47] [cursor=pointer]:
+            - /url: tel:919876543210
+    - generic [ref=f14e49]:
+      - generic [ref=f14e51]:
+        - generic [ref=f14e58]: 5,000+
+        - paragraph [ref=f14e59]: Successful Moves
+      - generic [ref=f14e61]:
+        - generic [ref=f14e65]: 100%
+        - paragraph [ref=f14e66]: Damage-Free Guarantee
+      - generic [ref=f14e68]:
+        - generic [ref=f14e73]: 8+
+        - paragraph [ref=f14e74]: Active Service Cities
+      - generic [ref=f14e76]:
+        - generic [ref=f14e81]: 24/7
+        - paragraph [ref=f14e82]: Customer Support
+    - generic [ref=f14e83]:
+      - generic [ref=f14e84]:
+        - paragraph [ref=f14e85]: Our Services
+        - heading "Everything You Need for a Stress-Free Move" [level=2] [ref=f14e86]
+        - paragraph [ref=f14e87]: From a single room to a full industrial relocation, our trained crews handle every stage with care.
+      - generic [ref=f14e88]:
+        - link [ref=f14e90] [cursor=pointer]:
+          - /url: /services/car-transportation
+          - heading "Car & Bike Transportation" [level=3] [ref=f14e97]
+          - paragraph [ref=f14e98]: Scratch-free vehicle carrier service in enclosed specialized car & bike transporters.
+          - generic [ref=f14e99]: Learn more
+        - link [ref=f14e103] [cursor=pointer]:
+          - /url: /services/household-shifting
+          - heading "Household Shifting" [level=3] [ref=f14e108]
+          - paragraph [ref=f14e109]: Complete residential packing, loading, transportation, and setup for stress-free home moving.
+          - generic [ref=f14e110]: Learn more
+        - link [ref=f14e114] [cursor=pointer]:
+          - /url: /services/local-relocation
+          - heading "Local Relocation" [level=3] [ref=f14e119]
+          - paragraph [ref=f14e120]: Same-day local moving within your city with dedicated small & medium vehicles.
+          - generic [ref=f14e121]: Learn more
+        - link [ref=f14e125] [cursor=pointer]:
+          - /url: /services/office-shifting
+          - heading "Office & Commercial Relocation" [level=3] [ref=f14e131]
+          - paragraph [ref=f14e132]: Zero-downtime office relocation, IT equipment handling, and workstation shifting.
+          - generic [ref=f14e133]: Learn more
+        - link [ref=f14e137] [cursor=pointer]:
+          - /url: /services/packing-unpacking
+          - heading "Packing & Unpacking Only" [level=3] [ref=f14e143]
+          - paragraph [ref=f14e144]: Hire professional packers to securely box your belongings with premium materials.
+          - generic [ref=f14e145]: Learn more
+        - link [ref=f14e149] [cursor=pointer]:
+          - /url: /services/warehousing
+          - heading "Warehousing & Storage" [level=3] [ref=f14e154]
+          - paragraph [ref=f14e155]: Clean, secure, 24/7 monitored household & commercial storage spaces.
+          - generic [ref=f14e156]: Learn more
+    - generic [ref=f14e160]:
+      - generic [ref=f14e161]:
+        - paragraph [ref=f14e162]: Locations We Serve
+        - heading "Packers & Movers Near You" [level=2] [ref=f14e163]
+        - paragraph [ref=f14e164]: Explore verified relocation services in your city across Madhya Pradesh and Maharashtra.
+      - generic [ref=f14e165]:
+        - link [ref=f14e167] [cursor=pointer]:
+          - /url: /packers-movers/bhopal
+          - heading "Bhopal" [level=3] [ref=f14e172]
+          - paragraph [ref=f14e173]: Madhya Pradesh
+          - paragraph [ref=f14e174]: Trusted local & domestic shifting services across Bhopal city and surrounding areas.
+          - generic [ref=f14e175]: Get moving in Bhopal
+        - link [ref=f14e179] [cursor=pointer]:
+          - /url: /packers-movers/bhusawal
+          - heading "Bhusawal" [level=3] [ref=f14e184]
+          - paragraph [ref=f14e185]: Maharashtra
+          - paragraph [ref=f14e186]: Dedicated shifting & parcel transport services in Bhusawal railway junction & residential hubs.
+          - generic [ref=f14e187]: Get moving in Bhusawal
+        - link [ref=f14e191] [cursor=pointer]:
+          - /url: /packers-movers/buldhana
+          - heading "Buldhana" [level=3] [ref=f14e196]
+          - paragraph [ref=f14e197]: Maharashtra
+          - paragraph [ref=f14e198]: Safe and hassle-free domestic packers and movers in Buldhana district.
+          - generic [ref=f14e199]: Get moving in Buldhana
+        - link [ref=f14e203] [cursor=pointer]:
+          - /url: /packers-movers/burhanpur
+          - heading "Burhanpur" [level=3] [ref=f14e208]
+          - paragraph [ref=f14e209]: Madhya Pradesh
+          - paragraph [ref=f14e210]: Top local moving company in Burhanpur for seamless domestic home & shop shifting.
+          - generic [ref=f14e211]: Get moving in Burhanpur
+        - link [ref=f14e215] [cursor=pointer]:
+          - /url: /packers-movers/dhule
+          - heading "Dhule" [level=3] [ref=f14e220]
+          - paragraph [ref=f14e221]: Maharashtra
+          - paragraph [ref=f14e222]: Expert home and commercial shifting services across Dhule city and MIDC.
+          - generic [ref=f14e223]: Get moving in Dhule
+        - link [ref=f14e227] [cursor=pointer]:
+          - /url: /packers-movers/indore
+          - heading "Indore" [level=3] [ref=f14e232]
+          - paragraph [ref=f14e233]: Madhya Pradesh
+          - paragraph [ref=f14e234]: Top-rated packers and movers in Indore offering home shifting, office relocation, vehicle transport, and storage.
+          - generic [ref=f14e235]: Get moving in Indore
+        - link [ref=f14e239] [cursor=pointer]:
+          - /url: /packers-movers/jalgaon
+          - heading "Jalgaon" [level=3] [ref=f14e244]
+          - paragraph [ref=f14e245]: Maharashtra
+          - paragraph [ref=f14e246]: Leading relocation service provider in Jalgaon city and MIDC industrial area.
+          - generic [ref=f14e247]: Get moving in Jalgaon
+        - link [ref=f14e251] [cursor=pointer]:
+          - /url: /packers-movers/khandwa
+          - heading "Khandwa" [level=3] [ref=f14e256]
+          - paragraph [ref=f14e257]: Madhya Pradesh
+          - paragraph [ref=f14e258]: Express packing and transport services in Khandwa city & nearby towns.
+          - generic [ref=f14e259]: Get moving in Khandwa
+    - generic [ref=f14e262]:
+      - generic [ref=f14e263]:
+        - paragraph [ref=f14e264]: Our Work
+        - heading "Recently Completed Moves" [level=2] [ref=f14e265]
+        - paragraph [ref=f14e266]: A glimpse of our recent packing, loading, and relocation projects across the cities we serve.
+      - link "View full portfolio" [ref=f14e268] [cursor=pointer]:
+        - /url: /portfolio
+    - generic [ref=f14e272]:
+      - generic [ref=f14e273]:
+        - paragraph [ref=f14e274]: Customer Reviews
+        - heading "What Our Customers Say" [level=2] [ref=f14e275]
+        - paragraph [ref=f14e276]: Real experiences from people who trusted us with their belongings.
+      - generic [ref=f14e278]:
+        - generic [ref=f14e280]:
+          - generic [ref=f14e282]:
+            - paragraph [ref=f14e286]: "“Verified on QA: careful packing and on-time delivery for a 2BHK move.”"
+            - paragraph [ref=f14e298]: QA Test User
+            - paragraph [ref=f14e299]: indore
+          - generic [ref=f14e301]:
+            - paragraph [ref=f14e305]: “Transported my Hyundai Creta car along with household stuff from Bhopal to Pune. Got real-time updates and my car arrived in perfect condition.”
+            - paragraph [ref=f14e317]: Vikram Singh
+            - paragraph [ref=f14e318]: bhopal
+          - generic [ref=f14e320]:
+            - paragraph [ref=f14e324]: “Very honest pricing and clean work in Burhanpur. Moving household goods from Lalbagh to Indore was seamless. The truck driver was polite and punctual.”
+            - paragraph [ref=f14e336]: Sheikh Murtaza
+            - paragraph [ref=f14e337]: burhanpur
+          - generic [ref=f14e339]:
+            - paragraph [ref=f14e343]: “Excellent service for my office relocation in Jalgaon MIDC! They completed the computer and furniture packing overnight without disrupting our regular working hours.”
+            - paragraph [ref=f14e355]: Priya Kulkarni
+            - paragraph [ref=f14e356]: jalgaon
+          - generic [ref=f14e358]:
+            - paragraph [ref=f14e362]: “Shifted my 3BHK flat from Vijay Nagar Indore to Bhopal. The crew reached on time, wrapped my sofa and fridge meticulously with heavy bubble sheet, and delivered without a single scratch. Highly recommended!”
+            - paragraph [ref=f14e374]: Rajesh Sharma
+            - paragraph [ref=f14e375]: indore
+        - button "Previous review" [ref=f14e376]
+        - button "Next review" [ref=f14e379]
+    - generic [ref=f14e382]:
+      - generic [ref=f14e383]:
+        - paragraph [ref=f14e384]: FAQ
+        - heading "Frequently Asked Questions" [level=2] [ref=f14e385]
+        - paragraph [ref=f14e386]: Answers to the questions our customers ask most.
+      - generic [ref=f14e387]:
+        - heading [level=3] [ref=f14e390]:
+          - button "How are packing and moving charges calculated?" [ref=f14e391]
+        - heading [level=3] [ref=f14e397]:
+          - button "How far in advance should I book my relocation?" [ref=f14e398]
+        - heading [level=3] [ref=f14e404]:
+          - button "Do you provide transit insurance for household goods?" [ref=f14e405]
+        - heading [level=3] [ref=f14e411]:
+          - button "What materials do you use for packing fragile items?" [ref=f14e412]
+        - heading [level=3] [ref=f14e418]:
+          - button "Do you disassemble and re-assemble beds and wardrobes?" [ref=f14e419]
+    - generic [ref=f14e424]:
+      - heading "Ready to Move? Get Your Free Estimate Today" [level=2] [ref=f14e425]
+      - paragraph [ref=f14e426]: Share your moving details and receive a competitive, no-obligation quote within minutes.
+      - generic [ref=f14e427]:
+        - link "Request a Quote" [ref=f14e428] [cursor=pointer]:
+          - /url: /request-quote
+        - link "+91 98765 43210" [ref=f14e429] [cursor=pointer]:
+          - /url: tel:919876543210
+  - contentinfo [ref=f14e430]:
+    - generic [ref=f14e431]:
+      - generic [ref=f14e432]:
+        - generic [ref=f14e433]: Packers&Movers
+        - paragraph [ref=f14e440]: Trusted relocation services across Madhya Pradesh and Maharashtra. Home shifting, office relocation, vehicle transport and warehousing — done right.
+      - generic [ref=f14e441]:
+        - heading "Services" [level=3] [ref=f14e442]
+        - list [ref=f14e443]:
+          - listitem [ref=f14e444]:
+            - link "Car & Bike Transportation" [ref=f14e445] [cursor=pointer]:
+              - /url: /services/car-transportation
+          - listitem [ref=f14e446]:
+            - link "Household Shifting" [ref=f14e447] [cursor=pointer]:
+              - /url: /services/household-shifting
+          - listitem [ref=f14e448]:
+            - link "Local Relocation" [ref=f14e449] [cursor=pointer]:
+              - /url: /services/local-relocation
+          - listitem [ref=f14e450]:
+            - link "Office & Commercial Relocation" [ref=f14e451] [cursor=pointer]:
+              - /url: /services/office-shifting
+          - listitem [ref=f14e452]:
+            - link "Packing & Unpacking Only" [ref=f14e453] [cursor=pointer]:
+              - /url: /services/packing-unpacking
+          - listitem [ref=f14e454]:
+            - link "Warehousing & Storage" [ref=f14e455] [cursor=pointer]:
+              - /url: /services/warehousing
+      - generic [ref=f14e456]:
+        - heading "Service Cities" [level=3] [ref=f14e457]
+        - list [ref=f14e458]:
+          - listitem [ref=f14e459]:
+            - link "Packers & Movers in Bhopal" [ref=f14e460] [cursor=pointer]:
+              - /url: /packers-movers/bhopal
+          - listitem [ref=f14e461]:
+            - link "Packers & Movers in Bhusawal" [ref=f14e462] [cursor=pointer]:
+              - /url: /packers-movers/bhusawal
+          - listitem [ref=f14e463]:
+            - link "Packers & Movers in Buldhana" [ref=f14e464] [cursor=pointer]:
+              - /url: /packers-movers/buldhana
+          - listitem [ref=f14e465]:
+            - link "Packers & Movers in Burhanpur" [ref=f14e466] [cursor=pointer]:
+              - /url: /packers-movers/burhanpur
+          - listitem [ref=f14e467]:
+            - link "Packers & Movers in Dhule" [ref=f14e468] [cursor=pointer]:
+              - /url: /packers-movers/dhule
+          - listitem [ref=f14e469]:
+            - link "Packers & Movers in Indore" [ref=f14e470] [cursor=pointer]:
+              - /url: /packers-movers/indore
+          - listitem [ref=f14e471]:
+            - link "Packers & Movers in Jalgaon" [ref=f14e472] [cursor=pointer]:
+              - /url: /packers-movers/jalgaon
+          - listitem [ref=f14e473]:
+            - link "Packers & Movers in Khandwa" [ref=f14e474] [cursor=pointer]:
+              - /url: /packers-movers/khandwa
+      - generic [ref=f14e475]:
+        - heading "Contact" [level=3] [ref=f14e476]
+        - list [ref=f14e477]:
+          - listitem [ref=f14e478]:
+            - generic [ref=f14e482]: 102, Logistics Tower, AB Road, Vijay Nagar, Indore, MP 452001
+          - listitem [ref=f14e483]:
+            - link "+91 98765 43210" [ref=f14e486] [cursor=pointer]:
+              - /url: tel:919876543210
+          - listitem [ref=f14e487]:
+            - link "support@packersmovers.com" [ref=f14e491] [cursor=pointer]:
+              - /url: mailto:support@packersmovers.com
+          - listitem [ref=f14e492]:
+            - generic [ref=f14e496]: 24 Hours / 7 Days Available
+    - generic [ref=f14e498]:
+      - paragraph [ref=f14e499]: © 2026 Packers & Movers Logistics. All rights reserved.
+      - generic [ref=f14e500]:
+        - link "FAQ" [ref=f14e501] [cursor=pointer]:
+          - /url: /faq
+        - link "Locations" [ref=f14e502] [cursor=pointer]:
+          - /url: /locations
+        - link "Reviews" [ref=f14e503] [cursor=pointer]:
+          - /url: /testimonials
+  - generic [ref=f14e504]:
+    - link "Call" [ref=f14e505] [cursor=pointer]:
+      - /url: tel:919876543210
+    - link "WhatsApp" [ref=f14e509] [cursor=pointer]:
+      - /url: https://wa.me/919876543210
+    - link "Get Quote" [ref=f14e513] [cursor=pointer]:
+      - /url: /request-quote
