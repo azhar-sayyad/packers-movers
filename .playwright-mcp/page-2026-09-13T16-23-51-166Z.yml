@@ -1,0 +1,178 @@
+- generic [active] [ref=f18e1]:
+  - generic [ref=f18e2]:
+    - banner [ref=f18e3]:
+      - generic [ref=f18e4]:
+        - link "Packers&Movers" [ref=f18e5] [cursor=pointer]:
+          - /url: /
+        - button "Toggle menu" [ref=f18e13]
+    - main [ref=f18e15]:
+      - generic [ref=f18e17]:
+        - heading "Our Moving Services" [level=1] [ref=f18e18]
+        - paragraph [ref=f18e19]: End-to-end relocation solutions tailored for homes, offices, vehicles, and storage.
+      - generic [ref=f18e20]:
+        - generic [ref=f18e21]:
+          - heading "Choose the Right Service" [level=2] [ref=f18e22]
+          - paragraph [ref=f18e23]: Every move is different. Explore our specialized relocation services below.
+        - generic [ref=f18e24]:
+          - link [ref=f18e25] [cursor=pointer]:
+            - /url: /services/car-transportation
+            - heading "Car & Bike Transportation" [level=2] [ref=f18e33]
+            - paragraph [ref=f18e34]: Transport your car or motorcycle anywhere across India safely. We use specialized car carrier trucks with safety wheel chocks, tie-down straps, and protective car covers to ensure damage-free delivery.
+            - list [ref=f18e35]:
+              - listitem [ref=f18e36]: Enclosed Dedicated Vehicle Carriers
+              - listitem [ref=f18e40]: Wheel Chocks & Heavy-Duty Tie Down Straps
+              - listitem [ref=f18e44]: Pre-Transport Physical Inspection Checklist
+              - listitem [ref=f18e48]: GPS Tracked Transit Vehicle
+            - generic [ref=f18e52]: View service details
+          - link [ref=f18e55] [cursor=pointer]:
+            - /url: /services/household-shifting
+            - heading "Household Shifting" [level=2] [ref=f18e61]
+            - paragraph [ref=f18e62]: Our Household Shifting service handles everything from fragile kitchen glassware and heavy wooden beds to sensitive LED TVs and appliances. We use 3-layer protective wrapping including bubble wrap, corrugated sheets, and stretch film.
+            - list [ref=f18e63]:
+              - listitem [ref=f18e64]: 3-Layer Protective Bubble & Foam Packaging
+              - listitem [ref=f18e68]: Expert Furniture Disassembly & Re-assembly
+              - listitem [ref=f18e72]: Enclosed Weatherproof Container Trucks
+              - listitem [ref=f18e76]: Door-to-Door Loading & Unloading
+            - generic [ref=f18e80]: View service details
+          - link [ref=f18e83] [cursor=pointer]:
+            - /url: /services/local-relocation
+            - heading "Local Relocation" [level=2] [ref=f18e89]
+            - paragraph [ref=f18e90]: Moving just a few kilometers away? Our express local shifting service provides rapid same-day packing, loading, transit, and unloading at affordable hourly or flat rates.
+            - list [ref=f18e91]:
+              - listitem [ref=f18e92]: Same-Day Swift Relocation
+              - listitem [ref=f18e96]: Dedicated Mini Trucks & Pickup Containers
+              - listitem [ref=f18e100]: Affordable Fixed Local Rates
+              - listitem [ref=f18e104]: Trained Local Moving Crews
+            - generic [ref=f18e108]: View service details
+          - link [ref=f18e111] [cursor=pointer]:
+            - /url: /services/office-shifting
+            - heading "Office & Commercial Relocation" [level=2] [ref=f18e118]
+            - paragraph [ref=f18e119]: Minimize business interruption with our planned weekend and overnight office shifting solutions. We specialize in computer server packing, modular desk dismantling, file archiving, and office furniture transport.
+            - list [ref=f18e120]:
+              - listitem [ref=f18e121]: Minimal Operations Downtime Strategy
+              - listitem [ref=f18e125]: Antistatic Server & IT Equipment Packing
+              - listitem [ref=f18e129]: Modular Workstation Disassembly
+              - listitem [ref=f18e133]: Systematic Box Tagging & Inventory Control
+            - generic [ref=f18e137]: View service details
+          - link [ref=f18e140] [cursor=pointer]:
+            - /url: /services/packing-unpacking
+            - heading "Packing & Unpacking Only" [level=2] [ref=f18e147]
+            - paragraph [ref=f18e148]: Already have your own vehicle? Hire our expert packers to carefully wrap, box, label, and organize your valuable items using top-quality cardboard boxes, tape, and protective rolls.
+            - list [ref=f18e149]:
+              - listitem [ref=f18e150]: Premium Quality Packing Material Provided
+              - listitem [ref=f18e154]: Professional Fragile Item Handling
+              - listitem [ref=f18e158]: Color-Coded Box Labeling
+              - listitem [ref=f18e162]: Unpacking & Furniture Placement Help
+            - generic [ref=f18e166]: View service details
+          - link [ref=f18e169] [cursor=pointer]:
+            - /url: /services/warehousing
+            - heading "Warehousing & Storage" [level=2] [ref=f18e175]
+            - paragraph [ref=f18e176]: Need short-term or long-term storage while renovating or waiting for your new home key? Our modern warehouse facilities offer pest-controlled, CCTV-monitored, palletized storage with flexible monthly plans.
+            - list [ref=f18e177]:
+              - listitem [ref=f18e178]: 24/7 CCTV Camera Monitoring & Security
+              - listitem [ref=f18e182]: Pest-Controlled & Moisture-Proof Environment
+              - listitem [ref=f18e186]: Flexible Short-Term & Long-Term Leases
+              - listitem [ref=f18e190]: Palletized Stacking & Sealed Wooden Crates
+            - generic [ref=f18e194]: View service details
+      - generic [ref=f18e198]:
+        - heading "Available in Your City?" [level=2] [ref=f18e199]
+        - generic [ref=f18e200]:
+          - link "Packers & Movers in Bhopal" [ref=f18e201] [cursor=pointer]:
+            - /url: /packers-movers/bhopal
+          - link "Packers & Movers in Bhusawal" [ref=f18e202] [cursor=pointer]:
+            - /url: /packers-movers/bhusawal
+          - link "Packers & Movers in Buldhana" [ref=f18e203] [cursor=pointer]:
+            - /url: /packers-movers/buldhana
+          - link "Packers & Movers in Burhanpur" [ref=f18e204] [cursor=pointer]:
+            - /url: /packers-movers/burhanpur
+          - link "Packers & Movers in Dhule" [ref=f18e205] [cursor=pointer]:
+            - /url: /packers-movers/dhule
+          - link "Packers & Movers in Indore" [ref=f18e206] [cursor=pointer]:
+            - /url: /packers-movers/indore
+          - link "Packers & Movers in Jalgaon" [ref=f18e207] [cursor=pointer]:
+            - /url: /packers-movers/jalgaon
+          - link "Packers & Movers in Khandwa" [ref=f18e208] [cursor=pointer]:
+            - /url: /packers-movers/khandwa
+    - contentinfo [ref=f18e209]:
+      - generic [ref=f18e210]:
+        - generic [ref=f18e211]:
+          - generic [ref=f18e212]: Packers&Movers
+          - paragraph [ref=f18e219]: Trusted relocation services across Madhya Pradesh and Maharashtra. Home shifting, office relocation, vehicle transport and warehousing — done right.
+        - generic [ref=f18e220]:
+          - heading "Services" [level=3] [ref=f18e221]
+          - list [ref=f18e222]:
+            - listitem [ref=f18e223]:
+              - link "Car & Bike Transportation" [ref=f18e224] [cursor=pointer]:
+                - /url: /services/car-transportation
+            - listitem [ref=f18e225]:
+              - link "Household Shifting" [ref=f18e226] [cursor=pointer]:
+                - /url: /services/household-shifting
+            - listitem [ref=f18e227]:
+              - link "Local Relocation" [ref=f18e228] [cursor=pointer]:
+                - /url: /services/local-relocation
+            - listitem [ref=f18e229]:
+              - link "Office & Commercial Relocation" [ref=f18e230] [cursor=pointer]:
+                - /url: /services/office-shifting
+            - listitem [ref=f18e231]:
+              - link "Packing & Unpacking Only" [ref=f18e232] [cursor=pointer]:
+                - /url: /services/packing-unpacking
+            - listitem [ref=f18e233]:
+              - link "Warehousing & Storage" [ref=f18e234] [cursor=pointer]:
+                - /url: /services/warehousing
+        - generic [ref=f18e235]:
+          - heading "Service Cities" [level=3] [ref=f18e236]
+          - list [ref=f18e237]:
+            - listitem [ref=f18e238]:
+              - link "Packers & Movers in Bhopal" [ref=f18e239] [cursor=pointer]:
+                - /url: /packers-movers/bhopal
+            - listitem [ref=f18e240]:
+              - link "Packers & Movers in Bhusawal" [ref=f18e241] [cursor=pointer]:
+                - /url: /packers-movers/bhusawal
+            - listitem [ref=f18e242]:
+              - link "Packers & Movers in Buldhana" [ref=f18e243] [cursor=pointer]:
+                - /url: /packers-movers/buldhana
+            - listitem [ref=f18e244]:
+              - link "Packers & Movers in Burhanpur" [ref=f18e245] [cursor=pointer]:
+                - /url: /packers-movers/burhanpur
+            - listitem [ref=f18e246]:
+              - link "Packers & Movers in Dhule" [ref=f18e247] [cursor=pointer]:
+                - /url: /packers-movers/dhule
+            - listitem [ref=f18e248]:
+              - link "Packers & Movers in Indore" [ref=f18e249] [cursor=pointer]:
+                - /url: /packers-movers/indore
+            - listitem [ref=f18e250]:
+              - link "Packers & Movers in Jalgaon" [ref=f18e251] [cursor=pointer]:
+                - /url: /packers-movers/jalgaon
+            - listitem [ref=f18e252]:
+              - link "Packers & Movers in Khandwa" [ref=f18e253] [cursor=pointer]:
+                - /url: /packers-movers/khandwa
+        - generic [ref=f18e254]:
+          - heading "Contact" [level=3] [ref=f18e255]
+          - list [ref=f18e256]:
+            - listitem [ref=f18e257]:
+              - generic [ref=f18e261]: 102, Logistics Tower, AB Road, Vijay Nagar, Indore, MP 452001
+            - listitem [ref=f18e262]:
+              - link "+91 98765 43210" [ref=f18e265] [cursor=pointer]:
+                - /url: tel:919876543210
+            - listitem [ref=f18e266]:
+              - link "support@packersmovers.com" [ref=f18e270] [cursor=pointer]:
+                - /url: mailto:support@packersmovers.com
+            - listitem [ref=f18e271]:
+              - generic [ref=f18e275]: 24 Hours / 7 Days Available
+      - generic [ref=f18e277]:
+        - paragraph [ref=f18e278]: © 2026 Packers & Movers Logistics. All rights reserved.
+        - generic [ref=f18e279]:
+          - link "FAQ" [ref=f18e280] [cursor=pointer]:
+            - /url: /faq
+          - link "Locations" [ref=f18e281] [cursor=pointer]:
+            - /url: /locations
+          - link "Reviews" [ref=f18e282] [cursor=pointer]:
+            - /url: /testimonials
+    - generic [ref=f18e283]:
+      - link "Call" [ref=f18e284] [cursor=pointer]:
+        - /url: tel:919876543210
+      - link "WhatsApp" [ref=f18e288] [cursor=pointer]:
+        - /url: https://wa.me/919876543210
+      - link "Get Quote" [ref=f18e292] [cursor=pointer]:
+        - /url: /request-quote
+  - alert [ref=f18e297]
