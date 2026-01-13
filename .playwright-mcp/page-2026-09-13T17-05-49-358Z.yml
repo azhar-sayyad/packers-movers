@@ -1,0 +1,1206 @@
+- generic [active] [ref=f1e1]:
+  - banner [ref=f1e2]:
+    - generic [ref=f1e4]:
+      - link "PackersBazaar.in homepage" [ref=f1e5] [cursor=pointer]:
+        - /url: /
+        - generic [ref=f1e17]:
+          - generic [ref=f1e18]: PackersBazaar
+          - generic [ref=f1e19]: .in
+      - navigation "Main navigation" [ref=f1e20]:
+        - link "⚡ Instant Book" [ref=f1e21] [cursor=pointer]:
+          - /url: /book
+        - link "All Services" [ref=f1e22] [cursor=pointer]:
+          - /url: /services
+        - link "Find Movers" [ref=f1e23] [cursor=pointer]:
+          - /url: /movers
+        - link "Home Services" [ref=f1e24] [cursor=pointer]:
+          - /url: /home-services
+        - link "Truck Routes" [ref=f1e25] [cursor=pointer]:
+          - /url: /vehicle-routes
+        - link "For Business" [ref=f1e26] [cursor=pointer]:
+          - /url: /b2b
+        - link "List Your Business" [ref=f1e27] [cursor=pointer]:
+          - /url: /list-business
+      - generic [ref=f1e28]:
+        - link "हिंदी" [ref=f1e29] [cursor=pointer]:
+          - /url: /hi
+        - link "Call Now" [ref=f1e33] [cursor=pointer]:
+          - /url: tel:+917082001025
+        - link "Get Free Quotes" [ref=f1e36] [cursor=pointer]:
+          - /url: /contact
+  - main [ref=f1e37]:
+    - generic [ref=f1e38]:
+      - generic [ref=f1e40]:
+        - generic [ref=f1e41]: 100% Verified Packers & Movers
+        - heading "Verified Packers & Movers Across 500+ Indian Cities" [level=1] [ref=f1e45]: Verified Packers & MoversAcross 500+ Indian Cities
+        - paragraph [ref=f1e46]:
+          - text: Get an
+          - strong [ref=f1e47]: instant price estimate
+          - text: in seconds, then compare quotes from
+          - strong [ref=f1e48]: verified, GST-registered
+          - text: movers.
+          - strong [ref=f1e49]: Movers keep 100% of what you pay
+          - text: — we never take a commission from your booking.
+        - generic [ref=f1e50]:
+          - combobox "From city" [ref=f1e55]
+          - combobox "To city" [ref=f1e60]
+          - combobox "Home size" [ref=f1e65] [cursor=pointer]:
+            - option "1 RK"
+            - option "1 BHK"
+            - option "2 BHK" [selected]
+            - option "3 BHK"
+            - option "4 BHK / Villa"
+            - option "Office / Shop"
+          - button "Get Instant Price" [ref=f1e66] [cursor=pointer]
+        - generic [ref=f1e71]:
+          - generic [ref=f1e72]:
+            - generic [ref=f1e73]: 60+
+            - generic [ref=f1e74]: Verified Movers
+          - generic [ref=f1e75]:
+            - generic [ref=f1e76]: 801+
+            - generic [ref=f1e77]: Cities Listed
+          - generic [ref=f1e78]:
+            - generic [ref=f1e79]: 0%
+            - generic [ref=f1e80]: Commission
+          - generic [ref=f1e81]:
+            - generic [ref=f1e82]: 24/7
+            - generic [ref=f1e83]: WhatsApp Support
+      - generic [ref=f1e85]:
+        - generic [ref=f1e86]:
+          - generic [ref=f1e87]: ✓
+          - text: GST Verified
+        - generic [ref=f1e88]:
+          - generic [ref=f1e89]: ✓
+          - text: Background Checked
+        - generic [ref=f1e90]:
+          - generic [ref=f1e91]: ✓
+          - text: IBA Certified
+        - generic [ref=f1e92]:
+          - generic [ref=f1e93]: ✓
+          - text: Real Reviews
+        - generic [ref=f1e94]:
+          - generic [ref=f1e95]: ✓
+          - text: WhatsApp Support
+        - generic [ref=f1e96]:
+          - generic [ref=f1e97]: ✓
+          - text: Free Comparison
+    - generic [ref=f1e99]:
+      - generic [ref=f1e100]:
+        - generic [ref=f1e101]: ⚡
+        - generic [ref=f1e102]:
+          - paragraph [ref=f1e103]: Book a truck in 30 seconds — fixed transparent pricing
+          - paragraph [ref=f1e104]: Tempo, mini truck, 14ft, container. Local + intercity. No middleman, no commission.
+      - link "Instant Book" [ref=f1e105] [cursor=pointer]:
+        - /url: /book
+    - generic [ref=f1e109]:
+      - generic [ref=f1e110]:
+        - text: Why PackersBazaar
+        - heading "The Most Trusted Bazaar for Movers" [level=2] [ref=f1e111]
+        - paragraph [ref=f1e112]: We solve every problem you've faced with other moving directories — fake listings, hidden charges, untrained staff, and zero accountability.
+      - generic [ref=f1e113]:
+        - generic [ref=f1e114]:
+          - heading "7-Step Verification" [level=3] [ref=f1e119]
+          - paragraph [ref=f1e120]: GST, IBA, PAN, office visit, background checks — no fake companies.
+        - generic [ref=f1e121]:
+          - heading "Verified Reviews Only" [level=3] [ref=f1e125]
+          - paragraph [ref=f1e126]: Only customers who booked through us can leave reviews. Zero fakes.
+        - generic [ref=f1e127]:
+          - heading "801+ Cities" [level=3] [ref=f1e132]
+          - paragraph [ref=f1e133]: Including Tier-2/3 cities like Sonipat, Panipat, Karnal — covered.
+        - generic [ref=f1e134]:
+          - heading "Commission-Free" [level=3] [ref=f1e139]
+          - paragraph [ref=f1e140]: Movers keep 100% of what you pay. We never take a cut from your booking.
+    - generic [ref=f1e143]:
+      - generic [ref=f1e144]:
+        - generic [ref=f1e145]: 1,000+
+        - generic [ref=f1e146]: Monthly Customers
+      - generic [ref=f1e147]:
+        - generic [ref=f1e148]: 85%
+        - generic [ref=f1e149]: Lead-to-Booking Rate
+      - generic [ref=f1e150]:
+        - generic [ref=f1e151]: 4.7★
+        - generic [ref=f1e152]: Partner Satisfaction
+    - generic [ref=f1e154]:
+      - generic [ref=f1e155]:
+        - text: Customer Reviews
+        - heading "What Our Customers Say" [level=2] [ref=f1e156]
+        - paragraph [ref=f1e157]: Verified-booker reviews from families who shifted with movers in our network.
+      - generic [ref=f1e158]:
+        - generic [ref=f1e159]:
+          - paragraph [ref=f1e171]: “Overall a very nice experience. Packaging was done in an organized manner and all delicate goods such as my mother’s collection of crockery was delivered without damage. I have given 4 stars only as the truck arrived two hours late due to some technical issues on the expressway. They had informed me about the delay in advance.”
+          - generic [ref=f1e172]:
+            - generic [ref=f1e173]: P
+            - generic [ref=f1e174]:
+              - paragraph [ref=f1e175]: Pritam
+              - paragraph [ref=f1e176]: Pune
+        - generic [ref=f1e177]:
+          - paragraph [ref=f1e189]: “My biggest fear about shifting was moving, as my friend had experienced a really terrible time with the moving company. PackersBazaar's verification mark made me feel more assured about the move. The moving team was well-mannered, efficient, and even arranged furniture in the new flat. Best of all, they had their own packing material that was of high quality.”
+          - generic [ref=f1e190]:
+            - generic [ref=f1e191]: A
+            - generic [ref=f1e192]:
+              - paragraph [ref=f1e193]: Abhi Singh
+              - paragraph [ref=f1e194]: Delhi
+        - generic [ref=f1e195]:
+          - paragraph [ref=f1e207]: “We shifted our office of 30 people from Sonipat to Gurgaon in one weekend so that we could open on Monday morning. The movers from PackersBazaar were just amazing – they marked all cables, clicked pictures of how servers were arranged before disassembly, and got everything back up and running by Sunday night. I was really impressed. Absolutely worth every rupee of the ₹1.8L it cost”
+          - generic [ref=f1e208]:
+            - generic [ref=f1e209]: R
+            - generic [ref=f1e210]:
+              - paragraph [ref=f1e211]: Rahul Roy
+              - paragraph [ref=f1e212]: Gurgaon
+    - generic [ref=f1e214]:
+      - generic [ref=f1e215]:
+        - generic [ref=f1e216]:
+          - text: Top Rated
+          - heading "Top Movers Across India" [level=2] [ref=f1e217]
+          - paragraph [ref=f1e218]: Showing 6 of 60 verified movers
+        - link "View All" [ref=f1e219] [cursor=pointer]:
+          - /url: /movers
+      - generic [ref=f1e222]:
+        - article [ref=f1e223]:
+          - generic [ref=f1e224]: VERIFIED
+          - generic [ref=f1e228]:
+            - generic [ref=f1e229]: AP
+            - generic [ref=f1e230]:
+              - heading "Agarwalontime Packers Movers" [level=3] [ref=f1e231]
+              - generic [ref=f1e232]:
+                - generic [ref=f1e233]:
+                  - generic [ref=f1e234]: "4.5"
+                  - img "4.5 out of 5" [ref=f1e235]
+                - generic [ref=f1e241]: 5 Reviews
+              - generic [ref=f1e242]:
+                - generic [ref=f1e243]: Bangalore
+                - generic [ref=f1e248]: 7+ years in business
+          - generic [ref=f1e252]:
+            - generic [ref=f1e253]: Home Shifting
+            - generic [ref=f1e257]: Office Shifting
+            - generic [ref=f1e261]: Car Shifting
+            - generic [ref=f1e265]: Storage
+            - generic [ref=f1e269]: GST Registered
+          - paragraph [ref=f1e273]: Best Packers Movers in Bangalore, Agarwalontime Packers And Movers is a leading relocation company, synonymous with quality and trust. With over a decade of experience, we offer superior packing and moving services for both residential and commercial requirements. Our team is made up of highly trained professionals who understand the intricate details of relocating household or office belongings.
+          - generic [ref=f1e274]:
+            - img "Agarwalontime Packers Movers photo 1" [ref=f1e276]
+            - img "Agarwalontime Packers Movers photo 2" [ref=f1e278]
+            - img "Agarwalontime Packers Movers photo 3" [ref=f1e280]
+          - generic [ref=f1e281]:
+            - text: Starting from
+            - strong [ref=f1e282]: ₹4,000
+          - generic [ref=f1e283]:
+            - link "+919845842133" [ref=f1e284] [cursor=pointer]:
+              - /url: tel:+919845842133
+            - link "WhatsApp" [ref=f1e287] [cursor=pointer]:
+              - /url: https://wa.me/919845842133?text=Hi%2C%20I%20found%20Agarwalontime%20Packers%20Movers%20on%20PackersBazaar.in.%20I'd%20like%20to%20get%20a%20shifting%20quote.%20Please%20share%20your%20availability%20and%20pricing.
+            - link "₹ Get Pricing" [ref=f1e290] [cursor=pointer]:
+              - /url: /contact?mover=agarwalontime-packers-movers-bangalore
+          - generic [ref=f1e291]:
+            - link "View Details" [ref=f1e292] [cursor=pointer]:
+              - /url: /movers/agarwalontime-packers-movers-bangalore
+            - button "Compare" [ref=f1e293] [cursor=pointer]
+        - article [ref=f1e299]:
+          - generic [ref=f1e300]: VERIFIED
+          - generic [ref=f1e304]:
+            - generic [ref=f1e305]: HP
+            - generic [ref=f1e306]:
+              - heading "Hyderabad Packers & Movers" [level=3] [ref=f1e307]
+              - generic [ref=f1e308]:
+                - generic [ref=f1e309]:
+                  - generic [ref=f1e310]: "4.5"
+                  - img "4.5 out of 5" [ref=f1e311]
+                - generic [ref=f1e317]: 5 Reviews
+              - generic [ref=f1e318]:
+                - generic [ref=f1e319]: Hyderabad
+                - generic [ref=f1e324]: 15+ years in business
+          - generic [ref=f1e328]:
+            - generic [ref=f1e329]: Home Shifting
+            - generic [ref=f1e333]: Car Transport
+            - generic [ref=f1e337]: Office Shifting
+            - generic [ref=f1e341]: warehouse Storage
+            - generic [ref=f1e345]: GST Registered
+          - paragraph [ref=f1e349]: Best packers and movers service provider in Hyderabad
+          - generic [ref=f1e350]:
+            - text: Starting from
+            - strong [ref=f1e351]: ₹2,000
+          - generic [ref=f1e352]:
+            - link "+919729520050" [ref=f1e353] [cursor=pointer]:
+              - /url: tel:+919729520050
+            - link "WhatsApp" [ref=f1e356] [cursor=pointer]:
+              - /url: https://wa.me/919729520050?text=Hi%2C%20I%20found%20Hyderabad%20Packers%20%26%20Movers%20on%20PackersBazaar.in.%20I'd%20like%20to%20get%20a%20shifting%20quote.%20Please%20share%20your%20availability%20and%20pricing.
+            - link "₹ Get Pricing" [ref=f1e359] [cursor=pointer]:
+              - /url: /contact?mover=hyderabad-packers-movers-hyderabad
+          - generic [ref=f1e360]:
+            - link "View Details" [ref=f1e361] [cursor=pointer]:
+              - /url: /movers/hyderabad-packers-movers-hyderabad
+            - button "Compare" [ref=f1e362] [cursor=pointer]
+        - article [ref=f1e368]:
+          - generic [ref=f1e369]: VERIFIED
+          - generic [ref=f1e373]:
+            - generic [ref=f1e374]: AI
+            - generic [ref=f1e375]:
+              - heading "All India Cargo Packers and Movers" [level=3] [ref=f1e376]
+              - generic [ref=f1e377]:
+                - generic [ref=f1e378]:
+                  - generic [ref=f1e379]: "4.5"
+                  - img "4.5 out of 5" [ref=f1e380]
+                - generic [ref=f1e386]: 10 Reviews
+              - generic [ref=f1e387]:
+                - generic [ref=f1e388]: Kharghar
+                - generic [ref=f1e393]: 1+ years in business
+          - generic [ref=f1e397]:
+            - generic [ref=f1e398]: Home Shifting
+            - generic [ref=f1e402]: Office Relocation
+          - paragraph [ref=f1e406]: Looking for reliable packers and movers in Kharghar, Navi Mumbai? All India Cargo Packers and Movers offers house shifting, office relocation, car & bike transportation, packing, loading, unloading, warehousing, and door-to-door moving services across India since 2008.
+          - generic [ref=f1e407]:
+            - text: Starting from
+            - strong [ref=f1e408]: ₹5,000
+          - generic [ref=f1e409]:
+            - link "9867550175" [ref=f1e410] [cursor=pointer]:
+              - /url: tel:9867550175
+            - link "WhatsApp" [ref=f1e413] [cursor=pointer]:
+              - /url: https://wa.me/9867550175?text=Hi%2C%20I%20found%20All%20India%20Cargo%20Packers%20and%20Movers%20on%20PackersBazaar.in.%20I'd%20like%20to%20get%20a%20shifting%20quote.%20Please%20share%20your%20availability%20and%20pricing.
+            - link "₹ Get Pricing" [ref=f1e416] [cursor=pointer]:
+              - /url: /contact?mover=all-india-cargo-packers-and-movers-kharghar
+          - generic [ref=f1e417]:
+            - link "View Details" [ref=f1e418] [cursor=pointer]:
+              - /url: /movers/all-india-cargo-packers-and-movers-kharghar
+            - button "Compare" [ref=f1e419] [cursor=pointer]
+        - article [ref=f1e425]:
+          - generic [ref=f1e426]: VERIFIED
+          - generic [ref=f1e430]:
+            - generic [ref=f1e431]: AO
+            - generic [ref=f1e432]:
+              - heading "All over packers and movers" [level=3] [ref=f1e433]
+              - generic [ref=f1e434]:
+                - generic [ref=f1e435]:
+                  - generic [ref=f1e436]: "4.5"
+                  - img "4.5 out of 5" [ref=f1e437]
+                - generic [ref=f1e443]: 2 Reviews
+              - generic [ref=f1e444]:
+                - generic [ref=f1e445]: Jammu
+                - generic [ref=f1e450]: 1+ years in business
+          - generic [ref=f1e454]:
+            - generic [ref=f1e455]: Home Shifting
+            - generic [ref=f1e459]: Office Relocation
+            - generic [ref=f1e463]: GST Registered
+          - paragraph [ref=f1e467]: 8 years experience house sifting bike sifting car sifting all types courier and truck all India service
+          - generic [ref=f1e468]:
+            - text: Starting from
+            - strong [ref=f1e469]: ₹5,000
+          - generic [ref=f1e470]:
+            - link "8899378898" [ref=f1e471] [cursor=pointer]:
+              - /url: tel:8899378898
+            - link "WhatsApp" [ref=f1e474] [cursor=pointer]:
+              - /url: https://wa.me/8899378898?text=Hi%2C%20I%20found%20All%20over%20packers%20and%20movers%20on%20PackersBazaar.in.%20I'd%20like%20to%20get%20a%20shifting%20quote.%20Please%20share%20your%20availability%20and%20pricing.
+            - link "₹ Get Pricing" [ref=f1e477] [cursor=pointer]:
+              - /url: /contact?mover=all-over-packers-and-movers-jammu
+          - generic [ref=f1e478]:
+            - link "View Details" [ref=f1e479] [cursor=pointer]:
+              - /url: /movers/all-over-packers-and-movers-jammu
+            - button "Compare" [ref=f1e480] [cursor=pointer]
+        - article [ref=f1e486]:
+          - generic [ref=f1e487]:
+            - generic [ref=f1e488]: AP
+            - generic [ref=f1e489]:
+              - heading "Amarsons Packers Movers" [level=3] [ref=f1e490]
+              - generic [ref=f1e491]:
+                - generic [ref=f1e492]:
+                  - generic [ref=f1e493]: "4.5"
+                  - img "4.5 out of 5" [ref=f1e494]
+                - generic [ref=f1e500]: 5 Reviews
+              - generic [ref=f1e501]:
+                - generic [ref=f1e502]: Chennai
+                - generic [ref=f1e507]: 1+ years in business
+          - generic [ref=f1e511]:
+            - generic [ref=f1e512]: Home Shifting
+            - generic [ref=f1e516]: Office Relocation
+            - generic [ref=f1e520]: GST Registered
+          - paragraph [ref=f1e524]: Amarsons Packers Movers Chennai is a trusted relocation service provider offering safe, reliable, and affordable packing and moving solutions for residential, commercial, and vehicle transportation needs. With a team of experienced professionals, the company ensures secure packing, careful handling, timely delivery, and hassle-free relocation services. Whether you're moving within Chennai or to another city across India, Amarsons Packers Movers is committed to providing a smooth and stress-free moving experience. Customer satisfaction, transparent pricing, and dependable service are at the heart of every relocation.
+          - generic [ref=f1e525]:
+            - text: Starting from
+            - strong [ref=f1e526]: ₹5,000
+          - generic [ref=f1e527]:
+            - link "7899119005" [ref=f1e528] [cursor=pointer]:
+              - /url: tel:7899119005
+            - link "WhatsApp" [ref=f1e531] [cursor=pointer]:
+              - /url: https://wa.me/7899119005?text=Hi%2C%20I%20found%20Amarsons%20Packers%20Movers%20on%20PackersBazaar.in.%20I'd%20like%20to%20get%20a%20shifting%20quote.%20Please%20share%20your%20availability%20and%20pricing.
+            - link "₹ Get Pricing" [ref=f1e534] [cursor=pointer]:
+              - /url: /contact?mover=amarsons-packers-movers-chennai
+          - generic [ref=f1e535]:
+            - link "View Details" [ref=f1e536] [cursor=pointer]:
+              - /url: /movers/amarsons-packers-movers-chennai
+            - button "Compare" [ref=f1e537] [cursor=pointer]
+        - article [ref=f1e543]:
+          - generic [ref=f1e544]:
+            - generic [ref=f1e545]: AP
+            - generic [ref=f1e546]:
+              - heading "Amarsons Packers Movers" [level=3] [ref=f1e547]
+              - generic [ref=f1e548]:
+                - generic [ref=f1e549]:
+                  - generic [ref=f1e550]: "4.5"
+                  - img "4.5 out of 5" [ref=f1e551]
+                - generic [ref=f1e557]: 2 Reviews
+              - generic [ref=f1e558]:
+                - generic [ref=f1e559]: Hyderabad
+                - generic [ref=f1e564]: 1+ years in business
+          - generic [ref=f1e568]:
+            - generic [ref=f1e569]: Home Shifting
+            - generic [ref=f1e573]: Office Relocation
+            - generic [ref=f1e577]: GST Registered
+          - paragraph [ref=f1e581]: Amarsons Packers Movers Hyderabad provides reliable and efficient packing and moving services for homes, offices, vehicles, and commercial goods. Backed by a skilled team and quality packing materials, the company focuses on safe handling, secure transportation, and timely delivery of your belongings. Whether you're relocating within Hyderabad or moving to another city, Amarsons Packers Movers offers customized solutions to make the entire process smooth and hassle-free. With transparent pricing, professional service, and a commitment to customer satisfaction, the company aims to deliver a dependable relocation experience every time.
+          - generic [ref=f1e582]:
+            - text: Starting from
+            - strong [ref=f1e583]: ₹5,000
+          - generic [ref=f1e584]:
+            - link "7899119005" [ref=f1e585] [cursor=pointer]:
+              - /url: tel:7899119005
+            - link "WhatsApp" [ref=f1e588] [cursor=pointer]:
+              - /url: https://wa.me/7899119005?text=Hi%2C%20I%20found%20Amarsons%20Packers%20Movers%20on%20PackersBazaar.in.%20I'd%20like%20to%20get%20a%20shifting%20quote.%20Please%20share%20your%20availability%20and%20pricing.
+            - link "₹ Get Pricing" [ref=f1e591] [cursor=pointer]:
+              - /url: /contact?mover=amarsons-packers-movers-hyderabad
+          - generic [ref=f1e592]:
+            - link "View Details" [ref=f1e593] [cursor=pointer]:
+              - /url: /movers/amarsons-packers-movers-hyderabad
+            - button "Compare" [ref=f1e594] [cursor=pointer]
+      - button "Load More Movers (6 remaining)" [ref=f1e601] [cursor=pointer]
+    - generic [ref=f1e605]:
+      - generic [ref=f1e606]:
+        - text: 500+ Cities
+        - heading "Find Movers in Your City" [level=2] [ref=f1e607]
+      - generic [ref=f1e608]:
+        - link "Packers Movers Sonipat 87+ verified movers" [ref=f1e609] [cursor=pointer]:
+          - /url: /city/sonipat
+          - generic [ref=f1e610]: Packers Movers Sonipat
+          - generic [ref=f1e611]: 87+ verified movers
+        - link "Packers Movers Delhi 1240+ verified movers" [ref=f1e612] [cursor=pointer]:
+          - /url: /city/delhi
+          - generic [ref=f1e613]: Packers Movers Delhi
+          - generic [ref=f1e614]: 1240+ verified movers
+        - link "Packers Movers Mumbai 980+ verified movers" [ref=f1e615] [cursor=pointer]:
+          - /url: /city/mumbai
+          - generic [ref=f1e616]: Packers Movers Mumbai
+          - generic [ref=f1e617]: 980+ verified movers
+        - link "Packers Movers Bangalore 1120+ verified movers" [ref=f1e618] [cursor=pointer]:
+          - /url: /city/bangalore
+          - generic [ref=f1e619]: Packers Movers Bangalore
+          - generic [ref=f1e620]: 1120+ verified movers
+        - link "Packers Movers Pune 740+ verified movers" [ref=f1e621] [cursor=pointer]:
+          - /url: /city/pune
+          - generic [ref=f1e622]: Packers Movers Pune
+          - generic [ref=f1e623]: 740+ verified movers
+        - link "Packers Movers Chennai 680+ verified movers" [ref=f1e624] [cursor=pointer]:
+          - /url: /city/chennai
+          - generic [ref=f1e625]: Packers Movers Chennai
+          - generic [ref=f1e626]: 680+ verified movers
+        - link "Packers Movers Hyderabad 720+ verified movers" [ref=f1e627] [cursor=pointer]:
+          - /url: /city/hyderabad
+          - generic [ref=f1e628]: Packers Movers Hyderabad
+          - generic [ref=f1e629]: 720+ verified movers
+        - link "Packers Movers Kolkata 580+ verified movers" [ref=f1e630] [cursor=pointer]:
+          - /url: /city/kolkata
+          - generic [ref=f1e631]: Packers Movers Kolkata
+          - generic [ref=f1e632]: 580+ verified movers
+        - link "Packers Movers Ahmedabad 510+ verified movers" [ref=f1e633] [cursor=pointer]:
+          - /url: /city/ahmedabad
+          - generic [ref=f1e634]: Packers Movers Ahmedabad
+          - generic [ref=f1e635]: 510+ verified movers
+        - link "Packers Movers Gurgaon 890+ verified movers" [ref=f1e636] [cursor=pointer]:
+          - /url: /city/gurgaon
+          - generic [ref=f1e637]: Packers Movers Gurgaon
+          - generic [ref=f1e638]: 890+ verified movers
+      - button "Show More Cities (791 more)" [ref=f1e640] [cursor=pointer]
+    - generic [ref=f1e644]:
+      - generic [ref=f1e645]:
+        - text: More Than Just Moving
+        - heading "Home Services on Demand" [level=2] [ref=f1e646]
+        - paragraph [ref=f1e647]: Verified painters, deep cleaners, pest control, electricians, plumbers and more. Bundle with your move for a discount.
+      - generic [ref=f1e648]:
+        - link "🎨 Painting" [ref=f1e649] [cursor=pointer]:
+          - /url: /home-services/painting
+          - generic [ref=f1e650]: 🎨
+          - generic [ref=f1e651]: Painting
+        - link "🧼 Deep Clean" [ref=f1e652] [cursor=pointer]:
+          - /url: /home-services/deep-cleaning
+          - generic [ref=f1e653]: 🧼
+          - generic [ref=f1e654]: Deep Clean
+        - link "🐜 Pest Control" [ref=f1e655] [cursor=pointer]:
+          - /url: /home-services/pest-control
+          - generic [ref=f1e656]: 🐜
+          - generic [ref=f1e657]: Pest Control
+        - link "💡 Electrician" [ref=f1e658] [cursor=pointer]:
+          - /url: /home-services/electrician
+          - generic [ref=f1e659]: 💡
+          - generic [ref=f1e660]: Electrician
+        - link "🔧 Plumber" [ref=f1e661] [cursor=pointer]:
+          - /url: /home-services/plumber
+          - generic [ref=f1e662]: 🔧
+          - generic [ref=f1e663]: Plumber
+        - link "❄️ AC Service" [ref=f1e664] [cursor=pointer]:
+          - /url: /home-services/ac-service
+          - generic [ref=f1e665]: ❄️
+          - generic [ref=f1e666]: AC Service
+        - link "🪚 Carpenter" [ref=f1e667] [cursor=pointer]:
+          - /url: /home-services/carpenter
+          - generic [ref=f1e668]: 🪚
+          - generic [ref=f1e669]: Carpenter
+        - link "🏠 Move-In Clean" [ref=f1e670] [cursor=pointer]:
+          - /url: /home-services/move-in-cleaning
+          - generic [ref=f1e671]: 🏠
+          - generic [ref=f1e672]: Move-In Clean
+        - link "🧴 Sanitization" [ref=f1e673] [cursor=pointer]:
+          - /url: /home-services/sanitization
+          - generic [ref=f1e674]: 🧴
+          - generic [ref=f1e675]: Sanitization
+        - link "🔌 Appliance Repair" [ref=f1e676] [cursor=pointer]:
+          - /url: /home-services/appliance-repair
+          - generic [ref=f1e677]: 🔌
+          - generic [ref=f1e678]: Appliance Repair
+      - link "See all home services" [ref=f1e680] [cursor=pointer]:
+        - /url: /home-services
+    - generic [ref=f1e685]:
+      - generic [ref=f1e686]:
+        - text: Plan Your Move
+        - heading "City-to-City Distance Calculator" [level=2] [ref=f1e687]
+        - paragraph [ref=f1e688]: Check the road distance and estimated driving time between any two Indian cities instantly — then get a moving-cost estimate and 4 free quotes from verified, GST-registered packers and movers.
+        - list [ref=f1e689]:
+          - listitem [ref=f1e690]: Distance & transit time for 100+ cities
+          - listitem [ref=f1e694]: Instant ballpark cost for your route
+          - listitem [ref=f1e698]: Compare verified movers in 30 minutes
+      - generic [ref=f1e703]:
+        - generic [ref=f1e708]:
+          - heading "Distance Calculator" [level=3] [ref=f1e709]
+          - paragraph [ref=f1e710]: Road distance & driving time between Indian cities
+        - generic [ref=f1e711]:
+          - generic [ref=f1e712]:
+            - generic [ref=f1e713]: From city
+            - combobox "From city" [ref=f1e714]:
+              - option "Select origin…" [selected]
+              - option "Agartala"
+              - option "Agra"
+              - option "Ahmedabad"
+              - option "Aizawl"
+              - option "Ajmer"
+              - option "Aligarh"
+              - option "Allahabad"
+              - option "Amravati"
+              - option "Amritsar"
+              - option "Asansol"
+              - option "Aurangabad"
+              - option "Bangalore"
+              - option "Bareilly"
+              - option "Belagavi"
+              - option "Bhagalpur"
+              - option "Bhavnagar"
+              - option "Bhopal"
+              - option "Bhubaneswar"
+              - option "Bikaner"
+              - option "Bilaspur"
+              - option "Bokaro"
+              - option "Chandigarh"
+              - option "Chennai"
+              - option "Coimbatore"
+              - option "Cuttack"
+              - option "Darjeeling"
+              - option "Dehradun"
+              - option "Delhi"
+              - option "Dhanbad"
+              - option "Dharamshala"
+              - option "Dibrugarh"
+              - option "Dimapur"
+              - option "Durg"
+              - option "Durgapur"
+              - option "Ernakulam"
+              - option "Erode"
+              - option "Faridabad"
+              - option "Gandhinagar"
+              - option "Gangtok"
+              - option "Gaya"
+              - option "Ghaziabad"
+              - option "Gorakhpur"
+              - option "Guntur"
+              - option "Gurgaon"
+              - option "Guwahati"
+              - option "Gwalior"
+              - option "Haridwar"
+              - option "Howrah"
+              - option "Hubli"
+              - option "Hyderabad"
+              - option "Imphal"
+              - option "Indore"
+              - option "Itanagar"
+              - option "Jabalpur"
+              - option "Jaipur"
+              - option "Jalandhar"
+              - option "Jammu"
+              - option "Jamnagar"
+              - option "Jamshedpur"
+              - option "Jodhpur"
+              - option "Kanpur"
+              - option "Karimnagar"
+              - option "Karnal"
+              - option "Khammam"
+              - option "Kochi"
+              - option "Kohima"
+              - option "Kolhapur"
+              - option "Kolkata"
+              - option "Kota"
+              - option "Kozhikode"
+              - option "Leh"
+              - option "Lucknow"
+              - option "Ludhiana"
+              - option "Madurai"
+              - option "Mangalore"
+              - option "Meerut"
+              - option "Mohali"
+              - option "Moradabad"
+              - option "Mumbai"
+              - option "Muzaffarpur"
+              - option "Mysore"
+              - option "Nagpur"
+              - option "Nainital"
+              - option "Nashik"
+              - option "Navi Mumbai"
+              - option "Nizamabad"
+              - option "Noida"
+              - option "Panchkula"
+              - option "Panipat"
+              - option "Patiala"
+              - option "Patna"
+              - option "Port Blair"
+              - option "Puducherry"
+              - option "Pune"
+              - option "Raipur"
+              - option "Rajkot"
+              - option "Ranchi"
+              - option "Rishikesh"
+              - option "Rohtak"
+              - option "Rourkela"
+              - option "Sagar"
+              - option "Saharanpur"
+              - option "Salem"
+              - option "Shillong"
+              - option "Shimla"
+              - option "Silchar"
+              - option "Siliguri"
+              - option "Solapur"
+              - option "Sonipat"
+              - option "Srinagar"
+              - option "Surat"
+              - option "Thane"
+              - option "Thiruvananthapuram"
+              - option "Thrissur"
+              - option "Tiruchirappalli"
+              - option "Tiruppur"
+              - option "Udaipur"
+              - option "Ujjain"
+              - option "Vadodara"
+              - option "Varanasi"
+              - option "Vellore"
+              - option "Vijayawada"
+              - option "Visakhapatnam"
+              - option "Warangal"
+          - generic [ref=f1e715]:
+            - generic [ref=f1e716]: To city
+            - combobox "To city" [ref=f1e717]:
+              - option "Select destination…" [selected]
+              - option "Agartala"
+              - option "Agra"
+              - option "Ahmedabad"
+              - option "Aizawl"
+              - option "Ajmer"
+              - option "Aligarh"
+              - option "Allahabad"
+              - option "Amravati"
+              - option "Amritsar"
+              - option "Asansol"
+              - option "Aurangabad"
+              - option "Bangalore"
+              - option "Bareilly"
+              - option "Belagavi"
+              - option "Bhagalpur"
+              - option "Bhavnagar"
+              - option "Bhopal"
+              - option "Bhubaneswar"
+              - option "Bikaner"
+              - option "Bilaspur"
+              - option "Bokaro"
+              - option "Chandigarh"
+              - option "Chennai"
+              - option "Coimbatore"
+              - option "Cuttack"
+              - option "Darjeeling"
+              - option "Dehradun"
+              - option "Delhi"
+              - option "Dhanbad"
+              - option "Dharamshala"
+              - option "Dibrugarh"
+              - option "Dimapur"
+              - option "Durg"
+              - option "Durgapur"
+              - option "Ernakulam"
+              - option "Erode"
+              - option "Faridabad"
+              - option "Gandhinagar"
+              - option "Gangtok"
+              - option "Gaya"
+              - option "Ghaziabad"
+              - option "Gorakhpur"
+              - option "Guntur"
+              - option "Gurgaon"
+              - option "Guwahati"
+              - option "Gwalior"
+              - option "Haridwar"
+              - option "Howrah"
+              - option "Hubli"
+              - option "Hyderabad"
+              - option "Imphal"
+              - option "Indore"
+              - option "Itanagar"
+              - option "Jabalpur"
+              - option "Jaipur"
+              - option "Jalandhar"
+              - option "Jammu"
+              - option "Jamnagar"
+              - option "Jamshedpur"
+              - option "Jodhpur"
+              - option "Kanpur"
+              - option "Karimnagar"
+              - option "Karnal"
+              - option "Khammam"
+              - option "Kochi"
+              - option "Kohima"
+              - option "Kolhapur"
+              - option "Kolkata"
+              - option "Kota"
+              - option "Kozhikode"
+              - option "Leh"
+              - option "Lucknow"
+              - option "Ludhiana"
+              - option "Madurai"
+              - option "Mangalore"
+              - option "Meerut"
+              - option "Mohali"
+              - option "Moradabad"
+              - option "Mumbai"
+              - option "Muzaffarpur"
+              - option "Mysore"
+              - option "Nagpur"
+              - option "Nainital"
+              - option "Nashik"
+              - option "Navi Mumbai"
+              - option "Nizamabad"
+              - option "Noida"
+              - option "Panchkula"
+              - option "Panipat"
+              - option "Patiala"
+              - option "Patna"
+              - option "Port Blair"
+              - option "Puducherry"
+              - option "Pune"
+              - option "Raipur"
+              - option "Rajkot"
+              - option "Ranchi"
+              - option "Rishikesh"
+              - option "Rohtak"
+              - option "Rourkela"
+              - option "Sagar"
+              - option "Saharanpur"
+              - option "Salem"
+              - option "Shillong"
+              - option "Shimla"
+              - option "Silchar"
+              - option "Siliguri"
+              - option "Solapur"
+              - option "Sonipat"
+              - option "Srinagar"
+              - option "Surat"
+              - option "Thane"
+              - option "Thiruvananthapuram"
+              - option "Thrissur"
+              - option "Tiruchirappalli"
+              - option "Tiruppur"
+              - option "Udaipur"
+              - option "Ujjain"
+              - option "Vadodara"
+              - option "Varanasi"
+              - option "Vellore"
+              - option "Vijayawada"
+              - option "Visakhapatnam"
+              - option "Warangal"
+        - button "Calculate Distance" [disabled] [ref=f1e718]
+    - generic [ref=f1e722]:
+      - generic [ref=f1e723]:
+        - text: Intercity Shifting
+        - heading "Find Movers by Shifting Route" [level=2] [ref=f1e724]
+        - paragraph [ref=f1e725]: Verified movers, transparent pricing and transit times for 80+ intercity shifting routes across India.
+      - generic [ref=f1e726]:
+        - link "Delhi → Mumbai" [ref=f1e727] [cursor=pointer]:
+          - /url: /route/delhi-to-mumbai
+        - link "Mumbai → Delhi" [ref=f1e731] [cursor=pointer]:
+          - /url: /route/mumbai-to-delhi
+        - link "Delhi → Bangalore" [ref=f1e735] [cursor=pointer]:
+          - /url: /route/delhi-to-bangalore
+        - link "Bangalore → Delhi" [ref=f1e739] [cursor=pointer]:
+          - /url: /route/bangalore-to-delhi
+        - link "Delhi → Pune" [ref=f1e743] [cursor=pointer]:
+          - /url: /route/delhi-to-pune
+        - link "Mumbai → Bangalore" [ref=f1e747] [cursor=pointer]:
+          - /url: /route/mumbai-to-bangalore
+        - link "Mumbai → Pune" [ref=f1e751] [cursor=pointer]:
+          - /url: /route/mumbai-to-pune
+        - link "Pune → Mumbai" [ref=f1e755] [cursor=pointer]:
+          - /url: /route/pune-to-mumbai
+        - link "Bangalore → Hyderabad" [ref=f1e759] [cursor=pointer]:
+          - /url: /route/bangalore-to-hyderabad
+        - link "Hyderabad → Bangalore" [ref=f1e763] [cursor=pointer]:
+          - /url: /route/hyderabad-to-bangalore
+        - link "Pune → Bangalore" [ref=f1e767] [cursor=pointer]:
+          - /url: /route/pune-to-bangalore
+        - link "Bangalore → Pune" [ref=f1e771] [cursor=pointer]:
+          - /url: /route/bangalore-to-pune
+        - link "Delhi → Hyderabad" [ref=f1e775] [cursor=pointer]:
+          - /url: /route/delhi-to-hyderabad
+        - link "Hyderabad → Mumbai" [ref=f1e779] [cursor=pointer]:
+          - /url: /route/hyderabad-to-mumbai
+        - link "Delhi → Jaipur" [ref=f1e783] [cursor=pointer]:
+          - /url: /route/delhi-to-jaipur
+        - link "Delhi → Chandigarh" [ref=f1e787] [cursor=pointer]:
+          - /url: /route/delhi-to-chandigarh
+        - link "Chennai → Bangalore" [ref=f1e791] [cursor=pointer]:
+          - /url: /route/chennai-to-bangalore
+        - link "Bangalore → Chennai" [ref=f1e795] [cursor=pointer]:
+          - /url: /route/bangalore-to-chennai
+        - link "Mumbai → Ahmedabad" [ref=f1e799] [cursor=pointer]:
+          - /url: /route/mumbai-to-ahmedabad
+        - link "Ahmedabad → Mumbai" [ref=f1e803] [cursor=pointer]:
+          - /url: /route/ahmedabad-to-mumbai
+        - link "Delhi → Kolkata" [ref=f1e807] [cursor=pointer]:
+          - /url: /route/delhi-to-kolkata
+        - link "Kolkata → Delhi" [ref=f1e811] [cursor=pointer]:
+          - /url: /route/kolkata-to-delhi
+        - link "Gurgaon → Bangalore" [ref=f1e815] [cursor=pointer]:
+          - /url: /route/gurgaon-to-bangalore
+        - link "Delhi → Lucknow" [ref=f1e819] [cursor=pointer]:
+          - /url: /route/delhi-to-lucknow
+      - link "Browse All Movers & Routes" [ref=f1e824] [cursor=pointer]:
+        - /url: /movers
+    - generic [ref=f1e830]:
+      - generic [ref=f1e831]:
+        - generic [ref=f1e832]: For Businesses
+        - heading "Book Trucks in Bulk for Your Business" [level=2] [ref=f1e837]
+        - paragraph [ref=f1e838]: Containers, flatbeds, open trucks & tankers for local and intercity freight. Transparent per-km pricing, GST invoices, and live GPS tracking — built for factories, traders, distributors and e-commerce sellers.
+        - generic [ref=f1e839]:
+          - generic [ref=f1e840]: Instant quotes — no haggling
+          - generic [ref=f1e844]: GST-compliant tax invoices
+          - generic [ref=f1e848]: Live GPS tracking, pickup to drop
+          - generic [ref=f1e852]: No commission, no middleman
+        - generic [ref=f1e856]:
+          - link "Explore B2B Booking" [ref=f1e857] [cursor=pointer]:
+            - /url: /b2b
+          - link "Register Free" [ref=f1e860] [cursor=pointer]:
+            - /url: /b2b/signup
+      - generic [ref=f1e861]:
+        - generic [ref=f1e862]:
+          - generic [ref=f1e863]: 🚛
+          - generic [ref=f1e864]: Container 20/32ft
+          - generic [ref=f1e865]: Up to 16 T
+        - generic [ref=f1e866]:
+          - generic [ref=f1e867]: 🛻
+          - generic [ref=f1e868]: Flatbed 22ft
+          - generic [ref=f1e869]: Machinery, steel
+        - generic [ref=f1e870]:
+          - generic [ref=f1e871]: 🚚
+          - generic [ref=f1e872]: Open Truck
+          - generic [ref=f1e873]: Construction material
+        - generic [ref=f1e874]:
+          - generic [ref=f1e875]: 🛢️
+          - generic [ref=f1e876]: Tanker 20,000L
+          - generic [ref=f1e877]: Liquids & chemicals
+    - generic [ref=f1e880]:
+      - generic [ref=f1e881]:
+        - text: For Movers
+        - heading "Own a Packers & Movers Business? List Free." [level=2] [ref=f1e882]
+        - paragraph [ref=f1e883]: Reach verified customers searching for movers across 500+ Indian cities. Get direct lead calls, build trust with the Verified badge, and grow your bookings — without paying commission.
+        - generic [ref=f1e884]:
+          - generic [ref=f1e885]: Direct customer leads — no middleman
+          - generic [ref=f1e889]: Free 30-day trial, then pay-per-lead
+          - generic [ref=f1e893]: GST + IBA verified badge boosts conversions
+          - generic [ref=f1e897]: WhatsApp + SMS notifications for new enquiries
+          - generic [ref=f1e901]: Dedicated business dashboard
+        - link "Read more about listing benefits" [ref=f1e906] [cursor=pointer]:
+          - /url: /list-business
+        - generic [ref=f1e917]:
+          - heading "Own a truck or fleet instead?" [level=3] [ref=f1e918]
+          - paragraph [ref=f1e919]: List your vehicles & routes on our transporter marketplace.
+          - link "List Your Truck →" [ref=f1e920] [cursor=pointer]:
+            - /url: /transporter
+      - generic [ref=f1e924]:
+        - heading "Register Your Business" [level=2] [ref=f1e925]
+        - paragraph [ref=f1e926]: All fields marked * are required.
+        - generic [ref=f1e927]:
+          - generic [ref=f1e928]:
+            - generic [ref=f1e929]:
+              - generic [ref=f1e931]:
+                - text: Company Name
+                - generic [ref=f1e936]: "*"
+              - textbox "ABC Packers & Movers" [ref=f1e937]
+            - generic [ref=f1e938]:
+              - generic [ref=f1e940]:
+                - text: Owner / Contact Person
+                - generic [ref=f1e944]: "*"
+              - textbox "Rajesh Kumar" [ref=f1e945]
+            - generic [ref=f1e946]:
+              - generic [ref=f1e948]:
+                - text: Mobile Number
+                - generic [ref=f1e951]: "*"
+              - textbox "9876543210" [ref=f1e952]
+            - generic [ref=f1e953]:
+              - generic [ref=f1e955]:
+                - text: Email Address
+                - generic [ref=f1e959]: "*"
+              - textbox "you@company.com" [ref=f1e960]
+            - generic [ref=f1e961]:
+              - generic [ref=f1e963]:
+                - text: City
+                - generic [ref=f1e967]: "*"
+              - textbox "Delhi" [ref=f1e968]
+            - generic [ref=f1e969]:
+              - generic [ref=f1e970]: GST Number (optional)
+              - textbox "22AAAAA0000A1Z5" [ref=f1e975]
+          - generic [ref=f1e976]:
+            - generic [ref=f1e977]: About Your Business (optional)
+            - textbox "Services offered, years of experience, fleet size, cities covered…" [ref=f1e981]
+          - generic [ref=f1e982]:
+            - button "Submit Registration →" [ref=f1e983] [cursor=pointer]
+            - paragraph [ref=f1e984]: Our team calls within 24 hours to verify your business.
+    - generic [ref=f1e987]:
+      - generic [ref=f1e988]:
+        - text: Simple Process
+        - heading "Get Movers in 3 Easy Steps" [level=2] [ref=f1e989]
+      - generic [ref=f1e990]:
+        - generic [ref=f1e991]:
+          - generic [ref=f1e992]: "01"
+          - generic [ref=f1e993]:
+            - heading "Tell Us Your Move" [level=3] [ref=f1e994]
+            - paragraph [ref=f1e995]: Enter your shifting details — cities, items, date. Takes 30 seconds.
+        - generic [ref=f1e996]:
+          - generic [ref=f1e997]: "02"
+          - generic [ref=f1e998]:
+            - heading "Compare Free Quotes" [level=3] [ref=f1e999]
+            - paragraph [ref=f1e1000]: Get 4 quotes from verified movers via WhatsApp within 30 minutes.
+        - generic [ref=f1e1001]:
+          - generic [ref=f1e1002]: "03"
+          - generic [ref=f1e1003]:
+            - heading "Book with Confidence" [level=3] [ref=f1e1004]
+            - paragraph [ref=f1e1005]: Read reviews, compare prices, book the best one with insurance.
+    - generic [ref=f1e1007]:
+      - generic [ref=f1e1008]:
+        - generic [ref=f1e1009]:
+          - text: Moving Guides
+          - heading "Latest Moving Tips" [level=2] [ref=f1e1010]
+        - link "View All Articles" [ref=f1e1011] [cursor=pointer]:
+          - /url: /blog
+      - generic [ref=f1e1014]:
+        - link [ref=f1e1015] [cursor=pointer]:
+          - /url: /blog/moving-soon-selecting-a-dependable-packers-and-movers-without-any-worries-is-here-s-how
+          - generic [ref=f1e1016]:
+            - text: Guide
+            - heading "# Moving Soon? Selecting a dependable Packers and Movers without any worries is here’s how." [level=3] [ref=f1e1017]
+            - paragraph [ref=f1e1018]: "# Moving Soon? Selecting a dependable Packers and Movers without any worries is here’s how."
+            - generic [ref=f1e1019]: Read Article
+        - link [ref=f1e1022] [cursor=pointer]:
+          - /url: /blog/best-packers-and-movers-in-delhi
+          - img "Best Packers and Movers in Delhi" [ref=f1e1024]
+          - generic [ref=f1e1025]:
+            - text: Guide
+            - heading "Best Packers and Movers in Delhi" [level=3] [ref=f1e1026]
+            - paragraph [ref=f1e1027]: Best Packers and Movers in Delhi (2026) | PackersBazaar
+            - generic [ref=f1e1028]: Read Article
+        - link [ref=f1e1031] [cursor=pointer]:
+          - /url: /blog/packers-movers-bangalore-guide
+          - generic [ref=f1e1032]:
+            - text: City Guide
+            - heading "Complete Guide to Hiring Packers and Movers in Bangalore" [level=3] [ref=f1e1033]
+            - paragraph [ref=f1e1034]: Everything you need to know about moving in Bangalore — costs by area, society-specific paperwork, traffic-aware scheduling, the BBMP rules that catch first-timers, and the best months to move.
+            - generic [ref=f1e1035]: Read Article
+    - generic [ref=f1e1039]:
+      - generic [ref=f1e1040]:
+        - text: FAQ
+        - heading "Frequently Asked Questions" [level=2] [ref=f1e1041]
+      - generic [ref=f1e1042]:
+        - group [ref=f1e1043] [cursor=pointer]:
+          - generic "How does PackersBazaar.in verify packers and movers? +" [ref=f1e1044]:
+            - text: How does PackersBazaar.in verify packers and movers?
+            - generic [ref=f1e1045]: +
+        - group [ref=f1e1046] [cursor=pointer]:
+          - generic "Is using PackersBazaar.in free for customers? +" [ref=f1e1047]:
+            - text: Is using PackersBazaar.in free for customers?
+            - generic [ref=f1e1048]: +
+        - group [ref=f1e1049] [cursor=pointer]:
+          - generic "How is PackersBazaar.in different from other moving platforms? +" [ref=f1e1050]:
+            - text: How is PackersBazaar.in different from other moving platforms?
+            - generic [ref=f1e1051]: +
+        - group [ref=f1e1052] [cursor=pointer]:
+          - generic "How quickly will I get quotes after submitting my requirement? +" [ref=f1e1053]:
+            - text: How quickly will I get quotes after submitting my requirement?
+            - generic [ref=f1e1054]: +
+        - group [ref=f1e1055] [cursor=pointer]:
+          - generic "What if a packer-mover damages my goods? +" [ref=f1e1056]:
+            - text: What if a packer-mover damages my goods?
+            - generic [ref=f1e1057]: +
+    - generic [ref=f1e1060]:
+      - paragraph [ref=f1e1061]: "PackersBazaar.in is a commission-free marketplace for verified packers and movers in India. Every listed company passes a 7-step verification: GST validation, PAN verification, IBA certification check (where applicable), office address visit, owner background screening, customer review audit, and ongoing performance monitoring. We charge listing fees to businesses, never commissions on bookings — movers receive every rupee customers pay."
+      - paragraph [ref=f1e1062]: "Whether you are shifting locally within your city, moving intercity across India, or planning an international relocation, PackersBazaar.in connects you with verified providers. Services covered: home shifting (1 BHK to 5 BHK), office and commercial relocation, car and bike transport, storage and warehousing, packing materials supply, and international moving assistance."
+      - paragraph [ref=f1e1063]: We list verified movers in major metros (Delhi NCR, Mumbai, Bangalore, Chennai, Hyderabad, Pune, Kolkata, Ahmedabad) and are actively onboarding partners in Tier-2 and Tier-3 cities — Sonipat, Panipat, Karnal, Rohtak, Chandigarh, Jaipur, Indore, Bhopal, Lucknow, Surat, Vadodara, Kochi, Coimbatore, Nagpur, and more. Don't see your city covered? Use the cost calculator below, or request a quote and we'll route it to verified movers in our network.
+      - paragraph [ref=f1e1064]: Getting quotes is free for customers. Tell us your move details — current city, destination, move date, household size — and receive competitive quotes from verified movers via WhatsApp, SMS, and email. Compare prices, read verified-booker reviews, check credentials, and book directly with the mover. We never sit between you and your shifting payment.
+    - generic [ref=f1e1066]:
+      - heading "Ready to Shift Safely?" [level=2] [ref=f1e1067]
+      - paragraph [ref=f1e1068]: Join 1000+ Indians who trusted PackersBazaar.in for their move.
+      - link "Get 4 Free Quotes Now →" [ref=f1e1069] [cursor=pointer]:
+        - /url: /movers
+  - contentinfo [ref=f1e1070]:
+    - generic [ref=f1e1072]:
+      - generic [ref=f1e1073]:
+        - heading "Ready to shift? Get 4 free quotes in 30 seconds." [level=3] [ref=f1e1074]
+        - paragraph [ref=f1e1075]: Compare verified packers and movers. No spam, no hidden charges.
+      - link "Get Free Quotes →" [ref=f1e1076] [cursor=pointer]:
+        - /url: /movers
+    - generic [ref=f1e1077]:
+      - generic [ref=f1e1078]:
+        - generic [ref=f1e1079]:
+          - generic [ref=f1e1091]:
+            - generic [ref=f1e1092]: PackersBazaar
+            - generic [ref=f1e1093]: .in
+          - paragraph [ref=f1e1094]: India's directory of GST-verified packers and movers. Compare free quotes with 0% commission — verified movers only.
+          - generic [ref=f1e1095]:
+            - link "Facebook" [ref=f1e1096] [cursor=pointer]:
+              - /url: https://www.facebook.com/profile.php?id=61589903642686
+            - link "Twitter / X" [ref=f1e1099] [cursor=pointer]:
+              - /url: https://x.com/packersbazaar
+            - link "Instagram" [ref=f1e1102] [cursor=pointer]:
+              - /url: https://www.instagram.com/packers.bazaar/
+            - link "YouTube" [ref=f1e1106] [cursor=pointer]:
+              - /url: https://www.youtube.com/@PackersBazaar
+            - link "LinkedIn" [ref=f1e1110] [cursor=pointer]:
+              - /url: https://www.linkedin.com/in/packers-bazaar-a271a5419/
+            - link "Google Business Profile" [ref=f1e1115] [cursor=pointer]:
+              - /url: https://share.google/CrepGNHFaAozkQ9aI
+        - generic [ref=f1e1119]:
+          - heading "Services" [level=4] [ref=f1e1120]
+          - list [ref=f1e1121]:
+            - listitem [ref=f1e1122]:
+              - link "Home Shifting" [ref=f1e1123] [cursor=pointer]:
+                - /url: /services/home-shifting
+            - listitem [ref=f1e1124]:
+              - link "Office Relocation" [ref=f1e1125] [cursor=pointer]:
+                - /url: /services/office-relocation
+            - listitem [ref=f1e1126]:
+              - link "Car Transport" [ref=f1e1127] [cursor=pointer]:
+                - /url: /services/car-transport
+            - listitem [ref=f1e1128]:
+              - link "Bike Transport" [ref=f1e1129] [cursor=pointer]:
+                - /url: /services/bike-transport
+            - listitem [ref=f1e1130]:
+              - link "International Moving" [ref=f1e1131] [cursor=pointer]:
+                - /url: /services/international
+            - listitem [ref=f1e1132]:
+              - link "Storage Services" [ref=f1e1133] [cursor=pointer]:
+                - /url: /services/storage
+            - listitem [ref=f1e1134]:
+              - link "Painting" [ref=f1e1135] [cursor=pointer]:
+                - /url: /home-services/painting
+            - listitem [ref=f1e1136]:
+              - link "Deep Cleaning" [ref=f1e1137] [cursor=pointer]:
+                - /url: /home-services/deep-cleaning
+            - listitem [ref=f1e1138]:
+              - link "Pest Control" [ref=f1e1139] [cursor=pointer]:
+                - /url: /home-services/pest-control
+            - listitem [ref=f1e1140]:
+              - link "Electrician" [ref=f1e1141] [cursor=pointer]:
+                - /url: /home-services/electrician
+            - listitem [ref=f1e1142]:
+              - link "Plumber" [ref=f1e1143] [cursor=pointer]:
+                - /url: /home-services/plumber
+            - listitem [ref=f1e1144]:
+              - link "AC Service" [ref=f1e1145] [cursor=pointer]:
+                - /url: /home-services/ac-service
+            - listitem [ref=f1e1146]:
+              - link "Carpenter" [ref=f1e1147] [cursor=pointer]:
+                - /url: /home-services/carpenter
+            - listitem [ref=f1e1148]:
+              - link "Appliance Repair" [ref=f1e1149] [cursor=pointer]:
+                - /url: /home-services/appliance-repair
+        - generic [ref=f1e1150]:
+          - heading "Popular Cities" [level=4] [ref=f1e1151]
+          - list [ref=f1e1152]:
+            - listitem [ref=f1e1153]:
+              - link "Packers Movers Sonipat" [ref=f1e1154] [cursor=pointer]:
+                - /url: /city/sonipat
+            - listitem [ref=f1e1155]:
+              - link "Packers Movers Delhi" [ref=f1e1156] [cursor=pointer]:
+                - /url: /city/delhi
+            - listitem [ref=f1e1157]:
+              - link "Packers Movers Mumbai" [ref=f1e1158] [cursor=pointer]:
+                - /url: /city/mumbai
+            - listitem [ref=f1e1159]:
+              - link "Packers Movers Bangalore" [ref=f1e1160] [cursor=pointer]:
+                - /url: /city/bangalore
+            - listitem [ref=f1e1161]:
+              - link "Packers Movers Pune" [ref=f1e1162] [cursor=pointer]:
+                - /url: /city/pune
+            - listitem [ref=f1e1163]:
+              - link "Packers Movers Chennai" [ref=f1e1164] [cursor=pointer]:
+                - /url: /city/chennai
+            - listitem [ref=f1e1165]:
+              - link "Packers Movers Hyderabad" [ref=f1e1166] [cursor=pointer]:
+                - /url: /city/hyderabad
+            - listitem [ref=f1e1167]:
+              - link "Packers Movers Kolkata" [ref=f1e1168] [cursor=pointer]:
+                - /url: /city/kolkata
+            - listitem [ref=f1e1169]:
+              - link "Packers Movers Ahmedabad" [ref=f1e1170] [cursor=pointer]:
+                - /url: /city/ahmedabad
+            - listitem [ref=f1e1171]:
+              - link "Packers Movers Gurgaon" [ref=f1e1172] [cursor=pointer]:
+                - /url: /city/gurgaon
+            - listitem [ref=f1e1173]:
+              - link "Packers Movers Noida" [ref=f1e1174] [cursor=pointer]:
+                - /url: /city/noida
+            - listitem [ref=f1e1175]:
+              - link "Packers Movers Faridabad" [ref=f1e1176] [cursor=pointer]:
+                - /url: /city/faridabad
+            - listitem [ref=f1e1177]:
+              - link "Packers Movers Jaipur" [ref=f1e1178] [cursor=pointer]:
+                - /url: /city/jaipur
+            - listitem [ref=f1e1179]:
+              - link "Packers Movers Lucknow" [ref=f1e1180] [cursor=pointer]:
+                - /url: /city/lucknow
+        - generic [ref=f1e1181]:
+          - heading "Popular Routes" [level=4] [ref=f1e1182]
+          - list [ref=f1e1183]:
+            - listitem [ref=f1e1184]:
+              - link "Delhi to Mumbai" [ref=f1e1185] [cursor=pointer]:
+                - /url: /route/delhi-to-mumbai
+            - listitem [ref=f1e1186]:
+              - link "Mumbai to Bangalore" [ref=f1e1187] [cursor=pointer]:
+                - /url: /route/mumbai-to-bangalore
+            - listitem [ref=f1e1188]:
+              - link "Delhi to Bangalore" [ref=f1e1189] [cursor=pointer]:
+                - /url: /route/delhi-to-bangalore
+            - listitem [ref=f1e1190]:
+              - link "Pune to Bangalore" [ref=f1e1191] [cursor=pointer]:
+                - /url: /route/pune-to-bangalore
+            - listitem [ref=f1e1192]:
+              - link "Hyderabad to Bangalore" [ref=f1e1193] [cursor=pointer]:
+                - /url: /route/hyderabad-to-bangalore
+            - listitem [ref=f1e1194]:
+              - link "Chennai to Hyderabad" [ref=f1e1195] [cursor=pointer]:
+                - /url: /route/chennai-to-hyderabad
+            - listitem [ref=f1e1196]:
+              - link "Mumbai to Ahmedabad" [ref=f1e1197] [cursor=pointer]:
+                - /url: /route/mumbai-to-ahmedabad
+            - listitem [ref=f1e1198]:
+              - link "Delhi to Chandigarh" [ref=f1e1199] [cursor=pointer]:
+                - /url: /route/delhi-to-chandigarh
+            - listitem [ref=f1e1200]:
+              - link "Kolkata to Delhi" [ref=f1e1201] [cursor=pointer]:
+                - /url: /route/kolkata-to-delhi
+            - listitem [ref=f1e1202]:
+              - link "Noida to Bangalore" [ref=f1e1203] [cursor=pointer]:
+                - /url: /route/noida-to-bangalore
+            - listitem [ref=f1e1204]:
+              - link "Mumbai to Pune" [ref=f1e1205] [cursor=pointer]:
+                - /url: /route/mumbai-to-pune
+            - listitem [ref=f1e1206]:
+              - link "Delhi to Hyderabad" [ref=f1e1207] [cursor=pointer]:
+                - /url: /route/delhi-to-hyderabad
+            - listitem [ref=f1e1208]:
+              - link "Chennai to Bangalore" [ref=f1e1209] [cursor=pointer]:
+                - /url: /route/chennai-to-bangalore
+            - listitem [ref=f1e1210]:
+              - link "Gurgaon to Bangalore" [ref=f1e1211] [cursor=pointer]:
+                - /url: /route/gurgaon-to-bangalore
+        - generic [ref=f1e1212]:
+          - heading "Company" [level=4] [ref=f1e1213]
+          - list [ref=f1e1214]:
+            - listitem [ref=f1e1215]:
+              - link "⚡ Instant Booking" [ref=f1e1216] [cursor=pointer]:
+                - /url: /book
+            - listitem [ref=f1e1217]:
+              - link "Book Trucks for Business" [ref=f1e1218] [cursor=pointer]:
+                - /url: /b2b
+            - listitem [ref=f1e1219]:
+              - link "Home Services" [ref=f1e1220] [cursor=pointer]:
+                - /url: /home-services
+            - listitem [ref=f1e1221]:
+              - link "About Us" [ref=f1e1222] [cursor=pointer]:
+                - /url: /about
+            - listitem [ref=f1e1223]:
+              - link "How It Works" [ref=f1e1224] [cursor=pointer]:
+                - /url: /how-it-works
+            - listitem [ref=f1e1225]:
+              - link "Blog" [ref=f1e1226] [cursor=pointer]:
+                - /url: /blog
+            - listitem [ref=f1e1227]:
+              - link "Moving Checklist" [ref=f1e1228] [cursor=pointer]:
+                - /url: /moving-checklist
+            - listitem [ref=f1e1229]:
+              - link "Cost Calculator" [ref=f1e1230] [cursor=pointer]:
+                - /url: /cost-calculator
+            - listitem [ref=f1e1231]:
+              - link "Moving Charges & Rates" [ref=f1e1232] [cursor=pointer]:
+                - /url: /packers-and-movers-charges
+            - listitem [ref=f1e1233]:
+              - link "IBA-Approved Movers" [ref=f1e1234] [cursor=pointer]:
+                - /url: /iba-approved-packers-movers
+            - listitem [ref=f1e1235]:
+              - link "Truck Routes" [ref=f1e1236] [cursor=pointer]:
+                - /url: /vehicle-routes
+            - listitem [ref=f1e1237]:
+              - link "List Your Business" [ref=f1e1238] [cursor=pointer]:
+                - /url: /list-business
+            - listitem [ref=f1e1239]:
+              - link "List Your Truck" [ref=f1e1240] [cursor=pointer]:
+                - /url: /transporter
+            - listitem [ref=f1e1241]:
+              - link "List Your Service" [ref=f1e1242] [cursor=pointer]:
+                - /url: /home-services/register
+            - listitem [ref=f1e1243]:
+              - link "Reviews" [ref=f1e1244] [cursor=pointer]:
+                - /url: /reviews
+            - listitem [ref=f1e1245]:
+              - link "Careers" [ref=f1e1246] [cursor=pointer]:
+                - /url: /careers
+            - listitem [ref=f1e1247]:
+              - link "Contact" [ref=f1e1248] [cursor=pointer]:
+                - /url: /contact
+      - generic [ref=f1e1249]:
+        - generic [ref=f1e1250]:
+          - generic [ref=f1e1251]: 372 Housing Board Colony, Sirsa Road, Hisar, Haryana 125001
+          - link "+91 70820 01025" [ref=f1e1255] [cursor=pointer]:
+            - /url: tel:+917082001025
+          - link "info@packersbazaar.in" [ref=f1e1258] [cursor=pointer]:
+            - /url: mailto:info@packersbazaar.in
+        - generic [ref=f1e1262]:
+          - link "My Bookings" [ref=f1e1263] [cursor=pointer]:
+            - /url: /my-bookings
+          - link "Privacy Policy" [ref=f1e1264] [cursor=pointer]:
+            - /url: /privacy
+          - link "Terms of Service" [ref=f1e1265] [cursor=pointer]:
+            - /url: /terms
+          - link "Sitemap" [ref=f1e1266] [cursor=pointer]:
+            - /url: /sitemap.xml
+      - generic [ref=f1e1267]: © 2026 PackersBazaar.in — All rights reserved. Made with ♥ in India
+      - generic [ref=f1e1268]:
+        - text: "Partner portals:"
+        - link "Business (B2B)" [ref=f1e1269] [cursor=pointer]:
+          - /url: /b2b/login
+        - text: ·
+        - link "Transporter" [ref=f1e1270] [cursor=pointer]:
+          - /url: /transporter/login
+        - text: ·
+        - link "Service Provider" [ref=f1e1271] [cursor=pointer]:
+          - /url: /home-services/login
+  - generic [ref=f1e1272]:
+    - button "Get free quotes" [ref=f1e1273] [cursor=pointer]
+    - link "Chat on WhatsApp" [ref=f1e1277] [cursor=pointer]:
+      - /url: https://wa.me/917082001025?text=Hi!%20I%20need%20help%20with%20packers%20and%20movers.
+    - link "Call PackersBazaar" [ref=f1e1281] [cursor=pointer]:
+      - /url: tel:+917082001025
