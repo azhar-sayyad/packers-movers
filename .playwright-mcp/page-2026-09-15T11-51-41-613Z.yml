@@ -1,0 +1,40 @@
+- generic [active] [ref=f11e1]:
+  - generic [ref=f11e2]:
+    - complementary [ref=f11e3]:
+      - generic [ref=f11e9]:
+        - paragraph [ref=f11e10]: Packers & Movers
+        - paragraph [ref=f11e11]: Admin Panel
+      - navigation [ref=f11e12]:
+        - link "Dashboard" [ref=f11e13] [cursor=pointer]:
+          - /url: /admin
+        - link "Inquiries" [ref=f11e19] [cursor=pointer]:
+          - /url: /admin/inquiries
+        - link "Cities" [ref=f11e23] [cursor=pointer]:
+          - /url: /admin/cities
+        - link "Services" [ref=f11e27] [cursor=pointer]:
+          - /url: /admin/services
+        - link "Portfolio" [ref=f11e33] [cursor=pointer]:
+          - /url: /admin/portfolio
+        - link "Testimonials" [ref=f11e38] [cursor=pointer]:
+          - /url: /admin/testimonials
+        - link "FAQs" [ref=f11e41] [cursor=pointer]:
+          - /url: /admin/faqs
+        - link "Settings" [ref=f11e45] [cursor=pointer]:
+          - /url: /admin/settings
+      - generic [ref=f11e49]:
+        - generic [ref=f11e50]:
+          - paragraph [ref=f11e51]: Operations Manager
+          - paragraph [ref=f11e52]: admin@packers.com
+        - button "Logout" [ref=f11e53]
+    - main [ref=f11e54]:
+      - generic [ref=f11e55]:
+        - heading "Testimonials" [level=1] [ref=f11e56]
+        - paragraph [ref=f11e57]: Manage customer reviews shown across the website.
+        - generic [ref=f11e58]:
+          - generic [ref=f11e59]:
+            - generic [ref=f11e60]:
+              - heading "Customer Reviews" [level=2] [ref=f11e61]
+              - paragraph [ref=f11e62]: Add or edit customer testimonials.
+            - button "Add" [ref=f11e63]
+          - paragraph [ref=f11e65]: Loading...
+  - button "Open Next.js Dev Tools" [ref=f11e71] [cursor=pointer]
