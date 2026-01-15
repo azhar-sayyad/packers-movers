@@ -1,0 +1,160 @@
+- generic [active] [ref=f10e1]:
+  - generic [ref=f10e2]:
+    - complementary [ref=f10e3]:
+      - generic [ref=f10e9]:
+        - paragraph [ref=f10e10]: Packers & Movers
+        - paragraph [ref=f10e11]: Admin Panel
+      - navigation [ref=f10e12]:
+        - link "Dashboard" [ref=f10e13] [cursor=pointer]:
+          - /url: /admin
+        - link "Inquiries" [ref=f10e19] [cursor=pointer]:
+          - /url: /admin/inquiries
+        - link "Cities" [ref=f10e23] [cursor=pointer]:
+          - /url: /admin/cities
+        - link "Services" [ref=f10e27] [cursor=pointer]:
+          - /url: /admin/services
+        - link "Portfolio" [ref=f10e33] [cursor=pointer]:
+          - /url: /admin/portfolio
+        - link "Testimonials" [ref=f10e38] [cursor=pointer]:
+          - /url: /admin/testimonials
+        - link "FAQs" [ref=f10e41] [cursor=pointer]:
+          - /url: /admin/faqs
+        - link "Settings" [ref=f10e45] [cursor=pointer]:
+          - /url: /admin/settings
+      - generic [ref=f10e49]:
+        - generic [ref=f10e50]:
+          - paragraph [ref=f10e51]: Operations Manager
+          - paragraph [ref=f10e52]: admin@packers.com
+        - button "Logout" [ref=f10e53]
+    - main [ref=f10e54]:
+      - generic [ref=f10e55]:
+        - heading "Cities" [level=1] [ref=f10e56]
+        - paragraph [ref=f10e57]: Manage service cities, local areas, SEO metadata, and phone overrides.
+        - generic [ref=f10e58]:
+          - generic [ref=f10e59]:
+            - generic [ref=f10e60]:
+              - heading "Service Cities" [level=2] [ref=f10e61]
+              - paragraph [ref=f10e62]: Add or edit cities where you offer relocation services.
+            - button "Add" [ref=f10e63]
+          - table [ref=f10e66]:
+            - rowgroup [ref=f10e67]:
+              - row [ref=f10e68]:
+                - columnheader "City" [ref=f10e69]
+                - columnheader "State" [ref=f10e70]
+                - columnheader "District" [ref=f10e71]
+                - columnheader "Local Areas" [ref=f10e72]
+                - columnheader "Status" [ref=f10e73]
+                - columnheader "Actions" [ref=f10e74]
+            - rowgroup [ref=f10e75]:
+              - row [ref=f10e76]:
+                - cell [ref=f10e77]:
+                  - generic [ref=f10e78]:
+                    - paragraph [ref=f10e79]: Dhule
+                    - paragraph [ref=f10e80]: /dhule
+                - cell "Maharashtra" [ref=f10e81]
+                - cell "Dhule" [ref=f10e82]
+                - cell "Deopur, MIDC, Sakri Road, Chittod Road, Wadibhokar Road, Mohadi, Mumbai-Agra Highway Hub" [ref=f10e83]
+                - cell "Active" [ref=f10e84]
+                - cell [ref=f10e86]:
+                  - generic [ref=f10e87]:
+                    - button "Edit" [ref=f10e88]
+                    - button "Delete" [ref=f10e89]
+              - row [ref=f10e90]:
+                - cell [ref=f10e91]:
+                  - generic [ref=f10e92]:
+                    - paragraph [ref=f10e93]: Buldhana
+                    - paragraph [ref=f10e94]: /buldhana
+                - cell "Maharashtra" [ref=f10e95]
+                - cell "Buldhana" [ref=f10e96]
+                - cell "Sundar Khed, Chikhali Road, Circular Road, Trisharan Chowk, Sahakar Nagar, Malkapur Road" [ref=f10e97]
+                - cell "Active" [ref=f10e98]
+                - cell [ref=f10e100]:
+                  - generic [ref=f10e101]:
+                    - button "Edit" [ref=f10e102]
+                    - button "Delete" [ref=f10e103]
+              - row [ref=f10e104]:
+                - cell [ref=f10e105]:
+                  - generic [ref=f10e106]:
+                    - paragraph [ref=f10e107]: Bhusawal
+                    - paragraph [ref=f10e108]: /bhusawal
+                - cell "Maharashtra" [ref=f10e109]
+                - cell "Jalgaon" [ref=f10e110]
+                - cell "Khadka Road, Ordnance Factory Colony, Jamner Road, Station Road, Pandurang Nagar, Nahata Chowk, Varangaon Road" [ref=f10e111]
+                - cell "Active" [ref=f10e112]
+                - cell [ref=f10e114]:
+                  - generic [ref=f10e115]:
+                    - button "Edit" [ref=f10e116]
+                    - button "Delete" [ref=f10e117]
+              - row [ref=f10e118]:
+                - cell [ref=f10e119]:
+                  - generic [ref=f10e120]:
+                    - paragraph [ref=f10e121]: Jalgaon
+                    - paragraph [ref=f10e122]: /jalgaon
+                - cell "Maharashtra" [ref=f10e123]
+                - cell "Jalgaon" [ref=f10e124]
+                - cell "GS Ground, Ring Road, MIDC, Mahabal, Mehrun, Shivam Colony, Premier City, Koliwada, Ajanta Road" [ref=f10e125]
+                - cell "Active" [ref=f10e126]
+                - cell [ref=f10e128]:
+                  - generic [ref=f10e129]:
+                    - button "Edit" [ref=f10e130]
+                    - button "Delete" [ref=f10e131]
+              - row [ref=f10e132]:
+                - cell [ref=f10e133]:
+                  - generic [ref=f10e134]:
+                    - paragraph [ref=f10e135]: Khandwa
+                    - paragraph [ref=f10e136]: /khandwa
+                - cell "Madhya Pradesh" [ref=f10e137]
+                - cell "Khandwa" [ref=f10e138]
+                - cell "Anand Nagar, Jaswadi Road, Civil Lines, Railway Colony, Padawa, Rameshwar, Bombay Bazar, Snawad Road" [ref=f10e139]
+                - cell "Active" [ref=f10e140]
+                - cell [ref=f10e142]:
+                  - generic [ref=f10e143]:
+                    - button "Edit" [ref=f10e144]
+                    - button "Delete" [ref=f10e145]
+              - row [ref=f10e146]:
+                - cell [ref=f10e147]:
+                  - generic [ref=f10e148]:
+                    - paragraph [ref=f10e149]: Burhanpur
+                    - paragraph [ref=f10e150]: /burhanpur
+                - cell "Madhya Pradesh" [ref=f10e151]
+                - cell "Burhanpur" [ref=f10e152]
+                - cell "Bus Stand Area, Lalbagh, Shanwara, Rajora, Rastipura, Jainabad, Shahpur, Railway Station Road, Emadpur" [ref=f10e153]
+                - cell "Active" [ref=f10e154]
+                - cell [ref=f10e156]:
+                  - generic [ref=f10e157]:
+                    - button "Edit" [ref=f10e158]
+                    - button "Delete" [ref=f10e159]
+              - row [ref=f10e160]:
+                - cell [ref=f10e161]:
+                  - generic [ref=f10e162]:
+                    - paragraph [ref=f10e163]: Bhopal
+                    - paragraph [ref=f10e164]: /bhopal
+                - cell "Madhya Pradesh" [ref=f10e165]
+                - cell "Bhopal" [ref=f10e166]
+                - cell "MP Nagar, Arera Colony, Kolar Road, Hoshangabad Road, Ayodhya Bypass, Bairagarh, Govindpura, Shahpura, Chunabhatti" [ref=f10e167]
+                - cell "Active" [ref=f10e168]
+                - cell [ref=f10e170]:
+                  - generic [ref=f10e171]:
+                    - button "Edit" [ref=f10e172]
+                    - button "Delete" [ref=f10e173]
+              - row [ref=f10e174]:
+                - cell [ref=f10e175]:
+                  - generic [ref=f10e176]:
+                    - paragraph [ref=f10e177]: Indore
+                    - paragraph [ref=f10e178]: /indore
+                - cell "Madhya Pradesh" [ref=f10e179]
+                - cell "Indore" [ref=f10e180]
+                - cell "Vijay Nagar, Palasia, Rau, M G Road, Super Corridor, Dewas Naka, Nipania, Annapurna, Mahalaxmi Nagar, Scheme 54, Bengani Area" [ref=f10e181]
+                - cell "Active" [ref=f10e182]
+                - cell [ref=f10e184]:
+                  - generic [ref=f10e185]:
+                    - button "Edit" [ref=f10e186]
+                    - button "Delete" [ref=f10e187]
+  - button "Open Next.js Dev Tools" [ref=f10e193] [cursor=pointer]:
+    - generic [ref=f10e196]:
+      - text: Compiling
+      - generic [ref=f10e197]:
+        - generic [ref=f10e198]: .
+        - generic [ref=f10e199]: .
+        - generic [ref=f10e200]: .
+  - alert [ref=f10e201]
