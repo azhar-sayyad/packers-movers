@@ -1,0 +1,122 @@
+datasource db {
+  provider = "sqlite"
+}
+
+generator client {
+  provider = "prisma-client"
+  output   = "../generated/prisma"
+}
+
+model AdminUser {
+  id           String         @id @default(uuid())
+  email        String         @unique
+  passwordHash String
+  name         String
+  createdAt    DateTime       @default(now())
+  updatedAt    DateTime       @updatedAt
+  sessions     AdminSession[]
+}
+
+model AdminSession {
+  id          String    @id @default(uuid())
+  token       String    @unique
+  adminUserId String
+  adminUser   AdminUser @relation(fields: [adminUserId], references: [id], onDelete: Cascade)
+  expiresAt   DateTime
+  createdAt   DateTime  @default(now())
+}
+
+model City {
+  id               String   @id @default(uuid())
+  name             String   @unique
+  slug             String   @unique
+  state            String
+  district         String
+  description      String
+  contentText      String
+  localAreas       String   // Comma-separated or JSON list of local neighborhood areas
+  phoneOverride    String?
+  whatsappOverride String?
+  isActive         Boolean  @default(true)
+  metaTitle        String?
+  metaDescription  String?
+  createdAt        DateTime @default(now())
+  updatedAt        DateTime @updatedAt
+}
+
+model Service {
+  id              String   @id @default(uuid())
+  name            String   @unique
+  slug            String   @unique
+  icon            String
+  shortDesc       String
+  fullDesc        String
+  features        String   // JSON list of features
+  isActive        Boolean  @default(true)
+  metaTitle       String?
+  metaDescription String?
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+}
+
+model Inquiry {
+  id            String   @id @default(uuid())
+  name          String
+  phone         String
+  email         String?
+  moveFrom      String
+  moveTo        String
+  serviceType   String
+  moveDate      String?
+  propertyType  String?
+  message       String?
+  status        String   @default("NEW") // NEW, CONTACTED, QUOTATION_SENT, CONVERTED, CLOSED
+  internalNotes String?
+  landingPage   String?
+  referrer      String?
+  utmSource     String?
+  utmMedium     String?
+  utmCampaign   String?
+  ipAddress     String?
+  createdAt     DateTime @default(now())
+  updatedAt     DateTime @updatedAt
+}
+
+model Portfolio {
+  id          String   @id @default(uuid())
+  title       String
+  citySlug    String?
+  serviceSlug String?
+  imageUrl    String
+  tag         String   @default("Completed Project")
+  createdAt   DateTime @default(now())
+}
+
+model Testimonial {
+  id           String   @id @default(uuid())
+  customerName String
+  citySlug     String?
+  rating       Int      @default(5)
+  reviewText   String
+  isPublished  Boolean  @default(true)
+  createdAt    DateTime @default(now())
+}
+
+model FAQ {
+  id          String   @id @default(uuid())
+  question    String
+  answer      String
+  category    String   @default("General")
+  citySlug    String?
+  order       Int      @default(0)
+  isPublished Boolean  @default(true)
+  createdAt   DateTime @default(now())
+}
+
+model SiteSetting {
+  id          String   @id @default(uuid())
+  key         String   @unique
+  value       String
+  description String?
+  updatedAt   DateTime @updatedAt
+}
