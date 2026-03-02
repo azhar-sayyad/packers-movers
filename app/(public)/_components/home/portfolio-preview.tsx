@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
-import { SectionHeading } from "@/components/home/section-heading";
+import { SectionHeading } from "@/components/common/section-heading";
 import { Reveal } from "@/components/motion/reveal";
 
 interface PortfolioItem {
@@ -22,7 +22,7 @@ export function PortfolioPreview({ items }: { items: PortfolioItem[] }) {
       <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
         {items.slice(0, 4).map((item, i) => (
           <Reveal key={item.id} delay={(i % 4) * 0.08}>
-            <div className="group overflow-hidden rounded-xl border border-black/10 bg-white shadow-card">
+            <div className="group shadow-card overflow-hidden rounded-xl border border-black/10 bg-white">
               <div className="relative h-44 overflow-hidden">
                 {/* eslint-disable-next-line @next/next/no-img-element */}
                 <img
@@ -32,9 +32,11 @@ export function PortfolioPreview({ items }: { items: PortfolioItem[] }) {
                 />
               </div>
               <div className="p-4">
-                <p className="text-xs font-semibold uppercase tracking-wide text-accent-600">{item.tag}</p>
-                <h3 className="mt-1 font-display text-sm font-bold text-brand-950">{item.title}</h3>
-                {item.citySlug && <p className="text-xs capitalize text-faint">{item.citySlug}</p>}
+                <p className="text-accent-600 text-xs font-semibold tracking-wide uppercase">
+                  {item.tag}
+                </p>
+                <h3 className="font-display text-brand-950 mt-1 text-sm font-bold">{item.title}</h3>
+                {item.citySlug && <p className="text-faint text-xs capitalize">{item.citySlug}</p>}
               </div>
             </div>
           </Reveal>
@@ -43,7 +45,7 @@ export function PortfolioPreview({ items }: { items: PortfolioItem[] }) {
       <div className="mt-10 text-center">
         <Link
           href="/portfolio"
-          className="inline-flex items-center gap-2 font-semibold text-accent-700 hover:text-accent-800"
+          className="text-accent-700 hover:text-accent-800 inline-flex items-center gap-2 font-semibold"
         >
           View full portfolio
           <ArrowRight className="h-4 w-4" />
