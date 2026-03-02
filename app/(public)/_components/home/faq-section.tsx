@@ -4,7 +4,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { SectionHeading } from "@/components/home/section-heading";
+import { SectionHeading } from "@/components/common/section-heading";
 import { Reveal } from "@/components/motion/reveal";
 
 interface Faq {
