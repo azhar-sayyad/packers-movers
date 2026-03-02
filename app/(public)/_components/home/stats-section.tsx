@@ -10,7 +10,7 @@ const stats = [
 
 export function StatsSection() {
   return (
-    <section className="border-y border-black/10 bg-surface">
+    <section className="bg-surface border-y border-black/10">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-2 divide-x divide-y divide-black/10 md:grid-cols-4 md:divide-y-0">
           {stats.map((stat, i) => (
@@ -20,9 +20,9 @@ export function StatsSection() {
                   target={stat.target}
                   suffix={stat.suffix}
                   delay={i * 0.2}
-                  className="font-editorial text-3xl tracking-tight text-brand-700 sm:text-4xl"
+                  className="font-editorial text-brand-700 text-3xl tracking-tight sm:text-4xl"
                 />
-                <p className="font-mono text-[10px] font-semibold uppercase tracking-[0.2em] text-faint">
+                <p className="text-faint font-mono text-[10px] font-semibold tracking-[0.2em] uppercase">
                   {stat.label}
                 </p>
               </div>
