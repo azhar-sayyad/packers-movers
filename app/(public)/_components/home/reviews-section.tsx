@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { ChevronLeft, ChevronRight, Quote, Star } from "lucide-react";
-import { SectionHeading } from "@/components/home/section-heading";
+import { SectionHeading } from "@/components/common/section-heading";
 import { Reveal } from "@/components/motion/reveal";
 
 interface Testimonial {
@@ -39,8 +39,10 @@ export function ReviewsSection({ testimonials }: { testimonials: Testimonial[] }
                 {testimonials.map((t, i) => (
                   <div key={i} className="w-full shrink-0 px-1">
                     <div className="mx-auto max-w-3xl rounded-2xl bg-white/5 p-8 text-center backdrop-blur">
-                      <Quote className="mx-auto mb-4 h-8 w-8 text-accent-500" />
-                      <p className="mb-6 text-lg leading-relaxed text-slate-200">“{t.reviewText}”</p>
+                      <Quote className="text-accent-500 mx-auto mb-4 h-8 w-8" />
+                      <p className="mb-6 text-lg leading-relaxed text-slate-200">
+                        “{t.reviewText}”
+                      </p>
                       <div className="mb-2 flex justify-center gap-0.5">
                         {Array.from({ length: 5 }).map((_, s) => (
                           <Star
@@ -50,9 +52,7 @@ export function ReviewsSection({ testimonials }: { testimonials: Testimonial[] }
                         ))}
                       </div>
                       <p className="font-display font-semibold text-white">{t.customerName}</p>
-                      {t.citySlug && (
-                        <p className="text-sm capitalize text-faint">{t.citySlug}</p>
-                      )}
+                      {t.citySlug && <p className="text-faint text-sm capitalize">{t.citySlug}</p>}
                     </div>
                   </div>
                 ))}
@@ -63,14 +63,14 @@ export function ReviewsSection({ testimonials }: { testimonials: Testimonial[] }
               <>
                 <button
                   onClick={prev}
-                  className="absolute left-0 top-1/2 -translate-y-1/2 rounded-full bg-accent-600 p-2 text-white shadow-lg transition-transform hover:scale-110"
+                  className="bg-accent-600 absolute top-1/2 left-0 -translate-y-1/2 rounded-full p-2 text-white shadow-lg transition-transform hover:scale-110"
                   aria-label="Previous review"
                 >
                   <ChevronLeft className="h-5 w-5" />
                 </button>
                 <button
                   onClick={next}
-                  className="absolute right-0 top-1/2 -translate-y-1/2 rounded-full bg-accent-600 p-2 text-white shadow-lg transition-transform hover:scale-110"
+                  className="bg-accent-600 absolute top-1/2 right-0 -translate-y-1/2 rounded-full p-2 text-white shadow-lg transition-transform hover:scale-110"
                   aria-label="Next review"
                 >
                   <ChevronRight className="h-5 w-5" />
