@@ -46,20 +46,23 @@ export default async function ContactPage() {
               </CardHeader>
               <CardContent className="space-y-4 text-sm">
                 {settings.address && (
-                  <p className="flex items-start gap-3 text-muted">
-                    <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-accent-600" />
+                  <p className="text-muted flex items-start gap-3">
+                    <MapPin className="text-accent-600 mt-0.5 h-4 w-4 shrink-0" />
                     {settings.address}
                   </p>
                 )}
                 {settings.workingHours && (
-                  <p className="flex items-center gap-3 text-muted">
-                    <Clock className="h-4 w-4 shrink-0 text-accent-600" />
+                  <p className="text-muted flex items-center gap-3">
+                    <Clock className="text-accent-600 h-4 w-4 shrink-0" />
                     {settings.workingHours}
                   </p>
                 )}
                 {settings.email && (
-                  <a href={`mailto:${settings.email}`} className="flex items-center gap-3 text-muted hover:text-accent-700">
-                    <Mail className="h-4 w-4 shrink-0 text-accent-600" />
+                  <a
+                    href={`mailto:${settings.email}`}
+                    className="text-muted hover:text-accent-700 flex items-center gap-3"
+                  >
+                    <Mail className="text-accent-600 h-4 w-4 shrink-0" />
                     {settings.email}
                   </a>
                 )}
