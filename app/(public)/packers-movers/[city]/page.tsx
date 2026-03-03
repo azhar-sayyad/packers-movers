@@ -115,12 +115,16 @@ export default async function CityPage({ params }: CityPageProps) {
         <div className="grid gap-10 lg:grid-cols-3">
           <div className="space-y-10 lg:col-span-2">
             <div>
-              <h2 className="mb-4 font-display text-2xl font-bold text-brand-950">
+              <h2 className="font-display text-brand-950 mb-4 text-2xl font-bold">
                 Areas We Serve in {cityData.name}
               </h2>
               <div className="flex flex-wrap gap-2">
                 {localAreas.map((area) => (
-                  <Badge key={area} variant="outline" className="border-black/15 bg-white px-3 py-1 text-sm font-medium text-muted">
+                  <Badge
+                    key={area}
+                    variant="outline"
+                    className="text-muted border-black/15 bg-white px-3 py-1 text-sm font-medium"
+                  >
                     {area}
                   </Badge>
                 ))}
