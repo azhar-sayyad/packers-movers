@@ -1,6 +1,6 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Packers & Movers — Website + Admin CMS
 
-## Getting Started
+Lead-generation website and admin CMS for a packers-and-movers business serving Madhya Pradesh and Maharashtra (Indore, Bhopal, Burhanpur, Khandwa, Jalgaon, Bhusawal, Buldhana, Dhule).
 
 First, run the development server:
 
