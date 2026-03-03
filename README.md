@@ -2,16 +2,23 @@
 
 Lead-generation website and admin CMS for a packers-and-movers business serving Madhya Pradesh and Maharashtra (Indore, Bhopal, Burhanpur, Khandwa, Jalgaon, Bhusawal, Buldhana, Dhule).
 
-First, run the development server:
+Public site: SEO location/service pages, quote capture with attribution, FAQs, reviews, portfolio. Admin: login-gated CMS for cities, services, inquiries, portfolio, testimonials, FAQs, and site settings.
+
+## Stack
+
+- Next.js 16 (App Router), React 19, Tailwind CSS 4
+- Prisma 7 + better-sqlite3 (SQLite file DB)
+- Zod validation, bcryptjs sessions (HttpOnly cookie `admin_session_token`)
+- Radix UI primitives, lucide-react icons, framer-motion
+
+## Quickstart
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
+cp .env.example .env
+npm run db:migrate
+npm run db:seed   # creates admin admin@packers.local / change-me-in-production
+npm run dev       # http://localhost:3000
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
