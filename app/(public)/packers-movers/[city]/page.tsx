@@ -142,12 +142,14 @@ export default async function CityPage({ params }: CityPageProps) {
                     href={`/services/${service.slug}`}
                     className="group shadow-card hover:shadow-card-hover flex items-start gap-3 rounded-xl border border-black/10 bg-white p-5 transition-all hover:-translate-y-0.5"
                   >
-                    <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-brand-950 transition-colors group-hover:bg-accent-600">
+                    <span className="bg-brand-950 group-hover:bg-accent-600 flex h-10 w-10 shrink-0 items-center justify-center rounded-lg transition-colors">
                       <ServiceIcon name={service.icon} className="h-5 w-5 text-white" />
                     </span>
                     <div>
-                      <h3 className="font-display text-sm font-bold text-brand-950">{service.name}</h3>
-                      <p className="text-xs text-muted">{service.shortDesc}</p>
+                      <h3 className="font-display text-brand-950 text-sm font-bold">
+                        {service.name}
+                      </h3>
+                      <p className="text-muted text-xs">{service.shortDesc}</p>
                     </div>
                   </a>
                 ))}
