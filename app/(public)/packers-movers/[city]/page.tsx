@@ -132,7 +132,7 @@ export default async function CityPage({ params }: CityPageProps) {
             </div>
 
             <div>
-              <h2 className="mb-4 font-display text-2xl font-bold text-brand-950">
+              <h2 className="font-display text-brand-950 mb-4 text-2xl font-bold">
                 Our Services in {cityData.name}
               </h2>
               <div className="grid gap-4 sm:grid-cols-2">
@@ -140,7 +140,7 @@ export default async function CityPage({ params }: CityPageProps) {
                   <a
                     key={service.slug}
                     href={`/services/${service.slug}`}
-                    className="group flex items-start gap-3 rounded-xl border border-black/10 bg-white p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-card-hover"
+                    className="group shadow-card hover:shadow-card-hover flex items-start gap-3 rounded-xl border border-black/10 bg-white p-5 transition-all hover:-translate-y-0.5"
                   >
                     <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-brand-950 transition-colors group-hover:bg-accent-600">
                       <ServiceIcon name={service.icon} className="h-5 w-5 text-white" />
