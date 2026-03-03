@@ -64,13 +64,13 @@ export default async function AboutPage() {
               industrial clients across Indore, Bhopal, Burhanpur, Khandwa, Jalgaon, Bhusawal,
               Buldhana and Dhule.
             </p>
-            <p className="leading-relaxed text-muted">
-              Today our modern fleet, dedicated crews, and state-of-the-art warehousing facilities move
-              household goods, office equipment, vehicles, and entire industrial setups with
+            <p className="text-muted leading-relaxed">
+              Today our modern fleet, dedicated crews, and state-of-the-art warehousing facilities
+              move household goods, office equipment, vehicles, and entire industrial setups with
               military-level precision — all while keeping our rates transparent and fair.
             </p>
           </div>
-          <div className="rounded-2xl bg-surface p-8">
+          <div className="bg-surface rounded-2xl p-8">
             <div className="grid grid-cols-2 gap-6">
               <div>
                 <p className="font-display text-4xl font-extrabold text-accent-600">15+</p>
