@@ -71,10 +71,10 @@ proxy.ts                  # Next 16 route guard for /admin/* (not middleware.ts)
 
 ## Admin CMS
 
-To learn more about Next.js, take a look at the following resources:
+Routes under `/admin` (guarded by `proxy.ts` + server `requireAdmin()`):
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Dashboard, Inquiries (`NEW → CONTACTED → QUOTATION_SENT → CONVERTED → CLOSED`), Cities, Services, Portfolio, Testimonials, FAQs, Settings.
+- Lead attribution (landing page, referrer, UTM) is captured by `quote-form` and stored on `Inquiry`.
 
 You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
