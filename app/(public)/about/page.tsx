@@ -109,8 +109,8 @@ export default async function AboutPage() {
                   <div className="bg-accent-50 mb-4 flex h-11 w-11 items-center justify-center rounded-lg">
                     <Icon className="text-accent-600 h-5 w-5" />
                   </div>
-                  <h3 className="mb-2 font-display text-lg font-bold text-brand-950">{v.title}</h3>
-                  <p className="text-sm leading-relaxed text-muted">{v.text}</p>
+                  <h3 className="font-display text-brand-950 mb-2 text-lg font-bold">{v.title}</h3>
+                  <p className="text-muted text-sm leading-relaxed">{v.text}</p>
                 </div>
               );
             })}
