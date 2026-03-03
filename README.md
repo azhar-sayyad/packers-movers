@@ -21,13 +21,55 @@ npm run db:seed   # creates admin admin@packers.local / change-me-in-production
 npm run dev       # http://localhost:3000
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Admin: `http://localhost:3000/admin/login`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Environment
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Var                              | Required      | Purpose                                             |
+| -------------------------------- | ------------- | --------------------------------------------------- |
+| `DATABASE_URL`                   | Yes           | SQLite file, e.g. `file:./dev.db`                   |
+| `NEXT_PUBLIC_SITE_URL`           | Yes for SEO   | Canonical base URL for `sitemap.xml` / `robots.txt` |
+| `ADMIN_EMAIL` / `ADMIN_PASSWORD` | Dev seed only | Seeded admin login, change in production            |
 
-## Learn More
+See `.env.example` for defaults.
+
+## Scripts
+
+| Command                                                        | Purpose                  |
+| -------------------------------------------------------------- | ------------------------ |
+| `npm run dev`                                                  | Local dev server         |
+| `npm run build` / `npm start`                                  | Production build / serve |
+| `npm run lint`                                                 | ESLint                   |
+| `npm run format` / `format:check`                              | Prettier write / check   |
+| `npm run typecheck`                                            | `tsc --noEmit`           |
+| `npm run db:migrate` / `db:seed` / `db:studio` / `db:generate` | Prisma helpers           |
+
+## Project structure
+
+```text
+app/
+  layout.tsx              # fonts, metadata, MotionProvider
+  sitemap.ts / robots.ts  # SEO
+  (public)/               # public routes + _components/home/ (homepage sections)
+  admin/                  # login + (dashboard)/ CMS pages
+  api/                    # /api/inquiries + /api/admin/*
+components/
+  ui/                     # Radix wrappers (button, dialog, table, ...)
+  common/                 # shared blocks: section-shell, cards, cta-buttons, status-badge, form-field
+  admin/                  # use-admin-resource hook + CRUD clients
+  lead/                   # quote-form
+  layout/ motion/ ...     # header/footer, animation helpers
+lib/
+  site.ts                 # cached server queries (server-only)
+  validations.ts          # Zod schemas
+  constants.ts            # CTA copy, property sizes, inquiry statuses
+  session.ts / auth.ts / admin-auth.ts / phone.ts / format.ts / utils.ts
+prisma/
+  schema.prisma / seed.ts / migrations/
+proxy.ts                  # Next 16 route guard for /admin/* (not middleware.ts)
+```
+
+## Admin CMS
 
 To learn more about Next.js, take a look at the following resources:
 
