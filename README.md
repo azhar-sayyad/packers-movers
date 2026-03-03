@@ -76,9 +76,10 @@ Routes under `/admin` (guarded by `proxy.ts` + server `requireAdmin()`):
 - Dashboard, Inquiries (`NEW → CONTACTED → QUOTATION_SENT → CONVERTED → CLOSED`), Cities, Services, Portfolio, Testimonials, FAQs, Settings.
 - Lead attribution (landing page, referrer, UTM) is captured by `quote-form` and stored on `Inquiry`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## SEO
 
-## Deploy on Vercel
+- Dynamic city pages: `/packers-movers/[city]`, service pages: `/services/[slug]`, with `generateMetadata` + `LocalBusiness` JSON-LD.
+- `app/sitemap.ts` builds static + city + service URLs from `NEXT_PUBLIC_SITE_URL`; `app/robots.ts` serves `/robots.txt`.
 
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
