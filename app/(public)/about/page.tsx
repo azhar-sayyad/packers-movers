@@ -73,12 +73,12 @@ export default async function AboutPage() {
           <div className="bg-surface rounded-2xl p-8">
             <div className="grid grid-cols-2 gap-6">
               <div>
-                <p className="font-display text-4xl font-extrabold text-accent-600">15+</p>
-                <p className="text-sm text-muted">Years of Experience</p>
+                <p className="font-display text-accent-600 text-4xl font-extrabold">15+</p>
+                <p className="text-muted text-sm">Years of Experience</p>
               </div>
               <div>
-                <p className="font-display text-4xl font-extrabold text-accent-600">5,000+</p>
-                <p className="text-sm text-muted">Moves Completed</p>
+                <p className="font-display text-accent-600 text-4xl font-extrabold">5,000+</p>
+                <p className="text-muted text-sm">Moves Completed</p>
               </div>
               <div>
                 <p className="font-display text-4xl font-extrabold text-accent-600">40+</p>
