@@ -81,6 +81,8 @@ Routes under `/admin` (guarded by `proxy.ts` + server `requireAdmin()`):
 - Dynamic city pages: `/packers-movers/[city]`, service pages: `/services/[slug]`, with `generateMetadata` + `LocalBusiness` JSON-LD.
 - `app/sitemap.ts` builds static + city + service URLs from `NEXT_PUBLIC_SITE_URL`; `app/robots.ts` serves `/robots.txt`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deploy notes
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Set `DATABASE_URL` to a persistent volume (SQLite) or migrate to Postgres by changing the Prisma datasource + adapter.
+- Set `NEXT_PUBLIC_SITE_URL` to the production domain before building so sitemap canonicals are correct.
+- Change the seeded admin password immediately after first login.
