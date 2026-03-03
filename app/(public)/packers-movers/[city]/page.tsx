@@ -100,16 +100,14 @@ export default async function CityPage({ params }: CityPageProps) {
 
       <section className="bg-brand-950">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
-          <p className="mb-3 flex items-center gap-1.5 text-sm font-semibold uppercase tracking-wider text-accent-500">
+          <p className="text-accent-500 mb-3 flex items-center gap-1.5 text-sm font-semibold tracking-wider uppercase">
             <MapPin className="h-4 w-4" />
             Packers &amp; Movers in {cityData.state}
           </p>
           <h1 className="font-display text-4xl font-extrabold tracking-tight text-white sm:text-5xl">
             {cityData.description}
           </h1>
-          <p className="mt-4 max-w-3xl text-lg text-slate-300">
-            {cityData.contentText}
-          </p>
+          <p className="mt-4 max-w-3xl text-lg text-slate-300">{cityData.contentText}</p>
         </div>
       </section>
 
