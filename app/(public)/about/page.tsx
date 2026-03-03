@@ -52,14 +52,17 @@ export default async function AboutPage() {
       <section className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
         <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
           <div>
-            <p className="mb-3 text-sm font-semibold uppercase tracking-wider text-accent-600">Our Story</p>
-            <h2 className="mb-4 font-display text-3xl font-bold text-brand-950">
+            <p className="text-accent-600 mb-3 text-sm font-semibold tracking-wider uppercase">
+              Our Story
+            </p>
+            <h2 className="font-display text-brand-950 mb-4 text-3xl font-bold">
               15+ Years of Moving Families &amp; Businesses
             </h2>
-            <p className="mb-4 leading-relaxed text-muted">
-              Founded with a single truck and a promise to treat every box like our own, we have grown
-              into a multi-city relocation trusted by thousands of families, offices, and industrial
-              clients across Indore, Bhopal, Burhanpur, Khandwa, Jalgaon, Bhusawal, Buldhana and Dhule.
+            <p className="text-muted mb-4 leading-relaxed">
+              Founded with a single truck and a promise to treat every box like our own, we have
+              grown into a multi-city relocation trusted by thousands of families, offices, and
+              industrial clients across Indore, Bhopal, Burhanpur, Khandwa, Jalgaon, Bhusawal,
+              Buldhana and Dhule.
             </p>
             <p className="leading-relaxed text-muted">
               Today our modern fleet, dedicated crews, and state-of-the-art warehousing facilities move
