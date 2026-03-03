@@ -38,7 +38,8 @@ export async function generateMetadata({ params }: CityPageProps): Promise<Metad
   const cityData = await getCityBySlug(city);
   if (!cityData) return { title: "City Not Found" };
 
-  const title = cityData.metaTitle ?? `Best Packers & Movers in ${cityData.name} | ${cityData.state}`;
+  const title =
+    cityData.metaTitle ?? `Best Packers & Movers in ${cityData.name} | ${cityData.state}`;
   const description = cityData.metaDescription ?? cityData.description;
 
   return {
@@ -70,7 +71,10 @@ export default async function CityPage({ params }: CityPageProps) {
 
   const cityOptions = cities.map((c) => ({ value: c.slug, label: c.name }));
   const serviceOptions = services.map((s) => ({ value: s.slug, label: s.name }));
-  const localAreas = cityData.localAreas.split(",").map((a) => a.trim()).filter(Boolean);
+  const localAreas = cityData.localAreas
+    .split(",")
+    .map((a) => a.trim())
+    .filter(Boolean);
   const phone = cityData.phoneOverride ?? settings.phone;
   const whatsapp = cityData.whatsappOverride ?? settings.whatsapp ?? settings.phone;
 
