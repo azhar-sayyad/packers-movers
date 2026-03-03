@@ -95,16 +95,19 @@ export default async function AboutPage() {
 
       <section className="bg-surface">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
-          <h2 className="mb-10 text-center font-display text-3xl font-bold text-brand-950">
+          <h2 className="font-display text-brand-950 mb-10 text-center text-3xl font-bold">
             What We Stand For
           </h2>
           <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
             {values.map((v) => {
               const Icon = v.icon;
               return (
-                <div key={v.title} className="rounded-xl border border-black/10 bg-white p-6 shadow-card">
-                  <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-lg bg-accent-50">
-                    <Icon className="h-5 w-5 text-accent-600" />
+                <div
+                  key={v.title}
+                  className="shadow-card rounded-xl border border-black/10 bg-white p-6"
+                >
+                  <div className="bg-accent-50 mb-4 flex h-11 w-11 items-center justify-center rounded-lg">
+                    <Icon className="text-accent-600 h-5 w-5" />
                   </div>
                   <h3 className="mb-2 font-display text-lg font-bold text-brand-950">{v.title}</h3>
                   <p className="text-sm leading-relaxed text-muted">{v.text}</p>
