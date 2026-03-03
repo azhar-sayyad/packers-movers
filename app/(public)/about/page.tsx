@@ -81,12 +81,12 @@ export default async function AboutPage() {
                 <p className="text-muted text-sm">Moves Completed</p>
               </div>
               <div>
-                <p className="font-display text-4xl font-extrabold text-accent-600">40+</p>
-                <p className="text-sm text-muted">Trained Team Members</p>
+                <p className="font-display text-accent-600 text-4xl font-extrabold">40+</p>
+                <p className="text-muted text-sm">Trained Team Members</p>
               </div>
               <div>
-                <p className="font-display text-4xl font-extrabold text-accent-600">8+</p>
-                <p className="text-sm text-muted">Active Service Cities</p>
+                <p className="font-display text-accent-600 text-4xl font-extrabold">8+</p>
+                <p className="text-muted text-sm">Active Service Cities</p>
               </div>
             </div>
           </div>
