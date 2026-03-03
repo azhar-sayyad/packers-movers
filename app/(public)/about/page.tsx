@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Shield, Users, Target, HeartHandshake } from "lucide-react";
-import { CtaSection } from "@/components/home/cta-section";
+import { CtaSection } from "@/app/(public)/_components/home/cta-section";
 import { getSiteSettings } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -43,8 +43,8 @@ export default async function AboutPage() {
             About Our Company
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-slate-300">
-            We&apos;re a locally rooted, nationally experienced relocation company serving Madhya Pradesh
-            and Maharashtra with pride and precision.
+            We&apos;re a locally rooted, nationally experienced relocation company serving Madhya
+            Pradesh and Maharashtra with pride and precision.
           </p>
         </div>
       </section>
