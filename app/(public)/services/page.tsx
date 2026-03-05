@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { ArrowRight, CheckCircle2 } from "lucide-react";
-import { SectionHeading } from "@/components/home/section-heading";
+import { SectionHeading } from "@/components/common/section-heading";
 import { ServiceIcon } from "@/components/common/service-icon";
 import { getActiveServices, getActiveCities } from "@/lib/site";
 
@@ -37,10 +37,10 @@ export default async function ServicesIndexPage() {
             <Link
               key={service.slug}
               href={`/services/${service.slug}`}
-              className="group rounded-xl border border-black/10 bg-white p-7 shadow-card transition-all hover:-translate-y-1 hover:shadow-card-hover"
+              className="group shadow-card hover:shadow-card-hover rounded-xl border border-black/10 bg-white p-7 transition-all hover:-translate-y-1"
             >
               <div className="mb-5 flex items-center gap-4">
-                <span className="flex h-12 w-12 items-center justify-center rounded-xl bg-brand-950 transition-colors group-hover:bg-accent-600">
+                <span className="bg-brand-950 group-hover:bg-accent-600 flex h-12 w-12 items-center justify-center rounded-xl transition-colors">
                   <ServiceIcon name={service.icon} className="h-6 w-6 text-white" />
                 </span>
                 <h2 className="font-display text-xl font-bold text-brand-950">{service.name}</h2>
