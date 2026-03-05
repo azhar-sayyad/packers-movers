@@ -56,7 +56,7 @@ export default async function ServicesIndexPage() {
                     </li>
                   ))}
               </ul>
-              <span className="inline-flex items-center gap-1 text-sm font-semibold text-accent-700">
+              <span className="text-accent-700 inline-flex items-center gap-1 text-sm font-semibold">
                 View service details
                 <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
               </span>
@@ -67,7 +67,7 @@ export default async function ServicesIndexPage() {
 
       <section className="bg-surface">
         <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="mb-6 font-display text-2xl font-bold text-brand-950">
+          <h2 className="font-display text-brand-950 mb-6 text-2xl font-bold">
             Available in Your City?
           </h2>
           <div className="flex flex-wrap gap-2">
@@ -75,7 +75,7 @@ export default async function ServicesIndexPage() {
               <Link
                 key={city.slug}
                 href={`/packers-movers/${city.slug}`}
-                className="rounded-full border border-black/15 bg-white px-4 py-2 text-sm font-medium text-muted transition-colors hover:border-accent-600 hover:text-accent-700"
+                className="text-muted hover:border-accent-600 hover:text-accent-700 rounded-full border border-black/15 bg-white px-4 py-2 text-sm font-medium transition-colors"
               >
                 Packers & Movers in {city.name}
               </Link>
