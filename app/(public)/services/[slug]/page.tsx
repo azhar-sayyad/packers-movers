@@ -4,7 +4,7 @@ import Link from "next/link";
 import { CheckCircle2, ArrowRight, MapPin } from "lucide-react";
 import { JsonLd } from "@/components/ui/jsonld";
 import { ServiceIcon } from "@/components/common/service-icon";
-import { SectionHeading } from "@/components/home/section-heading";
+import { SectionHeading } from "@/components/common/section-heading";
 import { getActiveServices, getActiveCities, getServiceBySlug } from "@/lib/site";
 
 interface ServicePageProps {
@@ -59,7 +59,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
 
       <section className="bg-brand-950">
         <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
-          <p className="mb-3 flex items-center gap-2 text-sm font-semibold uppercase tracking-wider text-accent-500">
+          <p className="text-accent-500 mb-3 flex items-center gap-2 text-sm font-semibold tracking-wider uppercase">
             <ServiceIcon name={service.icon} className="h-5 w-5" />
             {service.name}
           </p>
