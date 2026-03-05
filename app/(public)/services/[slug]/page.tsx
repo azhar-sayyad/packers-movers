@@ -125,7 +125,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                       href={`/packers-movers/${city.slug}`}
                       className="text-muted hover:bg-surface hover:text-accent-700 flex items-center gap-2 rounded-lg px-3 py-2 text-sm transition-colors"
                     >
-                      <MapPin className="h-4 w-4 text-accent-600" />
+                      <MapPin className="text-accent-600 h-4 w-4" />
                       {city.name}
                     </Link>
                   </li>
@@ -133,7 +133,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
               </ul>
               <Link
                 href="/locations"
-                className="inline-flex items-center gap-1 text-sm font-semibold text-accent-700"
+                className="text-accent-700 inline-flex items-center gap-1 text-sm font-semibold"
               >
                 View all locations
                 <ArrowRight className="h-4 w-4" />
