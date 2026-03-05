@@ -76,7 +76,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
         <div className="grid gap-10 lg:grid-cols-3">
           <div className="space-y-10 lg:col-span-2">
             <div>
-              <h2 className="mb-6 font-display text-2xl font-bold text-brand-950">Key Features</h2>
+              <h2 className="font-display text-brand-950 mb-6 text-2xl font-bold">Key Features</h2>
               <div className="grid gap-4 sm:grid-cols-2">
                 {features.map((feature) => (
                   <div
@@ -84,7 +84,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                     className="flex items-start gap-3 rounded-xl border border-black/10 bg-white p-4 shadow-sm"
                   >
                     <CheckCircle2 className="mt-0.5 h-5 w-5 shrink-0 text-emerald-600" />
-                    <span className="text-sm text-muted">{feature}</span>
+                    <span className="text-muted text-sm">{feature}</span>
                   </div>
                 ))}
               </div>
