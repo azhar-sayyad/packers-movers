@@ -168,10 +168,16 @@ export default async function CityPage({ params }: CityPageProps) {
                       className="shadow-card overflow-hidden rounded-xl border border-black/10 bg-white"
                     >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
-                      <img src={item.imageUrl} alt={item.title} className="h-40 w-full object-cover" />
+                      <img
+                        src={item.imageUrl}
+                        alt={item.title}
+                        className="h-40 w-full object-cover"
+                      />
                       <div className="p-4">
-                        <p className="text-xs font-semibold uppercase text-accent-600">{item.tag}</p>
-                        <h3 className="mt-1 text-sm font-bold text-brand-950">{item.title}</h3>
+                        <p className="text-accent-600 text-xs font-semibold uppercase">
+                          {item.tag}
+                        </p>
+                        <h3 className="text-brand-950 mt-1 text-sm font-bold">{item.title}</h3>
                       </div>
                     </div>
                   ))}
