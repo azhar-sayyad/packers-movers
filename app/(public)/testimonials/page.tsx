@@ -28,7 +28,7 @@ export default async function TestimonialsPage() {
 
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         {testimonials.length === 0 ? (
-          <p className="rounded-xl border border-black/10 bg-white p-10 text-center text-sm text-muted">
+          <p className="text-muted rounded-xl border border-black/10 bg-white p-10 text-center text-sm">
             No reviews yet. Check back soon!
           </p>
         ) : (
@@ -45,12 +45,10 @@ export default async function TestimonialsPage() {
                         />
                       ))}
                     </div>
-                    <p className="mb-4 text-sm leading-relaxed text-muted">“{t.reviewText}”</p>
+                    <p className="text-muted mb-4 text-sm leading-relaxed">“{t.reviewText}”</p>
                     <div>
-                      <p className="text-sm font-semibold text-brand-950">{t.customerName}</p>
-                      {t.citySlug && (
-                        <p className="text-xs capitalize text-faint">{t.citySlug}</p>
-                      )}
+                      <p className="text-brand-950 text-sm font-semibold">{t.customerName}</p>
+                      {t.citySlug && <p className="text-faint text-xs capitalize">{t.citySlug}</p>}
                     </div>
                   </CardContent>
                 </Card>
