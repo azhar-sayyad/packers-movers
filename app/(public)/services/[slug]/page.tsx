@@ -155,11 +155,11 @@ export default async function ServicePage({ params }: ServicePageProps) {
                 <Link
                   key={s.slug}
                   href={`/services/${s.slug}`}
-                  className="group rounded-xl border border-black/10 bg-white p-5 shadow-card transition-all hover:-translate-y-1 hover:shadow-card-hover"
+                  className="group shadow-card hover:shadow-card-hover rounded-xl border border-black/10 bg-white p-5 transition-all hover:-translate-y-1"
                 >
-                  <ServiceIcon name={s.icon} className="mb-3 h-6 w-6 text-accent-600" />
-                  <h3 className="mb-1 font-display text-sm font-bold text-brand-950">{s.name}</h3>
-                  <p className="line-clamp-2 text-xs text-muted">{s.shortDesc}</p>
+                  <ServiceIcon name={s.icon} className="text-accent-600 mb-3 h-6 w-6" />
+                  <h3 className="font-display text-brand-950 mb-1 text-sm font-bold">{s.name}</h3>
+                  <p className="text-muted line-clamp-2 text-xs">{s.shortDesc}</p>
                 </Link>
               ))}
             </div>
