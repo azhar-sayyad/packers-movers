@@ -5,8 +5,8 @@ import { CrudClient, BoolBadge } from "@/components/admin/crud-client";
 export default function AdminCitiesPage() {
   return (
     <div>
-      <h1 className="mb-2 font-display text-2xl font-bold text-brand-950">Cities</h1>
-      <p className="mb-8 text-sm text-muted">
+      <h1 className="font-display text-brand-950 mb-2 text-2xl font-bold">Cities</h1>
+      <p className="text-muted mb-8 text-sm">
         Manage service cities, local areas, SEO metadata, and phone overrides.
       </p>
       <CrudClient
@@ -20,13 +20,21 @@ export default function AdminCitiesPage() {
             label: "City",
             render: (c) => (
               <div>
-                <p className="font-medium text-foreground">{c.name}</p>
-                <p className="text-xs text-muted">/{c.slug}</p>
+                <p className="text-foreground font-medium">{c.name}</p>
+                <p className="text-muted text-xs">/{c.slug}</p>
               </div>
             ),
           },
-          { key: "state", label: "State", render: (c) => <span className="text-sm">{c.state}</span> },
-          { key: "district", label: "District", render: (c) => <span className="text-sm">{c.district}</span> },
+          {
+            key: "state",
+            label: "State",
+            render: (c) => <span className="text-sm">{c.state}</span>,
+          },
+          {
+            key: "district",
+            label: "District",
+            render: (c) => <span className="text-sm">{c.district}</span>,
+          },
           {
             key: "localAreas",
             label: "Local Areas",
