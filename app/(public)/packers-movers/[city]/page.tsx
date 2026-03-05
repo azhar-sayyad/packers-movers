@@ -187,7 +187,7 @@ export default async function CityPage({ params }: CityPageProps) {
 
             {faqs.length > 0 && (
               <div>
-                <h2 className="mb-4 font-display text-2xl font-bold text-brand-950">
+                <h2 className="font-display text-brand-950 mb-4 text-2xl font-bold">
                   {cityData.name} Relocation FAQs
                 </h2>
                 <Accordion type="single" collapsible className="w-full">
@@ -205,7 +205,7 @@ export default async function CityPage({ params }: CityPageProps) {
           <div className="space-y-6">
             <Card className="shadow-card">
               <CardContent className="p-6">
-                <h2 className="mb-4 font-display text-lg font-bold text-brand-950">
+                <h2 className="font-display text-brand-950 mb-4 text-lg font-bold">
                   Get a Quick Quote in {cityData.name}
                 </h2>
                 <QuoteForm
