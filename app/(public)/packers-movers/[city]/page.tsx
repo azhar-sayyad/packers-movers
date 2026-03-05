@@ -158,12 +158,15 @@ export default async function CityPage({ params }: CityPageProps) {
 
             {portfolio.length > 0 && (
               <div>
-                <h2 className="mb-4 font-display text-2xl font-bold text-brand-950">
+                <h2 className="font-display text-brand-950 mb-4 text-2xl font-bold">
                   Recent Work in {cityData.name}
                 </h2>
                 <div className="grid gap-4 sm:grid-cols-2">
                   {portfolio.slice(0, 4).map((item) => (
-                    <div key={item.id} className="overflow-hidden rounded-xl border border-black/10 bg-white shadow-card">
+                    <div
+                      key={item.id}
+                      className="shadow-card overflow-hidden rounded-xl border border-black/10 bg-white"
+                    >
                       {/* eslint-disable-next-line @next/next/no-img-element */}
                       <img src={item.imageUrl} alt={item.title} className="h-40 w-full object-cover" />
                       <div className="p-4">
