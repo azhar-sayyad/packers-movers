@@ -1,13 +1,20 @@
-import { getSiteSettings, getActiveCities, getActiveServices, getPublishedFAQs, getPublishedTestimonials, getPortfolioItems } from "@/lib/site";
-import { HeroSection } from "@/components/home/hero-section";
-import { StatsSection } from "@/components/home/stats-section";
-import { WhyUsSection } from "@/components/home/why-us-section";
-import { ServicesSection } from "@/components/home/services-section";
-import { CitiesSection } from "@/components/home/cities-section";
-import { PortfolioPreview } from "@/components/home/portfolio-preview";
-import { ReviewsSection } from "@/components/home/reviews-section";
-import { FaqSection } from "@/components/home/faq-section";
-import { CtaSection } from "@/components/home/cta-section";
+import {
+  getSiteSettings,
+  getActiveCities,
+  getActiveServices,
+  getPublishedFAQs,
+  getPublishedTestimonials,
+  getPortfolioItems,
+} from "@/lib/site";
+import { HeroSection } from "@/app/(public)/_components/home/hero-section";
+import { StatsSection } from "@/app/(public)/_components/home/stats-section";
+import { WhyUsSection } from "@/app/(public)/_components/home/why-us-section";
+import { ServicesSection } from "@/app/(public)/_components/home/services-section";
+import { CitiesSection } from "@/app/(public)/_components/home/cities-section";
+import { PortfolioPreview } from "@/app/(public)/_components/home/portfolio-preview";
+import { ReviewsSection } from "@/app/(public)/_components/home/reviews-section";
+import { FaqSection } from "@/app/(public)/_components/home/faq-section";
+import { CtaSection } from "@/app/(public)/_components/home/cta-section";
 
 export default async function HomePage() {
   const [settings, cities, services, faqs, testimonials, portfolio] = await Promise.all([
