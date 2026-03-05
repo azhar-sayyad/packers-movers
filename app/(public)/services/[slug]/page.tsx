@@ -91,20 +91,24 @@ export default async function ServicePage({ params }: ServicePageProps) {
             </div>
 
             <div>
-              <h2 className="mb-6 font-display text-2xl font-bold text-brand-950">How It Works</h2>
+              <h2 className="font-display text-brand-950 mb-6 text-2xl font-bold">How It Works</h2>
               <ol className="space-y-6">
-                {["Request a Free Quote", "Book Your Moving Date", "We Pack & Load Everything", "Safe Transit to Destination", "Unload & Reassemble at Your Doorstep"].map(
-                  (step, i) => (
-                    <li key={step} className="flex items-start gap-4">
-                      <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-accent-600 font-display text-sm font-bold text-white">
-                        {i + 1}
-                      </span>
-                      <div>
-                        <p className="font-display font-semibold text-brand-950">{step}</p>
-                      </div>
-                    </li>
-                  )
-                )}
+                {[
+                  "Request a Free Quote",
+                  "Book Your Moving Date",
+                  "We Pack & Load Everything",
+                  "Safe Transit to Destination",
+                  "Unload & Reassemble at Your Doorstep",
+                ].map((step, i) => (
+                  <li key={step} className="flex items-start gap-4">
+                    <span className="bg-accent-600 font-display flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-sm font-bold text-white">
+                      {i + 1}
+                    </span>
+                    <div>
+                      <p className="font-display text-brand-950 font-semibold">{step}</p>
+                    </div>
+                  </li>
+                ))}
               </ol>
             </div>
           </div>
