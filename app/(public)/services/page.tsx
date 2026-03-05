@@ -43,16 +43,18 @@ export default async function ServicesIndexPage() {
                 <span className="bg-brand-950 group-hover:bg-accent-600 flex h-12 w-12 items-center justify-center rounded-xl transition-colors">
                   <ServiceIcon name={service.icon} className="h-6 w-6 text-white" />
                 </span>
-                <h2 className="font-display text-xl font-bold text-brand-950">{service.name}</h2>
+                <h2 className="font-display text-brand-950 text-xl font-bold">{service.name}</h2>
               </div>
-              <p className="mb-5 text-sm leading-relaxed text-muted">{service.fullDesc}</p>
+              <p className="text-muted mb-5 text-sm leading-relaxed">{service.fullDesc}</p>
               <ul className="mb-5 space-y-2">
-                {JSON.parse(service.features).slice(0, 4).map((f: string) => (
-                  <li key={f} className="flex items-start gap-2 text-sm text-muted">
-                    <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-emerald-600" />
-                    {f}
-                  </li>
-                ))}
+                {JSON.parse(service.features)
+                  .slice(0, 4)
+                  .map((f: string) => (
+                    <li key={f} className="text-muted flex items-start gap-2 text-sm">
+                      <CheckCircle2 className="mt-0.5 h-4 w-4 shrink-0 text-emerald-600" />
+                      {f}
+                    </li>
+                  ))}
               </ul>
               <span className="inline-flex items-center gap-1 text-sm font-semibold text-accent-700">
                 View service details
