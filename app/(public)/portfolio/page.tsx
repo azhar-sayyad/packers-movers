@@ -26,13 +26,21 @@ export default async function PortfolioPage() {
             Our Portfolio
           </h1>
           <p className="mt-4 max-w-2xl text-lg text-slate-300">
-            A showcase of recent packing, loading, and relocation projects across the cities we serve.
+            A showcase of recent packing, loading, and relocation projects across the cities we
+            serve.
           </p>
         </div>
       </section>
       <section className="mx-auto max-w-7xl px-4 py-12 sm:px-6 lg:px-8">
         <PortfolioGallery
-          items={items.map((i) => ({ id: i.id, title: i.title, imageUrl: i.imageUrl, tag: i.tag, citySlug: i.citySlug, serviceSlug: i.serviceSlug }))}
+          items={items.map((i) => ({
+            id: i.id,
+            title: i.title,
+            imageUrl: i.imageUrl,
+            tag: i.tag,
+            citySlug: i.citySlug,
+            serviceSlug: i.serviceSlug,
+          }))}
           cities={cityOptions}
           services={serviceOptions}
         />
