@@ -232,7 +232,10 @@ export default async function CityPage({ params }: CityPageProps) {
                   )}
                   {whatsapp && (
                     <a
-                      href={whatsappLink(whatsapp, `Hi, I need a quote for moving in ${cityData.name}.`)}
+                      href={whatsappLink(
+                        whatsapp,
+                        `Hi, I need a quote for moving in ${cityData.name}.`
+                      )}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 rounded-lg bg-emerald-600 px-4 py-3 text-sm font-semibold text-white transition-colors hover:bg-emerald-700"
@@ -250,7 +253,7 @@ export default async function CityPage({ params }: CityPageProps) {
 
       <section className="bg-surface">
         <div className="mx-auto max-w-7xl px-4 py-14 sm:px-6 lg:px-8">
-          <h2 className="mb-6 font-display text-2xl font-bold text-brand-950">
+          <h2 className="font-display text-brand-950 mb-6 text-2xl font-bold">
             What Customers Say in {cityData.name}
           </h2>
           {testimonials.length === 0 ? (
