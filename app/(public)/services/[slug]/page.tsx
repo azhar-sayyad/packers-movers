@@ -114,8 +114,8 @@ export default async function ServicePage({ params }: ServicePageProps) {
           </div>
 
           <div>
-            <div className="sticky top-24 rounded-xl border border-black/10 bg-white p-6 shadow-card">
-              <h3 className="mb-4 font-display text-lg font-bold text-brand-950">
+            <div className="shadow-card sticky top-24 rounded-xl border border-black/10 bg-white p-6">
+              <h3 className="font-display text-brand-950 mb-4 text-lg font-bold">
                 Available in Your City
               </h3>
               <ul className="mb-5 space-y-2">
@@ -123,7 +123,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                   <li key={city.slug}>
                     <Link
                       href={`/packers-movers/${city.slug}`}
-                      className="flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-muted transition-colors hover:bg-surface hover:text-accent-700"
+                      className="text-muted hover:bg-surface hover:text-accent-700 flex items-center gap-2 rounded-lg px-3 py-2 text-sm transition-colors"
                     >
                       <MapPin className="h-4 w-4 text-accent-600" />
                       {city.name}
