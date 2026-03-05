@@ -45,11 +45,11 @@ export default async function RequestQuotePage() {
           <CardContent>
             <QuoteForm cities={cityOptions} services={serviceOptions} />
             {settings.phone && (
-              <p className="mt-6 text-center text-sm text-muted">
+              <p className="text-muted mt-6 text-center text-sm">
                 Prefer to talk? Call us directly at{" "}
                 <a
                   href={telLink(settings.phone)}
-                  className="inline-flex items-center gap-1 font-semibold text-accent-700"
+                  className="text-accent-700 inline-flex items-center gap-1 font-semibold"
                 >
                   <Phone className="h-3.5 w-3.5" />
                   {settings.phone}
