@@ -218,13 +218,13 @@ export default async function CityPage({ params }: CityPageProps) {
             </Card>
 
             {(phone || whatsapp) && (
-              <Card className="border-emerald-200 bg-emerald-50 shadow-card">
+              <Card className="shadow-card border-emerald-200 bg-emerald-50">
                 <CardContent className="space-y-3 p-6">
                   <p className="text-sm font-semibold text-emerald-900">Prefer to talk?</p>
                   {phone && (
                     <a
                       href={telLink(phone)}
-                      className="flex items-center gap-2 rounded-lg bg-brand-950 px-4 py-3 text-sm font-semibold text-white transition-colors hover:bg-brand-900"
+                      className="bg-brand-950 hover:bg-brand-900 flex items-center gap-2 rounded-lg px-4 py-3 text-sm font-semibold text-white transition-colors"
                     >
                       <Phone className="h-4 w-4" />
                       Call {phone}
