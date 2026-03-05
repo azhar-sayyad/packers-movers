@@ -257,7 +257,7 @@ export default async function CityPage({ params }: CityPageProps) {
             What Customers Say in {cityData.name}
           </h2>
           {testimonials.length === 0 ? (
-            <p className="text-sm text-muted">No reviews yet for {cityData.name}.</p>
+            <p className="text-muted text-sm">No reviews yet for {cityData.name}.</p>
           ) : (
             <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
               {testimonials.slice(0, 3).map((t) => (
@@ -271,8 +271,8 @@ export default async function CityPage({ params }: CityPageProps) {
                         />
                       ))}
                     </div>
-                    <p className="mb-4 text-sm leading-relaxed text-muted">“{t.reviewText}”</p>
-                    <p className="text-sm font-semibold text-brand-950">{t.customerName}</p>
+                    <p className="text-muted mb-4 text-sm leading-relaxed">“{t.reviewText}”</p>
+                    <p className="text-brand-950 text-sm font-semibold">{t.customerName}</p>
                   </CardContent>
                 </Card>
               ))}
