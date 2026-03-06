@@ -9,10 +9,8 @@ export default async function AdminDashboardLayout({ children }: { children: Rea
   }
 
   return (
-    <div className="min-h-screen bg-surface">
-      <AdminSidebar
-        user={{ name: admin.name, email: admin.email }}
-      />
+    <div className="bg-surface min-h-screen">
+      <AdminSidebar user={{ name: admin.name, email: admin.email }} />
       <main className="p-4 sm:ml-64 sm:p-8">{children}</main>
     </div>
   );
