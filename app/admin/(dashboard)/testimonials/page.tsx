@@ -9,14 +9,17 @@ export default function AdminTestimonialsPage() {
     const res = await fetch("/api/admin/cities");
     const data = await res.json();
     return {
-      citySlug: (data.cities ?? []).map((c: { slug: string; name: string }) => ({ value: c.slug, label: c.name })),
+      citySlug: (data.cities ?? []).map((c: { slug: string; name: string }) => ({
+        value: c.slug,
+        label: c.name,
+      })),
     };
   }, []);
 
   return (
     <div>
-      <h1 className="mb-2 font-display text-2xl font-bold text-brand-950">Testimonials</h1>
-      <p className="mb-8 text-sm text-muted">Manage customer reviews shown across the website.</p>
+      <h1 className="font-display text-brand-950 mb-2 text-2xl font-bold">Testimonials</h1>
+      <p className="text-muted mb-8 text-sm">Manage customer reviews shown across the website.</p>
       <CrudClient
         apiPath="/api/admin/testimonials"
         onLoadData={(data) => data.testimonials}
@@ -27,7 +30,7 @@ export default function AdminTestimonialsPage() {
           {
             key: "customerName",
             label: "Customer",
-            render: (t) => <p className="font-medium text-foreground">{t.customerName}</p>,
+            render: (t) => <p className="text-foreground font-medium">{t.customerName}</p>,
           },
           {
             key: "rating",
