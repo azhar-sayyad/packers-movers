@@ -39,7 +39,7 @@ export default function AdminCitiesPage() {
             key: "localAreas",
             label: "Local Areas",
             render: (c) => (
-              <span className="max-w-56 truncate text-xs text-muted" title={c.localAreas}>
+              <span className="text-muted max-w-56 truncate text-xs" title={c.localAreas}>
                 {c.localAreas}
               </span>
             ),
@@ -56,8 +56,18 @@ export default function AdminCitiesPage() {
           { name: "state", label: "State", type: "text", placeholder: "e.g. Madhya Pradesh" },
           { name: "district", label: "District", type: "text", placeholder: "e.g. Indore" },
           { name: "description", label: "Short Description", type: "textarea", colSpan: 2 },
-          { name: "contentText", label: "Detailed Localized Content", type: "textarea", colSpan: 2 },
-          { name: "localAreas", label: "Local Areas (comma separated)", type: "textarea", colSpan: 2 },
+          {
+            name: "contentText",
+            label: "Detailed Localized Content",
+            type: "textarea",
+            colSpan: 2,
+          },
+          {
+            name: "localAreas",
+            label: "Local Areas (comma separated)",
+            type: "textarea",
+            colSpan: 2,
+          },
           { name: "phoneOverride", label: "Phone Override", type: "text" },
           { name: "whatsappOverride", label: "WhatsApp Override", type: "text" },
           { name: "metaTitle", label: "SEO Meta Title", type: "text", colSpan: 2 },
