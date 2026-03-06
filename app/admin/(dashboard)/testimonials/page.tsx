@@ -42,9 +42,27 @@ export default function AdminTestimonialsPage() {
               </span>
             ),
           },
-          { key: "citySlug", label: "City", render: (t) => <span className="text-sm text-muted">{t.citySlug || "—"}</span> },
-          { key: "reviewText", label: "Review", render: (t) => <span className="max-w-72 truncate text-xs text-muted" title={t.reviewText}>{t.reviewText}</span> },
-          { key: "isPublished", label: "Published", render: (t) => <BoolBadge value={t.isPublished} trueLabel="Published" falseLabel="Hidden" /> },
+          {
+            key: "citySlug",
+            label: "City",
+            render: (t) => <span className="text-muted text-sm">{t.citySlug || "—"}</span>,
+          },
+          {
+            key: "reviewText",
+            label: "Review",
+            render: (t) => (
+              <span className="text-muted max-w-72 truncate text-xs" title={t.reviewText}>
+                {t.reviewText}
+              </span>
+            ),
+          },
+          {
+            key: "isPublished",
+            label: "Published",
+            render: (t) => (
+              <BoolBadge value={t.isPublished} trueLabel="Published" falseLabel="Hidden" />
+            ),
+          },
         ]}
         fields={[
           { name: "customerName", label: "Customer Name", type: "text", colSpan: 2 },
