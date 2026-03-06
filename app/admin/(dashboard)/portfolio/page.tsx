@@ -49,8 +49,6 @@ export default function AdminPortfolioPage() {
             label: "Service",
             render: (p) => <span className="text-muted text-sm">{p.serviceSlug || "—"}</span>,
           },
-          { key: "citySlug", label: "City", render: (p) => <span className="text-sm text-muted">{p.citySlug || "—"}</span> },
-          { key: "serviceSlug", label: "Service", render: (p) => <span className="text-sm text-muted">{p.serviceSlug || "—"}</span> },
           { key: "tag", label: "Tag", render: (p) => <span className="text-sm">{p.tag}</span> },
           {
             key: "imageUrl",
