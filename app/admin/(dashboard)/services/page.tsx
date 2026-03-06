@@ -42,8 +42,18 @@ export default function AdminServicesPage() {
         ]}
         fields={[
           { name: "name", label: "Service Name", type: "text", colSpan: 2 },
-          { name: "slug", label: "Slug (URL)", type: "text", placeholder: "e.g. household-shifting" },
-          { name: "icon", label: "Icon (lucide name)", type: "text", placeholder: "e.g. Home, Truck, Warehouse" },
+          {
+            name: "slug",
+            label: "Slug (URL)",
+            type: "text",
+            placeholder: "e.g. household-shifting",
+          },
+          {
+            name: "icon",
+            label: "Icon (lucide name)",
+            type: "text",
+            placeholder: "e.g. Home, Truck, Warehouse",
+          },
           { name: "shortDesc", label: "Short Description", type: "textarea", colSpan: 2 },
           { name: "fullDesc", label: "Full Description", type: "textarea", colSpan: 2 },
           { name: "features", label: "Features (comma separated)", type: "textarea", colSpan: 2 },
