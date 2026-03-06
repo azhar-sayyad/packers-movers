@@ -12,15 +12,21 @@ export default function AdminPortfolioPage() {
     const citiesData = await citiesRes.json();
     const servicesData = await servicesRes.json();
     return {
-      citySlug: (citiesData.cities ?? []).map((c: { slug: string; name: string }) => ({ value: c.slug, label: c.name })),
-      serviceSlug: (servicesData.services ?? []).map((s: { slug: string; name: string }) => ({ value: s.slug, label: s.name })),
+      citySlug: (citiesData.cities ?? []).map((c: { slug: string; name: string }) => ({
+        value: c.slug,
+        label: c.name,
+      })),
+      serviceSlug: (servicesData.services ?? []).map((s: { slug: string; name: string }) => ({
+        value: s.slug,
+        label: s.name,
+      })),
     };
   }, []);
 
   return (
     <div>
-      <h1 className="mb-2 font-display text-2xl font-bold text-brand-950">Portfolio</h1>
-      <p className="mb-8 text-sm text-muted">Manage project photos and completed work gallery.</p>
+      <h1 className="font-display text-brand-950 mb-2 text-2xl font-bold">Portfolio</h1>
+      <p className="text-muted mb-8 text-sm">Manage project photos and completed work gallery.</p>
       <CrudClient
         apiPath="/api/admin/portfolio"
         onLoadData={(data) => data.portfolio}
@@ -31,7 +37,17 @@ export default function AdminPortfolioPage() {
           {
             key: "title",
             label: "Project",
-            render: (p) => <p className="font-medium text-foreground">{p.title}</p>,
+            render: (p) => <p className="text-foreground font-medium">{p.title}</p>,
+          },
+          {
+            key: "citySlug",
+            label: "City",
+            render: (p) => <span className="text-muted text-sm">{p.citySlug || "—"}</span>,
+          },
+          {
+            key: "serviceSlug",
+            label: "Service",
+            render: (p) => <span className="text-muted text-sm">{p.serviceSlug || "—"}</span>,
           },
           { key: "citySlug", label: "City", render: (p) => <span className="text-sm text-muted">{p.citySlug || "—"}</span> },
           { key: "serviceSlug", label: "Service", render: (p) => <span className="text-sm text-muted">{p.serviceSlug || "—"}</span> },
