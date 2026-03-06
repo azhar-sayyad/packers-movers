@@ -43,9 +43,9 @@ function LoginForm() {
   }
 
   return (
-    <Card className="w-full max-w-md border-black/10 shadow-card">
+    <Card className="shadow-card w-full max-w-md border-black/10">
       <CardHeader className="space-y-3 text-center">
-        <div className="mx-auto flex h-12 w-12 items-center justify-center rounded-xl bg-brand-950">
+        <div className="bg-brand-950 mx-auto flex h-12 w-12 items-center justify-center rounded-xl">
           <Lock className="h-5 w-5 text-white" />
         </div>
         <CardTitle className="text-2xl">Admin Login</CardTitle>
@@ -77,9 +77,7 @@ function LoginForm() {
               required
             />
           </div>
-          {error && (
-            <p className="rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">{error}</p>
-          )}
+          {error && <p className="rounded-lg bg-red-50 px-3 py-2 text-sm text-red-700">{error}</p>}
           <Button type="submit" className="w-full" size="lg" disabled={pending}>
             {pending ? "Signing in..." : "Sign In"}
           </Button>
