@@ -63,7 +63,12 @@ export default function AdminFaqsPage() {
         fields={[
           { name: "question", label: "Question", type: "text", colSpan: 2 },
           { name: "answer", label: "Answer", type: "textarea", colSpan: 2 },
-          { name: "category", label: "Category", type: "text", placeholder: "e.g. Pricing & Estimates" },
+          {
+            name: "category",
+            label: "Category",
+            type: "text",
+            placeholder: "e.g. Pricing & Estimates",
+          },
           { name: "citySlug", label: "City (optional)", type: "select", options: [] },
           { name: "order", label: "Order", type: "number", defaultValue: 0 },
           { name: "isPublished", label: "Published", type: "boolean", defaultValue: true },
