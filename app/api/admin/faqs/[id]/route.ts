@@ -4,10 +4,7 @@ import { requireAdmin } from "@/lib/admin-auth";
 import { faqSchema } from "@/lib/validations";
 import { revalidatePublicSite } from "@/lib/revalidate";
 
-export async function PUT(
-  request: NextRequest,
-  { params }: { params: Promise<{ id: string }> }
-) {
+export async function PUT(request: NextRequest, { params }: { params: Promise<{ id: string }> }) {
   const { error } = await requireAdmin();
   if (error) return error;
 
@@ -15,7 +12,10 @@ export async function PUT(
   const body = await request.json();
   const result = faqSchema.partial().safeParse(body);
   if (!result.success) {
-    return NextResponse.json({ error: "Invalid input", details: result.error.issues }, { status: 400 });
+    return NextResponse.json(
+      { error: "Invalid input", details: result.error.issues },
+      { status: 400 }
+    );
   }
 
   const data: Record<string, unknown> = { ...result.data };
@@ -27,7 +27,7 @@ export async function PUT(
 }
 
 export async function DELETE(
-  request: NextRequest,
+  _request: NextRequest,
   { params }: { params: Promise<{ id: string }> }
 ) {
   const { error } = await requireAdmin();
