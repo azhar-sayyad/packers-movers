@@ -19,7 +19,10 @@ export async function POST(request: NextRequest) {
   const body = await request.json();
   const result = citySchema.safeParse(body);
   if (!result.success) {
-    return NextResponse.json({ error: "Invalid input", details: result.error.issues }, { status: 400 });
+    return NextResponse.json(
+      { error: "Invalid input", details: result.error.issues },
+      { status: 400 }
+    );
   }
 
   const city = await prisma.city.create({ data: result.data });
