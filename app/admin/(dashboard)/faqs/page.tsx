@@ -8,14 +8,19 @@ export default function AdminFaqsPage() {
     const res = await fetch("/api/admin/cities");
     const data = await res.json();
     return {
-      citySlug: (data.cities ?? []).map((c: { slug: string; name: string }) => ({ value: c.slug, label: c.name })),
+      citySlug: (data.cities ?? []).map((c: { slug: string; name: string }) => ({
+        value: c.slug,
+        label: c.name,
+      })),
     };
   }, []);
 
   return (
     <div>
-      <h1 className="mb-2 font-display text-2xl font-bold text-brand-950">FAQs</h1>
-      <p className="mb-8 text-sm text-muted">Manage frequently asked questions and their ordering.</p>
+      <h1 className="font-display text-brand-950 mb-2 text-2xl font-bold">FAQs</h1>
+      <p className="text-muted mb-8 text-sm">
+        Manage frequently asked questions and their ordering.
+      </p>
       <CrudClient
         apiPath="/api/admin/faqs"
         onLoadData={(data) => data.faqs}
@@ -23,11 +28,37 @@ export default function AdminFaqsPage() {
         description="Add, edit, or reorder frequently asked questions."
         loadOptions={loadOptions}
         columns={[
-          { key: "order", label: "Order", render: (f) => <span className="text-sm font-medium text-muted">{f.order}</span> },
-          { key: "question", label: "Question", render: (f) => <span className="max-w-72 truncate font-medium text-foreground" title={f.question}>{f.question}</span> },
-          { key: "category", label: "Category", render: (f) => <span className="text-sm">{f.category}</span> },
-          { key: "citySlug", label: "City", render: (f) => <span className="text-sm text-muted">{f.citySlug || "General"}</span> },
-          { key: "isPublished", label: "Published", render: (f) => <BoolBadge value={f.isPublished} trueLabel="Published" falseLabel="Hidden" /> },
+          {
+            key: "order",
+            label: "Order",
+            render: (f) => <span className="text-muted text-sm font-medium">{f.order}</span>,
+          },
+          {
+            key: "question",
+            label: "Question",
+            render: (f) => (
+              <span className="text-foreground max-w-72 truncate font-medium" title={f.question}>
+                {f.question}
+              </span>
+            ),
+          },
+          {
+            key: "category",
+            label: "Category",
+            render: (f) => <span className="text-sm">{f.category}</span>,
+          },
+          {
+            key: "citySlug",
+            label: "City",
+            render: (f) => <span className="text-muted text-sm">{f.citySlug || "General"}</span>,
+          },
+          {
+            key: "isPublished",
+            label: "Published",
+            render: (f) => (
+              <BoolBadge value={f.isPublished} trueLabel="Published" falseLabel="Hidden" />
+            ),
+          },
         ]}
         fields={[
           { name: "question", label: "Question", type: "text", colSpan: 2 },
