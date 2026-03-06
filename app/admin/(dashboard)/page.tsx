@@ -63,11 +63,11 @@ export default async function AdminDashboardPage() {
           return (
             <Card key={stat.label}>
               <CardHeader className="flex flex-row items-center justify-between space-y-0 pb-2">
-                <CardTitle className="text-sm font-medium text-muted">{stat.label}</CardTitle>
+                <CardTitle className="text-muted text-sm font-medium">{stat.label}</CardTitle>
                 <Icon className={`h-4 w-4 ${stat.color}`} />
               </CardHeader>
               <CardContent>
-                <p className="font-display text-3xl font-bold text-brand-950">{stat.value}</p>
+                <p className="font-display text-brand-950 text-3xl font-bold">{stat.value}</p>
               </CardContent>
             </Card>
           );
@@ -80,7 +80,7 @@ export default async function AdminDashboardPage() {
         </CardHeader>
         <CardContent>
           {recentInquiries.length === 0 ? (
-            <p className="text-sm text-muted">No inquiries yet.</p>
+            <p className="text-muted text-sm">No inquiries yet.</p>
           ) : (
             <div className="space-y-3">
               {recentInquiries.map((inquiry) => (
