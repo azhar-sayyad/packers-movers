@@ -89,19 +89,19 @@ export default async function AdminDashboardPage() {
                   className="flex flex-col gap-2 rounded-lg border border-black/[0.06] p-4 sm:flex-row sm:items-center sm:justify-between"
                 >
                   <div className="min-w-0">
-                    <p className="text-sm font-semibold text-foreground">{inquiry.name}</p>
-                    <p className="text-xs text-muted">
+                    <p className="text-foreground text-sm font-semibold">{inquiry.name}</p>
+                    <p className="text-muted text-xs">
                       {inquiry.moveFrom} → {inquiry.moveTo} · {inquiry.phone}
                     </p>
                   </div>
                   <div className="flex items-center gap-3">
                     <Badge
                       variant="outline"
-                      className={statusStyles[inquiry.status] ?? "border-black/15 text-muted"}
+                      className={statusStyles[inquiry.status] ?? "text-muted border-black/15"}
                     >
                       {inquiry.status.replace("_", " ")}
                     </Badge>
-                    <span className="whitespace-nowrap text-xs text-faint">
+                    <span className="text-faint text-xs whitespace-nowrap">
                       {formatDistanceToNow(inquiry.createdAt)}
                     </span>
                   </div>
