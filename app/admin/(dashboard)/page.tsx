@@ -29,13 +29,19 @@ export default async function AdminDashboardPage() {
       }),
     ]);
 
-  const conversionRate = totalInquiries > 0 ? Math.round((convertedInquiries / totalInquiries) * 100) : 0;
+  const conversionRate =
+    totalInquiries > 0 ? Math.round((convertedInquiries / totalInquiries) * 100) : 0;
 
   const stats = [
     { label: "Total Inquiries", value: totalInquiries, icon: Inbox, color: "text-sky-600" },
     { label: "Today's Inquiries", value: todayInquiries, icon: Calendar, color: "text-accent-600" },
     { label: "Active Cities", value: activeCities, icon: MapPin, color: "text-emerald-600" },
-    { label: "Conversion Rate", value: `${conversionRate}%`, icon: TrendingUp, color: "text-violet-600" },
+    {
+      label: "Conversion Rate",
+      value: `${conversionRate}%`,
+      icon: TrendingUp,
+      color: "text-violet-600",
+    },
   ];
 
   const statusStyles: Record<string, string> = {
@@ -48,8 +54,8 @@ export default async function AdminDashboardPage() {
 
   return (
     <div>
-      <h1 className="mb-2 font-display text-2xl font-bold text-brand-950">Dashboard</h1>
-      <p className="mb-8 text-sm text-muted">Overview of your lead pipeline and active coverage.</p>
+      <h1 className="font-display text-brand-950 mb-2 text-2xl font-bold">Dashboard</h1>
+      <p className="text-muted mb-8 text-sm">Overview of your lead pipeline and active coverage.</p>
 
       <div className="mb-8 grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
         {stats.map((stat) => {
