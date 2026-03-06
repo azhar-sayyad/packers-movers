@@ -3,10 +3,8 @@ import { InquiriesClient } from "@/components/admin/inquiries-client";
 export default function AdminInquiriesPage() {
   return (
     <div>
-      <h1 className="mb-2 font-display text-2xl font-bold text-brand-950">Inquiries</h1>
-      <p className="mb-8 text-sm text-muted">
-        Search, filter, and manage your inbound leads.
-      </p>
+      <h1 className="font-display text-brand-950 mb-2 text-2xl font-bold">Inquiries</h1>
+      <p className="text-muted mb-8 text-sm">Search, filter, and manage your inbound leads.</p>
       <InquiriesClient />
     </div>
   );
