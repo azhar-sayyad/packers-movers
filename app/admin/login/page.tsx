@@ -89,7 +89,7 @@ function LoginForm() {
 
 export default function AdminLoginPage() {
   return (
-    <div className="flex min-h-screen items-center justify-center bg-surface p-4">
+    <div className="bg-surface flex min-h-screen items-center justify-center p-4">
       <Suspense>
         <LoginForm />
       </Suspense>
