@@ -85,7 +85,7 @@ export function CrudClient<T extends Record<string, any>>({
   const load = useCallback(async () => {
     const res = await fetch(apiPath);
     const data = await res.json();
-    const items = onLoadData ? onLoadData(data) : (data.items as T[] | undefined) ?? [];
+    const items = onLoadData ? onLoadData(data) : ((data.items as T[] | undefined) ?? []);
     setItems(items);
     setLoading(false);
   }, [apiPath, onLoadData]);
@@ -117,7 +117,7 @@ export function CrudClient<T extends Record<string, any>>({
     for (const f of fields) {
       initial[f.name] =
         f.type === "number"
-          ? (Number(item[f.name]) || 0)
+          ? Number(item[f.name]) || 0
           : f.type === "boolean"
             ? Boolean(item[f.name])
             : (item[f.name] ?? "");
