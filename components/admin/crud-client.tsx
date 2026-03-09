@@ -196,7 +196,12 @@ export function CrudClient<T extends Record<string, any>>({
                   ))}
                   <TableCell className="text-right">
                     <div className="flex justify-end gap-1">
-                      <Button variant="ghost" size="icon" onClick={() => openEdit(item)} aria-label="Edit">
+                      <Button
+                        variant="ghost"
+                        size="icon"
+                        onClick={() => openEdit(item)}
+                        aria-label="Edit"
+                      >
                         <Pencil className="h-4 w-4" />
                       </Button>
                       <Button
@@ -220,7 +225,9 @@ export function CrudClient<T extends Record<string, any>>({
       <Dialog open={open} onOpenChange={setOpen}>
         <DialogContent className="max-w-2xl">
           <DialogHeader>
-            <DialogTitle>{editing ? "Edit" : "Add"} {title}</DialogTitle>
+            <DialogTitle>
+              {editing ? "Edit" : "Add"} {title}
+            </DialogTitle>
             <DialogDescription>Fill in the details below.</DialogDescription>
           </DialogHeader>
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
