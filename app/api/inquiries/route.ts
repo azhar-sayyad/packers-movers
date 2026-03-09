@@ -8,7 +8,10 @@ export async function POST(request: NextRequest) {
   const ip = forwardedIp ? forwardedIp.split(",")[0].trim() : "unknown";
 
   if (!checkRateLimit(ip).success) {
-    return NextResponse.json({ error: "Too many requests. Please try again later." }, { status: 429 });
+    return NextResponse.json(
+      { error: "Too many requests. Please try again later." },
+      { status: 429 }
+    );
   }
 
   let body: unknown;
@@ -20,7 +23,10 @@ export async function POST(request: NextRequest) {
 
   const result = inquirySchema.safeParse(body);
   if (!result.success) {
-    return NextResponse.json({ error: "Please fill in the required fields correctly." }, { status: 400 });
+    return NextResponse.json(
+      { error: "Please fill in the required fields correctly." },
+      { status: 400 }
+    );
   }
 
   // Honeypot anti-spam: silently accept but discard bots
