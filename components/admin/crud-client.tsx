@@ -164,8 +164,8 @@ export function CrudClient<T extends Record<string, any>>({
     <div>
       <div className="mb-5 flex items-center justify-between">
         <div>
-          <h2 className="font-display text-lg font-semibold text-brand-950">{title}</h2>
-          <p className="text-sm text-muted">{description}</p>
+          <h2 className="font-display text-brand-950 text-lg font-semibold">{title}</h2>
+          <p className="text-muted text-sm">{description}</p>
         </div>
         <Button onClick={openCreate}>
           <Plus className="h-4 w-4" />
@@ -173,7 +173,7 @@ export function CrudClient<T extends Record<string, any>>({
         </Button>
       </div>
 
-      <div className="rounded-xl border border-black/10 bg-white shadow-card">
+      <div className="shadow-card rounded-xl border border-black/10 bg-white">
         {loading && items.length === 0 ? (
           <p className="p-8 text-center text-sm text-muted">Loading...</p>
         ) : items.length === 0 ? (
