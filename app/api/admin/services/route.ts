@@ -19,7 +19,10 @@ export async function POST(request: NextRequest) {
   const body = await request.json();
   const result = serviceSchema.safeParse(body);
   if (!result.success) {
-    return NextResponse.json({ error: "Invalid input", details: result.error.issues }, { status: 400 });
+    return NextResponse.json(
+      { error: "Invalid input", details: result.error.issues },
+      { status: 400 }
+    );
   }
 
   const service = await prisma.service.create({ data: result.data });
