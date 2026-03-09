@@ -175,9 +175,9 @@ export function CrudClient<T extends Record<string, any>>({
 
       <div className="shadow-card rounded-xl border border-black/10 bg-white">
         {loading && items.length === 0 ? (
-          <p className="p-8 text-center text-sm text-muted">Loading...</p>
+          <p className="text-muted p-8 text-center text-sm">Loading...</p>
         ) : items.length === 0 ? (
-          <p className="p-8 text-center text-sm text-muted">No records yet.</p>
+          <p className="text-muted p-8 text-center text-sm">No records yet.</p>
         ) : (
           <Table>
             <TableHeader>
