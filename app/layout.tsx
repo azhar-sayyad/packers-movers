@@ -39,7 +39,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       data-scroll-behavior="smooth"
       className={`${sansFont.variable} ${monoFont.variable} ${editorialFont.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col bg-white text-foreground selection:bg-proof selection:text-proof-ink">
+      <body className="text-foreground selection:bg-proof selection:text-proof-ink flex min-h-full flex-col bg-white">
         <noscript>
           <style>{`[style*="opacity: 0"] { opacity: 1 !important; transform: none !important; }`}</style>
         </noscript>
