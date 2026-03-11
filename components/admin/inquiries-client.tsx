@@ -164,12 +164,12 @@ export function InquiriesClient() {
               {inquiries.map((inquiry) => (
                 <TableRow key={inquiry.id}>
                   <TableCell>
-                    <p className="font-medium text-foreground">{inquiry.name}</p>
-                    <p className="text-xs text-muted">{inquiry.phone}</p>
+                    <p className="text-foreground font-medium">{inquiry.name}</p>
+                    <p className="text-muted text-xs">{inquiry.phone}</p>
                   </TableCell>
                   <TableCell>
                     <p className="text-sm">{inquiry.moveFrom}</p>
-                    <p className="text-xs text-muted">→ {inquiry.moveTo}</p>
+                    <p className="text-muted text-xs">→ {inquiry.moveTo}</p>
                   </TableCell>
                   <TableCell className="text-sm">{inquiry.serviceType}</TableCell>
                   <TableCell>
