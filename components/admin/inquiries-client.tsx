@@ -246,8 +246,10 @@ export function InquiriesClient() {
                 )}
               </div>
 
-              <div className="rounded-lg bg-surface p-4">
-                <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted">Attribution</p>
+              <div className="bg-surface rounded-lg p-4">
+                <p className="text-muted mb-2 text-xs font-semibold tracking-wide uppercase">
+                  Attribution
+                </p>
                 <div className="grid gap-x-4 gap-y-1 text-sm sm:grid-cols-2">
                   <p className="text-muted">
                     <span className="text-faint">Landing:</span> {selected.landingPage || "—"}
@@ -257,7 +259,9 @@ export function InquiriesClient() {
                   </p>
                   <p className="text-muted">
                     <span className="text-faint">UTM:</span>{" "}
-                    {[selected.utmSource, selected.utmMedium, selected.utmCampaign].filter(Boolean).join(" / ") || "—"}
+                    {[selected.utmSource, selected.utmMedium, selected.utmCampaign]
+                      .filter(Boolean)
+                      .join(" / ") || "—"}
                   </p>
                   <p className="text-muted">
                     <span className="text-faint">IP:</span> {selected.ipAddress || "—"}
