@@ -233,13 +233,15 @@ export function InquiriesClient() {
                     <p className="text-muted text-sm">Move date: {selected.moveDate}</p>
                   )}
                   {selected.propertyType && (
-                    <p className="text-sm text-muted">Property: {selected.propertyType}</p>
+                    <p className="text-muted text-sm">Property: {selected.propertyType}</p>
                   )}
                 </div>
                 {selected.message && (
                   <div className="sm:col-span-2">
-                    <p className="text-xs font-medium uppercase tracking-wide text-faint">Message</p>
-                    <p className="text-sm text-muted">{selected.message}</p>
+                    <p className="text-faint text-xs font-medium tracking-wide uppercase">
+                      Message
+                    </p>
+                    <p className="text-muted text-sm">{selected.message}</p>
                   </div>
                 )}
               </div>
