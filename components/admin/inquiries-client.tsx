@@ -133,7 +133,7 @@ export function InquiriesClient() {
           ))}
         </div>
         <div className="relative">
-          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-faint" />
+          <Search className="text-faint absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2" />
           <Input
             placeholder="Search name, phone, city..."
             value={search}
@@ -143,7 +143,7 @@ export function InquiriesClient() {
         </div>
       </div>
 
-      <div className="rounded-xl border border-black/10 bg-white shadow-card">
+      <div className="shadow-card rounded-xl border border-black/10 bg-white">
         {loading && inquiries.length === 0 ? (
           <p className="p-8 text-center text-sm text-muted">Loading inquiries...</p>
         ) : inquiries.length === 0 ? (
