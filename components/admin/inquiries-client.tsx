@@ -30,16 +30,10 @@ import {
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { formatDistanceToNow } from "@/lib/format";
+import { INQUIRY_STATUSES } from "@/lib/constants";
+import { StatusBadge } from "@/components/common/status-badge";
 
-const STATUSES = ["NEW", "CONTACTED", "QUOTATION_SENT", "CONVERTED", "CLOSED"] as const;
-
-const statusStyles: Record<string, string> = {
-  NEW: "bg-sky-100 text-sky-800",
-  CONTACTED: "bg-blue-100 text-blue-800",
-  QUOTATION_SENT: "bg-amber-100 text-amber-800",
-  CONVERTED: "bg-emerald-100 text-emerald-800",
-  CLOSED: "bg-surface-secondary text-muted",
-};
+const STATUSES = INQUIRY_STATUSES;
 
 interface Inquiry {
   id: string;
