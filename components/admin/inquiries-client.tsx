@@ -145,9 +145,9 @@ export function InquiriesClient() {
 
       <div className="shadow-card rounded-xl border border-black/10 bg-white">
         {loading && inquiries.length === 0 ? (
-          <p className="p-8 text-center text-sm text-muted">Loading inquiries...</p>
+          <p className="text-muted p-8 text-center text-sm">Loading inquiries...</p>
         ) : inquiries.length === 0 ? (
-          <p className="p-8 text-center text-sm text-muted">No inquiries found.</p>
+          <p className="text-muted p-8 text-center text-sm">No inquiries found.</p>
         ) : (
           <Table>
             <TableHeader>
