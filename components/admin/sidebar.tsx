@@ -106,7 +106,11 @@ export function AdminSidebar({ user }: { user: { name: string; email: string } }
             <p className="text-foreground truncate text-sm font-semibold">{user.name}</p>
             <p className="text-muted truncate text-xs">{user.email}</p>
           </div>
-          <Button variant="ghost" className="w-full justify-start text-muted" onClick={handleLogout}>
+          <Button
+            variant="ghost"
+            className="text-muted w-full justify-start"
+            onClick={handleLogout}
+          >
             <LogOut className="h-4 w-4" />
             Logout
           </Button>
