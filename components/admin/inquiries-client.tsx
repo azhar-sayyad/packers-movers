@@ -173,11 +173,9 @@ export function InquiriesClient() {
                   </TableCell>
                   <TableCell className="text-sm">{inquiry.serviceType}</TableCell>
                   <TableCell>
-                    <Badge variant="outline" className={statusStyles[inquiry.status]}>
-                      {inquiry.status.replace("_", " ")}
-                    </Badge>
+                    <StatusBadge status={inquiry.status} />
                   </TableCell>
-                  <TableCell className="text-xs text-muted">
+                  <TableCell className="text-muted text-xs">
                     {formatDistanceToNow(new Date(inquiry.createdAt))}
                   </TableCell>
                   <TableCell className="text-right">
