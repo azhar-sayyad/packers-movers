@@ -50,12 +50,12 @@ export function AdminSidebar({ user }: { user: { name: string; email: string } }
       {/* Mobile top bar */}
       <header className="fixed inset-x-0 top-0 z-40 flex h-14 items-center justify-between border-b border-black/10 bg-white px-4 sm:hidden">
         <div className="flex items-center gap-2">
-          <PackageOpen className="h-5 w-5 text-accent-600" />
-          <span className="font-display text-sm font-bold text-brand-950">Admin Panel</span>
+          <PackageOpen className="text-accent-600 h-5 w-5" />
+          <span className="font-display text-brand-950 text-sm font-bold">Admin Panel</span>
         </div>
         <button
           onClick={() => setOpen(!open)}
-          className="rounded-md p-2 text-muted hover:bg-black/[0.04]"
+          className="text-muted rounded-md p-2 hover:bg-black/[0.04]"
           aria-label="Toggle menu"
         >
           {open ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
@@ -70,7 +70,7 @@ export function AdminSidebar({ user }: { user: { name: string; email: string } }
         )}
       >
         <div className="flex h-14 items-center gap-2 border-b border-black/10 px-4">
-          <PackageOpen className="h-6 w-6 text-accent-600" />
+          <PackageOpen className="text-accent-600 h-6 w-6" />
           <div>
             <p className="font-display text-sm font-bold leading-tight text-brand-950">Packers & Movers</p>
             <p className="text-xs text-muted">Admin Panel</p>
