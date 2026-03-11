@@ -34,8 +34,8 @@ export function FaqSearch({ faqs }: { faqs: Faq[] }) {
 
   return (
     <div>
-      <div className="relative mb-8 max-w-xl mx-auto">
-        <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-faint" />
+      <div className="relative mx-auto mb-8 max-w-xl">
+        <Search className="text-faint absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2" />
         <Input
           value={query}
           onChange={(e) => setQuery(e.target.value)}
@@ -45,7 +45,7 @@ export function FaqSearch({ faqs }: { faqs: Faq[] }) {
       </div>
 
       {filtered.length === 0 ? (
-        <p className="rounded-xl border border-black/10 bg-white p-10 text-center text-sm text-muted">
+        <p className="text-muted rounded-xl border border-black/10 bg-white p-10 text-center text-sm">
           No answers match your search.
         </p>
       ) : (
@@ -56,7 +56,7 @@ export function FaqSearch({ faqs }: { faqs: Faq[] }) {
                 <span className="text-left">{faq.question}</span>
               </AccordionTrigger>
               <AccordionContent>
-                <div className="mb-1 text-xs font-semibold uppercase tracking-wide text-accent-600">
+                <div className="text-accent-600 mb-1 text-xs font-semibold tracking-wide uppercase">
                   {faq.category}
                 </div>
                 {faq.answer}
