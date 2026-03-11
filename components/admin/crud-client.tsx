@@ -234,7 +234,10 @@ export function CrudClient<T extends Record<string, any>>({
             {fields.map((field) => {
               const fieldOptions = field.options ?? options[field.name];
               return (
-                <div key={field.name} className={cn(field.colSpan === 2 && "sm:col-span-2", "space-y-2")}>
+                <div
+                  key={field.name}
+                  className={cn(field.colSpan === 2 && "sm:col-span-2", "space-y-2")}
+                >
                   <Label>{field.label}</Label>
                   {field.type === "textarea" ? (
                     <Textarea
@@ -297,7 +300,15 @@ export function CrudClient<T extends Record<string, any>>({
   );
 }
 
-export function BoolBadge({ value, trueLabel = "Active", falseLabel = "Inactive" }: { value: boolean; trueLabel?: string; falseLabel?: string }) {
+export function BoolBadge({
+  value,
+  trueLabel = "Active",
+  falseLabel = "Inactive",
+}: {
+  value: boolean;
+  trueLabel?: string;
+  falseLabel?: string;
+}) {
   return value ? (
     <Badge variant="success">{trueLabel}</Badge>
   ) : (
