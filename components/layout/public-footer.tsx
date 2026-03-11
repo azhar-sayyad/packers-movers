@@ -30,13 +30,16 @@ export function PublicFooter({ settings, cities, services }: FooterProps) {
         </div>
 
         <div>
-          <h3 className="mb-4 font-display text-sm font-semibold uppercase tracking-wider text-foreground">
+          <h3 className="font-display text-foreground mb-4 text-sm font-semibold tracking-wider uppercase">
             Services
           </h3>
           <ul className="space-y-2.5 text-sm">
             {services.slice(0, 6).map((s) => (
               <li key={s.slug}>
-                <Link href={`/services/${s.slug}`} className="text-muted transition-colors hover:text-brand-700">
+                <Link
+                  href={`/services/${s.slug}`}
+                  className="text-muted hover:text-brand-700 transition-colors"
+                >
                   {s.name}
                 </Link>
               </li>
