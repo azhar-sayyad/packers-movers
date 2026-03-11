@@ -55,7 +55,7 @@ export function SettingsClient() {
     setTimeout(() => setSaved(false), 2000);
   }
 
-  if (loading) return <p className="text-sm text-muted">Loading settings...</p>;
+  if (loading) return <p className="text-muted text-sm">Loading settings...</p>;
 
   return (
     <Card className="max-w-2xl">
