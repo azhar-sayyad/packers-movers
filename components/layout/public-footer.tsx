@@ -12,12 +12,12 @@ export function PublicFooter({ settings, cities, services }: FooterProps) {
   const phone = settings.phone;
 
   return (
-    <footer className="border-t border-black/10 bg-surface text-muted">
+    <footer className="bg-surface text-muted border-t border-black/10">
       <div className="mx-auto grid max-w-7xl gap-10 px-4 py-14 sm:grid-cols-2 sm:px-6 lg:grid-cols-4 lg:px-8">
         <div>
           <div className="mb-4 flex items-center gap-2">
-            <span className="flex h-9 w-9 items-center justify-center rounded-lg bg-accent-100 ring-1 ring-accent-200">
-              <PackageOpen className="h-5 w-5 text-brand-700" />
+            <span className="bg-accent-100 ring-accent-200 flex h-9 w-9 items-center justify-center rounded-lg ring-1">
+              <PackageOpen className="text-brand-700 h-5 w-5" />
             </span>
             <span className="font-display text-lg font-bold tracking-tight text-foreground">
               Packers<span className="text-brand-600">&</span>Movers
