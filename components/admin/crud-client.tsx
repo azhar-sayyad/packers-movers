@@ -312,7 +312,7 @@ export function BoolBadge({
   return value ? (
     <Badge variant="success">{trueLabel}</Badge>
   ) : (
-    <Badge variant="outline" className="border-black/15 text-muted">
+    <Badge variant="outline" className="text-muted border-black/15">
       {falseLabel}
     </Badge>
   );
