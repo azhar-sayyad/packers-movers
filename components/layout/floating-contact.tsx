@@ -6,7 +6,7 @@ export function FloatingContact({ phone, whatsapp }: { phone?: string; whatsapp?
   const waLink = whatsappLink(whatsapp ?? phone ?? "");
 
   return (
-    <div className="fixed bottom-6 right-6 z-40 hidden flex-col gap-3 md:flex">
+    <div className="fixed right-6 bottom-6 z-40 hidden flex-col gap-3 md:flex">
       {waLink && (
         <a
           href={waLink}
@@ -22,7 +22,7 @@ export function FloatingContact({ phone, whatsapp }: { phone?: string; whatsapp?
         <a
           href={telLink(phone)}
           title="Call us"
-          className="flex h-13 w-13 items-center justify-center rounded-full bg-cta text-proof-ink shadow-lg shadow-cta/30 transition-all hover:-translate-y-0.5 hover:bg-cta-dark"
+          className="bg-cta text-proof-ink shadow-cta/30 hover:bg-cta-dark flex h-13 w-13 items-center justify-center rounded-full shadow-lg transition-all hover:-translate-y-0.5"
         >
           <Phone className="h-6 w-6" />
         </a>
