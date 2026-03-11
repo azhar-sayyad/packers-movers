@@ -19,11 +19,11 @@ export function PublicFooter({ settings, cities, services }: FooterProps) {
             <span className="bg-accent-100 ring-accent-200 flex h-9 w-9 items-center justify-center rounded-lg ring-1">
               <PackageOpen className="text-brand-700 h-5 w-5" />
             </span>
-            <span className="font-display text-lg font-bold tracking-tight text-foreground">
+            <span className="font-display text-foreground text-lg font-bold tracking-tight">
               Packers<span className="text-brand-600">&</span>Movers
             </span>
           </div>
-          <p className="text-sm leading-relaxed text-muted">
+          <p className="text-muted text-sm leading-relaxed">
             Trusted relocation services across Madhya Pradesh and Maharashtra. Home shifting, office
             relocation, vehicle transport and warehousing — done right.
           </p>
