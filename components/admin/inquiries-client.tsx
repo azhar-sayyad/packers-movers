@@ -180,7 +180,12 @@ export function InquiriesClient() {
                   </TableCell>
                   <TableCell className="text-right">
                     <div className="flex justify-end gap-1">
-                      <Button variant="ghost" size="icon" onClick={() => openInquiry(inquiry)} aria-label="View details">
+                      <Button
+                        variant="ghost"
+                        size="icon"
+                        onClick={() => openInquiry(inquiry)}
+                        aria-label="View details"
+                      >
                         <Eye className="h-4 w-4" />
                       </Button>
                       <Button
@@ -215,9 +220,9 @@ export function InquiriesClient() {
               </DialogHeader>
               <div className="grid gap-4 sm:grid-cols-2">
                 <div>
-                  <p className="text-xs font-medium uppercase tracking-wide text-faint">Contact</p>
-                  <p className="text-sm font-medium text-foreground">{selected.phone}</p>
-                  {selected.email && <p className="text-sm text-muted">{selected.email}</p>}
+                  <p className="text-faint text-xs font-medium tracking-wide uppercase">Contact</p>
+                  <p className="text-foreground text-sm font-medium">{selected.phone}</p>
+                  {selected.email && <p className="text-muted text-sm">{selected.email}</p>}
                 </div>
                 <div>
                   <p className="text-xs font-medium uppercase tracking-wide text-faint">Details</p>
