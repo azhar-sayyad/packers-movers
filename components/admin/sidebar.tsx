@@ -72,8 +72,10 @@ export function AdminSidebar({ user }: { user: { name: string; email: string } }
         <div className="flex h-14 items-center gap-2 border-b border-black/10 px-4">
           <PackageOpen className="text-accent-600 h-6 w-6" />
           <div>
-            <p className="font-display text-sm font-bold leading-tight text-brand-950">Packers & Movers</p>
-            <p className="text-xs text-muted">Admin Panel</p>
+            <p className="font-display text-brand-950 text-sm leading-tight font-bold">
+              Packers & Movers
+            </p>
+            <p className="text-muted text-xs">Admin Panel</p>
           </div>
         </div>
 
@@ -89,7 +91,7 @@ export function AdminSidebar({ user }: { user: { name: string; email: string } }
                   "flex items-center gap-3 rounded-lg px-3 py-2 text-sm font-medium transition-colors",
                   isActive(item.href)
                     ? "bg-brand-950 text-white"
-                    : "text-muted hover:bg-black/[0.04] hover:text-foreground"
+                    : "text-muted hover:text-foreground hover:bg-black/[0.04]"
                 )}
               >
                 <Icon className="h-4 w-4 shrink-0" />
@@ -100,9 +102,9 @@ export function AdminSidebar({ user }: { user: { name: string; email: string } }
         </nav>
 
         <div className="border-t border-black/10 p-3">
-          <div className="mb-2 rounded-lg bg-surface px-3 py-2">
-            <p className="truncate text-sm font-semibold text-foreground">{user.name}</p>
-            <p className="truncate text-xs text-muted">{user.email}</p>
+          <div className="bg-surface mb-2 rounded-lg px-3 py-2">
+            <p className="text-foreground truncate text-sm font-semibold">{user.name}</p>
+            <p className="text-muted truncate text-xs">{user.email}</p>
           </div>
           <Button variant="ghost" className="w-full justify-start text-muted" onClick={handleLogout}>
             <LogOut className="h-4 w-4" />
