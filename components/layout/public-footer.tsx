@@ -66,10 +66,10 @@ export function PublicFooter({ settings, cities, services }: FooterProps) {
         </div>
 
         <div>
-          <h3 className="mb-4 font-display text-sm font-semibold uppercase tracking-wider text-foreground">
+          <h3 className="font-display text-foreground mb-4 text-sm font-semibold tracking-wider uppercase">
             Contact
           </h3>
-          <ul className="space-y-3 text-sm text-muted">
+          <ul className="text-muted space-y-3 text-sm">
             {settings.address && (
               <li className="flex items-start gap-3">
                 <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-brand-600" />
