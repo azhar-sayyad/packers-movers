@@ -380,11 +380,14 @@ export function PublicHeader({
               >
                 Locations
                 <ChevronDown
-                  className={cn("h-4 w-4 transition-transform duration-200", mobileOpen === "locations" && "rotate-180")}
+                  className={cn(
+                    "h-4 w-4 transition-transform duration-200",
+                    mobileOpen === "locations" && "rotate-180"
+                  )}
                 />
               </button>
               {mobileOpen === "locations" && (
-                <div className="mt-1 space-y-1 border-l-2 border-accent-100 pb-1 pl-3">
+                <div className="border-accent-100 mt-1 space-y-1 border-l-2 pb-1 pl-3">
                   {cities.map((city) => (
                     <Link
                       key={city.slug}
