@@ -358,7 +358,10 @@ export function PublicHeader({
                       {service.name}
                     </Link>
                   ))}
-                  <Link href="/services" className="block rounded-lg px-3 py-2 text-sm font-semibold text-accent-700">
+                  <Link
+                    href="/services"
+                    className="text-accent-700 block rounded-lg px-3 py-2 text-sm font-semibold"
+                  >
                     View all services
                   </Link>
                 </div>
@@ -370,7 +373,9 @@ export function PublicHeader({
                 onClick={() => setMobileOpen(mobileOpen === "locations" ? null : "locations")}
                 className={cn(
                   "flex w-full items-center justify-between rounded-lg px-3 py-2.5 text-sm font-medium transition-colors",
-                  locationsActive ? "bg-accent-50 text-accent-700" : "text-muted hover:bg-black/[0.04]"
+                  locationsActive
+                    ? "bg-accent-50 text-accent-700"
+                    : "text-muted hover:bg-black/[0.04]"
                 )}
               >
                 Locations
