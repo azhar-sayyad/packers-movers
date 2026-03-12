@@ -140,7 +140,7 @@ export function PublicHeader({
                     ? "text-accent-700"
                     : "text-accent-400"
                   : solid
-                    ? "text-muted hover:bg-black/[0.04] hover:text-foreground"
+                    ? "text-muted hover:text-foreground hover:bg-black/[0.04]"
                     : "text-white/80 hover:bg-white/10 hover:text-white"
               )}
             >
@@ -154,7 +154,7 @@ export function PublicHeader({
             </Link>
             <div
               className={cn(
-                "absolute left-0 top-full z-50 w-[34rem] transition-all duration-200",
+                "absolute top-full left-0 z-50 w-[34rem] transition-all duration-200",
                 openMenu === "services"
                   ? "visible translate-y-0 opacity-100"
                   : "invisible translate-y-1 opacity-0"
