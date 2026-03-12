@@ -179,7 +179,9 @@ export function PublicHeader({
                             {service.name}
                           </span>
                           {service.shortDesc && (
-                            <span className="mt-1 block text-xs leading-snug text-muted">{service.shortDesc}</span>
+                            <span className="text-muted mt-1 block text-xs leading-snug">
+                              {service.shortDesc}
+                            </span>
                           )}
                         </span>
                       </Link>
@@ -188,7 +190,7 @@ export function PublicHeader({
                 </div>
                 <Link
                   href="/services"
-                  className="group/foot flex items-center justify-between border-t border-black/[0.06] px-5 py-3 text-sm font-semibold text-accent-700 transition-colors hover:bg-accent-50"
+                  className="group/foot text-accent-700 hover:bg-accent-50 flex items-center justify-between border-t border-black/[0.06] px-5 py-3 text-sm font-semibold transition-colors"
                 >
                   View all services
                   <ArrowRight className="h-4 w-4 transition-transform group-hover/foot:translate-x-1" />
