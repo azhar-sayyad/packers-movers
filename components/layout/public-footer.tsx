@@ -86,15 +86,18 @@ export function PublicFooter({ settings, cities, services }: FooterProps) {
             )}
             {settings.email && (
               <li className="flex items-center gap-3">
-                <Mail className="h-4 w-4 shrink-0 text-brand-600" />
-                <a href={`mailto:${settings.email}`} className="transition-colors hover:text-brand-700">
+                <Mail className="text-brand-600 h-4 w-4 shrink-0" />
+                <a
+                  href={`mailto:${settings.email}`}
+                  className="hover:text-brand-700 transition-colors"
+                >
                   {settings.email}
                 </a>
               </li>
             )}
             {settings.workingHours && (
               <li className="flex items-center gap-3">
-                <Clock className="h-4 w-4 shrink-0 text-brand-600" />
+                <Clock className="text-brand-600 h-4 w-4 shrink-0" />
                 <span>{settings.workingHours}</span>
               </li>
             )}
