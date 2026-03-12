@@ -334,12 +334,17 @@ export function PublicHeader({
                 onClick={() => setMobileOpen(mobileOpen === "services" ? null : "services")}
                 className={cn(
                   "flex w-full items-center justify-between rounded-lg px-3 py-2.5 text-sm font-medium transition-colors",
-                  servicesActive ? "bg-accent-50 text-accent-700" : "text-muted hover:bg-black/[0.04]"
+                  servicesActive
+                    ? "bg-accent-50 text-accent-700"
+                    : "text-muted hover:bg-black/[0.04]"
                 )}
               >
                 Services
                 <ChevronDown
-                  className={cn("h-4 w-4 transition-transform duration-200", mobileOpen === "services" && "rotate-180")}
+                  className={cn(
+                    "h-4 w-4 transition-transform duration-200",
+                    mobileOpen === "services" && "rotate-180"
+                  )}
                 />
               </button>
               {mobileOpen === "services" && (
