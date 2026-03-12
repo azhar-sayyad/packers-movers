@@ -234,13 +234,16 @@ export function PublicHeader({
                   : "invisible translate-y-1 opacity-0"
               )}
             >
-              <div className="overflow-hidden rounded-2xl bg-white shadow-2xl shadow-brand-950/15 ring-1 ring-black/10">
-                <div className="h-1 bg-gradient-to-r from-accent-500 to-accent-600" />
+              <div className="shadow-brand-950/15 overflow-hidden rounded-2xl bg-white shadow-2xl ring-1 ring-black/10">
+                <div className="from-accent-500 to-accent-600 h-1 bg-gradient-to-r" />
                 <div className="grid grid-cols-2 gap-x-2 gap-y-2.5 p-4">
                   {Object.entries(groupedCities).map(([state, list]) => (
-                    <div key={state} className="rounded-xl bg-surface/70 p-2 ring-1 ring-black/[0.06]">
-                      <p className="flex items-center gap-2 px-2 pb-2 pt-1 text-[11px] font-semibold uppercase tracking-widest text-muted">
-                        <span className="h-1.5 w-1.5 rounded-full bg-accent-500" />
+                    <div
+                      key={state}
+                      className="bg-surface/70 rounded-xl p-2 ring-1 ring-black/[0.06]"
+                    >
+                      <p className="text-muted flex items-center gap-2 px-2 pt-1 pb-2 text-[11px] font-semibold tracking-widest uppercase">
+                        <span className="bg-accent-500 h-1.5 w-1.5 rounded-full" />
                         {state}
                       </p>
                       <div className="space-y-0.5">
