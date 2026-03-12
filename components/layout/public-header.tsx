@@ -94,7 +94,9 @@ export function PublicHeader({
     <header
       className={cn(
         "sticky top-0 z-40 -mb-16 w-full border-b transition-all duration-300",
-        solid ? "border-black/10 bg-white/95 shadow-sm backdrop-blur" : "border-transparent bg-transparent"
+        solid
+          ? "border-black/10 bg-white/95 shadow-sm backdrop-blur"
+          : "border-transparent bg-transparent"
       )}
     >
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
@@ -105,7 +107,12 @@ export function PublicHeader({
               solid ? "bg-brand-950" : "border border-white/20 bg-white/10"
             )}
           >
-            <PackageOpen className={cn("h-5 w-5 transition-colors", solid ? "text-accent-500" : "text-accent-400")} />
+            <PackageOpen
+              className={cn(
+                "h-5 w-5 transition-colors",
+                solid ? "text-accent-500" : "text-accent-400"
+              )}
+            />
           </span>
           <span
             className={cn(
