@@ -263,7 +263,7 @@ export function PublicHeader({
                 </div>
                 <Link
                   href="/locations"
-                  className="group/foot flex items-center justify-between border-t border-black/[0.06] px-5 py-3 text-sm font-semibold text-accent-700 transition-colors hover:bg-accent-50"
+                  className="group/foot text-accent-700 hover:bg-accent-50 flex items-center justify-between border-t border-black/[0.06] px-5 py-3 text-sm font-semibold transition-colors"
                 >
                   View all locations
                   <ArrowRight className="h-4 w-4 transition-transform group-hover/foot:translate-x-1" />
@@ -283,7 +283,7 @@ export function PublicHeader({
                     ? "text-accent-700"
                     : "text-accent-400"
                   : solid
-                    ? "text-muted hover:bg-black/[0.04] hover:text-foreground"
+                    ? "text-muted hover:text-foreground hover:bg-black/[0.04]"
                     : "text-white/80 hover:bg-white/10 hover:text-white"
               )}
             >
