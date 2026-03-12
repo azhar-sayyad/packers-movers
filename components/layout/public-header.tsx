@@ -171,11 +171,13 @@ export function PublicHeader({
                         href={`/services/${service.slug}`}
                         className="group/item hover:border-accent-100 hover:bg-accent-50/60 flex items-start gap-3 rounded-xl border border-transparent p-3 transition-colors"
                       >
-                        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-accent-50 text-accent-600 ring-1 ring-accent-100 transition-colors group-hover/item:bg-accent-600 group-hover/item:text-white group-hover/item:ring-accent-600">
+                        <span className="bg-accent-50 text-accent-600 ring-accent-100 group-hover/item:bg-accent-600 group-hover/item:ring-accent-600 flex h-10 w-10 shrink-0 items-center justify-center rounded-xl ring-1 transition-colors group-hover/item:text-white">
                           <Icon className="h-5 w-5" />
                         </span>
                         <span className="min-w-0">
-                          <span className="block text-[13px] font-semibold text-foreground">{service.name}</span>
+                          <span className="text-foreground block text-[13px] font-semibold">
+                            {service.name}
+                          </span>
                           {service.shortDesc && (
                             <span className="mt-1 block text-xs leading-snug text-muted">{service.shortDesc}</span>
                           )}
