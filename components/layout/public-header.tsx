@@ -398,7 +398,10 @@ export function PublicHeader({
                       {city.name}
                     </Link>
                   ))}
-                  <Link href="/locations" className="block rounded-lg px-3 py-2 text-sm font-semibold text-accent-700">
+                  <Link
+                    href="/locations"
+                    className="text-accent-700 block rounded-lg px-3 py-2 text-sm font-semibold"
+                  >
                     View all locations
                   </Link>
                 </div>
@@ -411,7 +414,9 @@ export function PublicHeader({
                 href={link.href}
                 className={cn(
                   "rounded-lg px-3 py-2.5 text-sm font-medium",
-                  isActive(link.href) ? "bg-accent-50 text-accent-700" : "text-muted hover:bg-black/[0.04]"
+                  isActive(link.href)
+                    ? "bg-accent-50 text-accent-700"
+                    : "text-muted hover:bg-black/[0.04]"
                 )}
               >
                 {link.label}
