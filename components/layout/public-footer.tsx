@@ -112,10 +112,10 @@ export function PublicFooter({ settings, cities, services }: FooterProps) {
             <Link href="/faq" className="hover:text-brand-700 transition-colors">
               FAQ
             </Link>
-            <Link href="/locations" className="transition-colors hover:text-brand-700">
+            <Link href="/locations" className="hover:text-brand-700 transition-colors">
               Locations
             </Link>
-            <Link href="/testimonials" className="transition-colors hover:text-brand-700">
+            <Link href="/testimonials" className="hover:text-brand-700 transition-colors">
               Reviews
             </Link>
           </div>
