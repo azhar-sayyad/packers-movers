@@ -160,8 +160,8 @@ export function PublicHeader({
                   : "invisible translate-y-1 opacity-0"
               )}
             >
-              <div className="overflow-hidden rounded-2xl bg-white shadow-2xl shadow-brand-950/15 ring-1 ring-black/10">
-                <div className="h-1 bg-gradient-to-r from-accent-500 to-accent-600" />
+              <div className="shadow-brand-950/15 overflow-hidden rounded-2xl bg-white shadow-2xl ring-1 ring-black/10">
+                <div className="from-accent-500 to-accent-600 h-1 bg-gradient-to-r" />
                 <div className="grid grid-cols-2 gap-1 p-3">
                   {services.map((service) => {
                     const Icon = serviceIconMap[service.icon ?? ""] ?? Package;
@@ -169,7 +169,7 @@ export function PublicHeader({
                       <Link
                         key={service.slug}
                         href={`/services/${service.slug}`}
-                        className="group/item flex items-start gap-3 rounded-xl border border-transparent p-3 transition-colors hover:border-accent-100 hover:bg-accent-50/60"
+                        className="group/item hover:border-accent-100 hover:bg-accent-50/60 flex items-start gap-3 rounded-xl border border-transparent p-3 transition-colors"
                       >
                         <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-xl bg-accent-50 text-accent-600 ring-1 ring-accent-100 transition-colors group-hover/item:bg-accent-600 group-hover/item:text-white group-hover/item:ring-accent-600">
                           <Icon className="h-5 w-5" />
