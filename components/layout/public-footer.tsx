@@ -72,14 +72,14 @@ export function PublicFooter({ settings, cities, services }: FooterProps) {
           <ul className="text-muted space-y-3 text-sm">
             {settings.address && (
               <li className="flex items-start gap-3">
-                <MapPin className="mt-0.5 h-4 w-4 shrink-0 text-brand-600" />
+                <MapPin className="text-brand-600 mt-0.5 h-4 w-4 shrink-0" />
                 <span>{settings.address}</span>
               </li>
             )}
             {phone && (
               <li className="flex items-center gap-3">
-                <Phone className="h-4 w-4 shrink-0 text-brand-600" />
-                <a href={telLink(phone)} className="transition-colors hover:text-brand-700">
+                <Phone className="text-brand-600 h-4 w-4 shrink-0" />
+                <a href={telLink(phone)} className="hover:text-brand-700 transition-colors">
                   {phone}
                 </a>
               </li>
