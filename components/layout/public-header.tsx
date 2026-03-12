@@ -299,8 +299,9 @@ export function PublicHeader({
               size="sm"
               variant={solid ? "brand" : "outline"}
               className={cn(
-                "hidden sm:inline-flex transition-colors",
-                !solid && "border-white/30 bg-white/10 text-white hover:bg-white/20 hover:text-white"
+                "hidden transition-colors sm:inline-flex",
+                !solid &&
+                  "border-white/30 bg-white/10 text-white hover:bg-white/20 hover:text-white"
               )}
             >
               <a href={telLink(phone)}>
@@ -326,7 +327,7 @@ export function PublicHeader({
       </div>
 
       {open && (
-        <div className="border-t border-black/[0.06] bg-white px-4 pb-4 pt-2 lg:hidden">
+        <div className="border-t border-black/[0.06] bg-white px-4 pt-2 pb-4 lg:hidden">
           <nav className="flex flex-col gap-1">
             <div>
               <button
