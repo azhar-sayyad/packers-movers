@@ -392,9 +392,9 @@ export function PublicHeader({
                     <Link
                       key={city.slug}
                       href={`/packers-movers/${city.slug}`}
-                      className="flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-muted transition-colors hover:bg-black/[0.04]"
+                      className="text-muted flex items-center gap-2 rounded-lg px-3 py-2 text-sm transition-colors hover:bg-black/[0.04]"
                     >
-                      <MapPin className="h-3.5 w-3.5 shrink-0 text-accent-500" />
+                      <MapPin className="text-accent-500 h-3.5 w-3.5 shrink-0" />
                       {city.name}
                     </Link>
                   ))}
