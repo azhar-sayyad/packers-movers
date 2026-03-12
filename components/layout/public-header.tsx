@@ -348,12 +348,12 @@ export function PublicHeader({
                 />
               </button>
               {mobileOpen === "services" && (
-                <div className="mt-1 space-y-1 border-l-2 border-accent-100 pb-1 pl-3">
+                <div className="border-accent-100 mt-1 space-y-1 border-l-2 pb-1 pl-3">
                   {services.map((service) => (
                     <Link
                       key={service.slug}
                       href={`/services/${service.slug}`}
-                      className="block rounded-lg px-3 py-2 text-sm text-muted transition-colors hover:bg-black/[0.04]"
+                      className="text-muted block rounded-lg px-3 py-2 text-sm transition-colors hover:bg-black/[0.04]"
                     >
                       {service.name}
                     </Link>
