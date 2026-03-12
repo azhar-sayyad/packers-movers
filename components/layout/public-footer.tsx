@@ -106,10 +106,10 @@ export function PublicFooter({ settings, cities, services }: FooterProps) {
       </div>
 
       <div className="border-t border-black/10">
-        <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-6 text-xs text-faint sm:flex-row sm:px-6 lg:px-8">
+        <div className="text-faint mx-auto flex max-w-7xl flex-col items-center justify-between gap-2 px-4 py-6 text-xs sm:flex-row sm:px-6 lg:px-8">
           <p>© {new Date().getFullYear()} Packers & Movers Logistics. All rights reserved.</p>
           <div className="flex gap-4">
-            <Link href="/faq" className="transition-colors hover:text-brand-700">
+            <Link href="/faq" className="hover:text-brand-700 transition-colors">
               FAQ
             </Link>
             <Link href="/locations" className="transition-colors hover:text-brand-700">
