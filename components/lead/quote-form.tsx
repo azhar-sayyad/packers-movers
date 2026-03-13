@@ -304,10 +304,10 @@ export function QuoteForm({
         {status === "submitting" ? (
           <>
             <Loader2 className="h-4 w-4 animate-spin" />
-            Submitting...
+            {QUOTE_SUBMITTING_LABEL}
           </>
         ) : (
-          "Get Free Quote"
+          QUOTE_SUBMIT_LABEL
         )}
       </Button>
     </form>
