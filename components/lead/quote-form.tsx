@@ -268,7 +268,7 @@ export function QuoteForm({
                   <SelectValue placeholder="Optional" />
                 </SelectTrigger>
                 <SelectContent>
-                  {["1 BHK", "2 BHK", "3 BHK", "Villa / Independent House", "Office / Commercial", "Shop"].map((p) => (
+                  {PROPERTY_SIZES.map((p) => (
                     <SelectItem key={p} value={p}>
                       {p}
                     </SelectItem>
@@ -295,7 +295,12 @@ export function QuoteForm({
         </p>
       )}
 
-      <Button type="submit" size={isHero ? "lg" : "default"} className="w-full" disabled={status === "submitting"}>
+      <Button
+        type="submit"
+        size={isHero ? "lg" : "default"}
+        className="w-full"
+        disabled={status === "submitting"}
+      >
         {status === "submitting" ? (
           <>
             <Loader2 className="h-4 w-4 animate-spin" />
