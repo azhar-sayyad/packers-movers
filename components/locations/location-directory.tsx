@@ -56,7 +56,7 @@ export function LocationDirectory({ cities }: LocationDirectoryProps) {
     <div>
       <div className="mb-8 flex flex-col gap-4 sm:flex-row">
         <div className="relative flex-1">
-          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-faint" />
+          <Search className="text-faint absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2" />
           <Input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
@@ -72,7 +72,7 @@ export function LocationDirectory({ cities }: LocationDirectoryProps) {
               className={`rounded-full border px-4 py-2 text-sm font-medium transition-colors ${
                 selectedState === state
                   ? "border-brand-950 bg-brand-950 text-white"
-                  : "border-black/15 bg-white text-muted hover:bg-surface"
+                  : "text-muted hover:bg-surface border-black/15 bg-white"
               }`}
             >
               {state === "ALL" ? "All States" : state}
@@ -82,7 +82,7 @@ export function LocationDirectory({ cities }: LocationDirectoryProps) {
       </div>
 
       {Object.keys(grouped).length === 0 ? (
-        <p className="rounded-xl border border-black/10 bg-white p-10 text-center text-sm text-muted">
+        <p className="text-muted rounded-xl border border-black/10 bg-white p-10 text-center text-sm">
           No locations match your search.
         </p>
       ) : (
