@@ -68,7 +68,7 @@ export function PortfolioGallery({
           <select
             value={service}
             onChange={(e) => setService(e.target.value)}
-            className="h-11 rounded-lg border border-black/15 bg-white px-3 text-sm text-foreground shadow-sm focus:outline-none focus:ring-2 focus:ring-brand-500"
+            className="text-foreground focus:ring-brand-500 h-11 rounded-lg border border-black/15 bg-white px-3 text-sm shadow-sm focus:ring-2 focus:outline-none"
           >
             <option value="ALL">All Services</option>
             {services.map((s) => (
@@ -81,14 +81,14 @@ export function PortfolioGallery({
       </div>
 
       {filtered.length === 0 ? (
-        <p className="rounded-xl border border-black/10 bg-white p-10 text-center text-sm text-muted">
+        <p className="text-muted rounded-xl border border-black/10 bg-white p-10 text-center text-sm">
           No portfolio items match your filters.
         </p>
       ) : (
         <div className="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {filtered.map((item, i) => (
             <Reveal key={item.id} delay={(i % 3) * 0.06}>
-              <div className="group overflow-hidden rounded-xl border border-black/10 bg-white shadow-card">
+              <div className="group shadow-card overflow-hidden rounded-xl border border-black/10 bg-white">
                 <div className="h-52 overflow-hidden">
                   {/* eslint-disable-next-line @next/next/no-img-element */}
                   <img
