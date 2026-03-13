@@ -156,7 +156,7 @@ export function QuoteForm({
       <div className="grid gap-4 sm:grid-cols-2">
         <div className="space-y-2">
           <Label htmlFor="inquiry-from">Moving From</Label>
-          <Select value={moveFrom} onValueChange={handleCityChange(setMoveFrom)} required>
+          <Select value={moveFrom} onValueChange={setMoveFrom} required>
             <SelectTrigger id="inquiry-from">
               <SelectValue placeholder="Select city" />
             </SelectTrigger>
@@ -171,7 +171,7 @@ export function QuoteForm({
         </div>
         <div className="space-y-2">
           <Label htmlFor="inquiry-to">Moving To</Label>
-          <Select value={moveTo} onValueChange={handleCityChange(setMoveTo)} required>
+          <Select value={moveTo} onValueChange={setMoveTo} required>
             <SelectTrigger id="inquiry-to">
               <SelectValue placeholder="Select city" />
             </SelectTrigger>
