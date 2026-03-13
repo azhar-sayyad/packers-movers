@@ -107,11 +107,17 @@ export function QuoteForm({
 
   if (status === "success") {
     return (
-      <div className={cn("flex flex-col items-center justify-center gap-3 rounded-xl border border-emerald-200 bg-emerald-50 p-8 text-center", className)}>
+      <div
+        className={cn(
+          "flex flex-col items-center justify-center gap-3 rounded-xl border border-emerald-200 bg-emerald-50 p-8 text-center",
+          className
+        )}
+      >
         <CheckCircle2 className="h-10 w-10 text-emerald-600" />
         <h3 className="font-display text-xl font-bold text-emerald-900">Thank You!</h3>
         <p className="text-sm text-emerald-800">
-          Your quote request has been received. Our team will contact you shortly with the best estimate.
+          Your quote request has been received. Our team will contact you shortly with the best
+          estimate.
         </p>
       </div>
     );
