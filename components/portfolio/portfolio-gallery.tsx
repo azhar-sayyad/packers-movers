@@ -98,9 +98,13 @@ export function PortfolioGallery({
                   />
                 </div>
                 <div className="p-5">
-                  <p className="text-xs font-semibold uppercase tracking-wide text-accent-600">{item.tag}</p>
-                  <h3 className="mt-1 font-display text-lg font-bold text-brand-950">{item.title}</h3>
-                  <p className="mt-1 text-sm capitalize text-faint">
+                  <p className="text-accent-600 text-xs font-semibold tracking-wide uppercase">
+                    {item.tag}
+                  </p>
+                  <h3 className="font-display text-brand-950 mt-1 text-lg font-bold">
+                    {item.title}
+                  </h3>
+                  <p className="text-faint mt-1 text-sm capitalize">
                     {item.citySlug}
                     {item.serviceSlug ? ` · ${item.serviceSlug}` : ""}
                   </p>
