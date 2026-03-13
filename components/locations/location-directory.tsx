@@ -89,32 +89,32 @@ export function LocationDirectory({ cities }: LocationDirectoryProps) {
         <div className="space-y-8">
           {Object.entries(grouped).map(([state, stateCities]) => (
             <div key={state}>
-              <h2 className="mb-4 flex items-center gap-2 font-display text-xl font-bold text-brand-950">
-                <Navigation className="h-5 w-5 text-accent-600" />
+              <h2 className="font-display text-brand-950 mb-4 flex items-center gap-2 text-xl font-bold">
+                <Navigation className="text-accent-600 h-5 w-5" />
                 {state}
               </h2>
               <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-                  {stateCities.map((city, i) => (
-                    <Reveal key={city.slug} delay={(i % 3) * 0.06}>
-                      <Link
-                        href={`/packers-movers/${city.slug}`}
-                        className="group flex items-start gap-3 rounded-xl border border-black/10 bg-white p-5 shadow-card transition-all hover:-translate-y-0.5 hover:shadow-card-hover"
-                      >
-                        <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-lg bg-accent-50">
-                          <MapPin className="h-5 w-5 text-accent-600" />
-                        </span>
-                        <div>
-                          <h3 className="font-display text-sm font-bold text-brand-950">
-                            Packers & Movers in {city.name}
-                          </h3>
-                          <p className="text-xs text-muted">
-                            District: {city.district} · {state}
-                          </p>
-                        </div>
-                      </Link>
-                    </Reveal>
-                  ))}
-                </div>
+                {stateCities.map((city, i) => (
+                  <Reveal key={city.slug} delay={(i % 3) * 0.06}>
+                    <Link
+                      href={`/packers-movers/${city.slug}`}
+                      className="group shadow-card hover:shadow-card-hover flex items-start gap-3 rounded-xl border border-black/10 bg-white p-5 transition-all hover:-translate-y-0.5"
+                    >
+                      <span className="bg-accent-50 flex h-10 w-10 shrink-0 items-center justify-center rounded-lg">
+                        <MapPin className="text-accent-600 h-5 w-5" />
+                      </span>
+                      <div>
+                        <h3 className="font-display text-brand-950 text-sm font-bold">
+                          Packers & Movers in {city.name}
+                        </h3>
+                        <p className="text-muted text-xs">
+                          District: {city.district} · {state}
+                        </p>
+                      </div>
+                    </Link>
+                  </Reveal>
+                ))}
+              </div>
             </div>
           ))}
         </div>
