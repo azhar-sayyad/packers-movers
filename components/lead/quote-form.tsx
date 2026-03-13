@@ -204,7 +204,7 @@ export function QuoteForm({
         <div className="space-y-2">
           <Label htmlFor="inquiry-property-quick">Property Type</Label>
           <div className="flex flex-wrap gap-2">
-            {propertySizes.map((size) => (
+            {PROPERTY_SIZES.map((size) => (
               <button
                 key={size}
                 type="button"
@@ -212,8 +212,8 @@ export function QuoteForm({
                 className={cn(
                   "rounded-full border px-3.5 py-1.5 text-xs font-bold transition-all",
                   propertyType === size
-                    ? "border-cta bg-cta text-proof-ink shadow-sm shadow-cta/30"
-                    : "border-black/10 text-muted hover:border-brand-500 hover:text-brand-600"
+                    ? "border-cta bg-cta text-proof-ink shadow-cta/30 shadow-sm"
+                    : "text-muted hover:border-brand-500 hover:text-brand-600 border-black/10"
                 )}
               >
                 {size}
