@@ -14,7 +14,15 @@ interface PortfolioItem {
   serviceSlug?: string | null;
 }
 
-export function PortfolioGallery({ items, cities, services }: { items: PortfolioItem[]; cities: { value: string; label: string }[]; services: { value: string; label: string }[] }) {
+export function PortfolioGallery({
+  items,
+  cities,
+  services,
+}: {
+  items: PortfolioItem[];
+  cities: { value: string; label: string }[];
+  services: { value: string; label: string }[];
+}) {
   const [city, setCity] = useState("ALL");
   const [service, setService] = useState("ALL");
   const [query, setQuery] = useState("");
@@ -36,7 +44,7 @@ export function PortfolioGallery({ items, cities, services }: { items: Portfolio
     <div>
       <div className="mb-8 flex flex-col gap-4 lg:flex-row lg:items-center">
         <div className="relative flex-1">
-          <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-faint" />
+          <Search className="text-faint absolute top-1/2 left-3 h-4 w-4 -translate-y-1/2" />
           <Input
             value={query}
             onChange={(e) => setQuery(e.target.value)}
@@ -48,7 +56,7 @@ export function PortfolioGallery({ items, cities, services }: { items: Portfolio
           <select
             value={city}
             onChange={(e) => setCity(e.target.value)}
-            className="h-11 rounded-lg border border-black/15 bg-white px-3 text-sm text-foreground shadow-sm focus:outline-none focus:ring-2 focus:ring-brand-500"
+            className="text-foreground focus:ring-brand-500 h-11 rounded-lg border border-black/15 bg-white px-3 text-sm shadow-sm focus:ring-2 focus:outline-none"
           >
             <option value="ALL">All Cities</option>
             {cities.map((c) => (
