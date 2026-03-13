@@ -54,7 +54,13 @@ function getAttribution() {
   };
 }
 
-export function QuoteForm({ cities, services, variant = "full", prefillFromCity, className }: QuoteFormProps) {
+export function QuoteForm({
+  cities,
+  services,
+  variant = "full",
+  prefillFromCity,
+  className,
+}: QuoteFormProps) {
   const [moveFrom, setMoveFrom] = useState(prefillFromCity ?? "");
   const [moveTo, setMoveTo] = useState("");
   const [phone, setPhone] = useState("");
@@ -66,10 +72,6 @@ export function QuoteForm({ cities, services, variant = "full", prefillFromCity,
   const [message, setMessage] = useState("");
   const [honeypot, setHoneypot] = useState("");
   const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
-
-  function handleCityChange(setter: (v: string) => void) {
-    return (v: string) => setter(v);
-  }
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
