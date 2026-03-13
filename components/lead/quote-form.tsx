@@ -14,8 +14,7 @@ import {
 } from "@/components/ui/select";
 import { CheckCircle2, Loader2 } from "lucide-react";
 import { cn } from "@/lib/utils";
-
-const propertySizes = ["1 BHK", "2 BHK", "3 BHK", "4 BHK / Villa", "Office", "Shop"];
+import { PROPERTY_SIZES, QUOTE_SUBMIT_LABEL, QUOTE_SUBMITTING_LABEL } from "@/lib/constants";
 
 export interface CityOption {
   value: string;
@@ -37,7 +36,13 @@ interface QuoteFormProps {
 
 function getAttribution() {
   if (typeof window === "undefined") {
-    return { landingPage: undefined, referrer: undefined, utmSource: undefined, utmMedium: undefined, utmCampaign: undefined };
+    return {
+      landingPage: undefined,
+      referrer: undefined,
+      utmSource: undefined,
+      utmMedium: undefined,
+      utmCampaign: undefined,
+    };
   }
   const params = new URLSearchParams(window.location.search);
   return {
