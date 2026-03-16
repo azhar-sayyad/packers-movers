@@ -43,6 +43,7 @@ The objective of this project is to build a modern, high-converting, local-servi
 ---
 
 ### 3.2 Public SEO & Customer Facing Site
+
 - **Dynamic City Location Pages (`/packers-movers/[city]`)**:
   - URL format: `/packers-movers/indore`, `/packers-movers/bhopal`, `/packers-movers/burhanpur`, etc.
   - Dynamic `generateMetadata` (SEO title, meta description, canonical URL, OpenGraph).
@@ -83,6 +84,7 @@ The objective of this project is to build a modern, high-converting, local-servi
 ---
 
 ### 3.3 Admin CMS (`/admin`)
+
 - **Authentication & Security**:
   - `/admin/login` page with secure password hashing (`bcryptjs`) & HttpOnly cookie sessions.
   - Auth Middleware protecting all `/admin/*` pages and API routes.
@@ -121,7 +123,7 @@ The objective of this project is to build a modern, high-converting, local-servi
 
 ## 5. Technology Stack Summary
 
-- **Frontend & Server Framework**: Next.js 14/15 (App Router, TypeScript)
+- **Frontend & Server Framework**: Next.js 16 (App Router, TypeScript)
 - **Styling & UI**: Tailwind CSS, Lucide React Icons, Shadcn/UI Component Primitives
 - **Database & ORM**: SQLite via Prisma ORM (`prisma/schema.prisma`)
 - **State & Form Handling**: React Hook Form / Server Actions, Zod validation
