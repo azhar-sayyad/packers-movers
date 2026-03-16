@@ -1,6 +1,7 @@
 # Product Requirements Document (PRD)
 
 ## Project Title: Packers & Movers Local-Service, SEO & Lead Generation Platform
+
 **Target Domains & Markets**: Relocation Services across Madhya Pradesh (Indore, Bhopal, Burhanpur, Khandwa, etc.) & Maharashtra (Jalgaon, Bhusawal, Buldhana, Dhule, etc.).
 
 ---
@@ -10,6 +11,7 @@
 The objective of this project is to build a modern, high-converting, local-service web platform and CMS for a Packers & Movers business. Unlike generic corporate brochure websites or AI-boilerplate pages, this platform is designed with a **human-crafted, premium Indian logistics design system** and functions as a **programmatic, CMS-driven SEO engine and lead capture system**.
 
 ### Primary Business Objectives:
+
 1. **Dominant Local SEO**: Automatically generate and render high-ranking location-specific landing pages (e.g. `/packers-movers/indore`, `/packers-movers/burhanpur`, `/packers-movers/jalgaon`) with unique localized content, neighborhood lists, and structured JSON-LD schema.
 2. **Maximum Lead Conversion**: Provide frictionless contact mechanisms (Quick Quote Hero Widget, Modal Quote Form, Mobile Sticky `Call` & `WhatsApp` CTAs) with zero unnecessary steps.
 3. **Full Lead Source Attribution**: Track precisely which SEO page, referrer, and UTM parameters generated each customer lead.
@@ -29,6 +31,7 @@ The objective of this project is to build a modern, high-converting, local-servi
 ## 3. Detailed Feature Requirements
 
 ### 3.1 Design System & UI Architecture (No AI-Boilerplate Look)
+
 - **Component Library**: Custom Shadcn/UI-style modular primitives (`Button`, `Card`, `Input`, `Select`, `Modal`/`Dialog`, `Badge`, `Tabs`, `Table`, `Accordion`).
 - **Color Palette**:
   - Primary Slate Navy (`slate-900` / `#0F172A`) for header, typography, and authority components.
