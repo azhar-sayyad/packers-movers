@@ -7,7 +7,11 @@ interface RateLimitStore {
 
 const store: RateLimitStore = {};
 
-export function checkRateLimit(ip: string, limit: number = 10, windowMs: number = 60000): { success: boolean; remaining: number } {
+export function checkRateLimit(
+  ip: string,
+  limit: number = 10,
+  windowMs: number = 60000
+): { success: boolean; remaining: number } {
   const now = Date.now();
 
   // Clean up expired entries periodically
