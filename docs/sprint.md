@@ -50,12 +50,14 @@ This document defines the 5-sprint agile roadmap for building the **Packers & Mo
 - **Content CMS (`/admin/portfolio`, `/admin/testimonials`, `/admin/faqs`, `/admin/settings`)**: Full CRUD managers.
 
 ### Definition of Done:
+
 - Admin can update lead statuses and save internal notes.
 - Admin can create a new city (e.g. `Khandwa`) and edit local area tags & SEO fields without code changes.
 
 ---
 
 ## Sprint 3: Public Core & Lead System
+
 **Goal**: Build the public layout, high-converting homepage, quote widgets, sticky mobile CTAs, and lead attribution API.
 
 ### Deliverables:
