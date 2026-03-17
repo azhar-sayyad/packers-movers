@@ -15,16 +15,19 @@ export const loginSchema = z.object({
 });
 
 export const inquirySchema = z.object({
-  name: z.string().min(2, 'Name must be at least 2 characters').optional().or(z.literal('')),
-  phone: z.string().min(10, 'Phone number must be at least 10 digits').max(15, 'Invalid phone number'),
-  email: z.string().email('Invalid email address').optional().or(z.literal('')),
-  moveFrom: z.string().min(2, 'Origin city is required'),
-  moveTo: z.string().min(2, 'Destination city is required'),
-  serviceType: z.string().min(2, 'Service type is required').optional().or(z.literal('')),
+  name: z.string().min(2, "Name must be at least 2 characters").optional().or(z.literal("")),
+  phone: z
+    .string()
+    .min(10, "Phone number must be at least 10 digits")
+    .max(15, "Invalid phone number"),
+  email: z.string().email("Invalid email address").optional().or(z.literal("")),
+  moveFrom: z.string().min(2, "Origin city is required"),
+  moveTo: z.string().min(2, "Destination city is required"),
+  serviceType: z.string().min(2, "Service type is required").optional().or(z.literal("")),
   moveDate: z.string().optional(),
   propertyType: z.string().optional(),
   message: z.string().optional(),
-  honeypot: z.string().max(0, 'Spam detected').optional(), // Anti-spam field, must be empty
+  honeypot: z.string().max(0, "Spam detected").optional(), // Anti-spam field, must be empty
   landingPage: z.string().optional(),
   referrer: z.string().optional(),
   utmSource: z.string().optional(),
