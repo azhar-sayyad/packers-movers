@@ -1,8 +1,17 @@
-import { z } from 'zod';
+import { z } from "zod";
+import { INQUIRY_STATUSES } from "@/lib/constants";
+
+const requiredString = (min: number, message: string) => z.string().min(min, message);
+const optionalSlug = () => z.string().optional().or(z.literal(""));
+const seoFields = {
+  metaTitle: z.string().optional(),
+  metaDescription: z.string().optional(),
+};
+const activeFlag = z.boolean().default(true);
 
 export const loginSchema = z.object({
-  email: z.string().email('Invalid email address'),
-  password: z.string().min(6, 'Password must be at least 6 characters'),
+  email: z.string().email("Invalid email address"),
+  password: z.string().min(6, "Password must be at least 6 characters"),
 });
 
 export const inquirySchema = z.object({
