@@ -75,9 +75,11 @@ This document defines the 5-sprint agile roadmap for building the **Packers & Mo
 ---
 
 ## Sprint 4: Dynamic SEO Engine & Public Pages
+
 **Goal**: Create dynamic SSR city pages (`/packers-movers/[city]`), service pages (`/services/[slug]`), locations directory, dynamic sitemap, and structured JSON-LD data.
 
 ### Deliverables:
+
 - **Dynamic City Location Page (`/packers-movers/[city]`)**:
   - Dynamic `generateMetadata` (Meta Title, Description, Canonical URL, OpenGraph).
   - Localized hero and **localized content text block**.
