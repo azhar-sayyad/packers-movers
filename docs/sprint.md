@@ -61,12 +61,14 @@ This document defines the 5-sprint agile roadmap for building the **Packers & Mo
 **Goal**: Build the public layout, high-converting homepage, quote widgets, sticky mobile CTAs, and lead attribution API.
 
 ### Deliverables:
+
 - Responsive Header/Navbar, Footer, Quick Phone/WhatsApp links, and sticky mobile CTAs (`Call`, `WhatsApp`, `Get Quote`).
 - Homepage (`/`) with Hero Quick Quote widget, Trust statistics, Core services cards, Top active cities grid, Portfolio preview slider, Reviews carousel, and General FAQs.
 - Lead Capture API (`/api/inquiries`) with Zod schema validation, honeypot spam shield, IP rate limiting, and lead attribution capturing (`landingPage`, `referrer`, `utm_*`).
 - General pages: About Us (`/about`), Contact Us (`/contact`), Request Quote (`/request-quote`).
 
 ### Definition of Done:
+
 - Lead submission from public hero form successfully saves to database with attribution metadata and appears live in `/admin/inquiries`.
 - Anti-spam honeypot field discards spam submissions silently.
 
