@@ -33,6 +33,7 @@ This task board tracks the execution status of all tasks across Sprint 1 through
 ---
 
 ## 🎯 Sprint 3: Public UI Core & Lead Capture System
+
 - [ ] Build Design System tokens, Header/Navbar, Footer, and Sticky Mobile CTAs (`Call`, `WhatsApp`, `Get Quote`)
 - [ ] Build Lead Capture API (`/api/inquiries`) with Zod validation, anti-spam honeypot, IP rate limiting, and lead attribution tracking
 - [ ] Build Homepage (`app/page.tsx`) with Hero quick quote form, trust stats, core services grid, top locations grid, portfolio preview, reviews slider, and general FAQs
@@ -43,6 +44,7 @@ This task board tracks the execution status of all tasks across Sprint 1 through
 ---
 
 ## 🎯 Sprint 4: Dynamic SEO Engine & Dynamic Pages
+
 - [ ] Build Dynamic City Location Page (`app/packers-movers/[city]/page.tsx`) with localized hero, custom localized text block, local area tags, city services, city portfolio, city reviews, city FAQs, and LocalBusiness JSON-LD schema
 - [ ] Implement `generateMetadata` for dynamic city location pages
 - [ ] Build Dynamic Service Page (`app/services/[slug]/page.tsx`) with service details, step-by-step workflow, and related locations grid
@@ -57,6 +59,7 @@ This task board tracks the execution status of all tasks across Sprint 1 through
 ---
 
 ## 🎯 Sprint 5: Verification, Polish & QA
+
 - [ ] Run full build test: `npm run build` with zero TypeScript or Next.js errors
 - [ ] Perform End-to-End manual testing of lead capture, admin login, CMS management, and city page rendering
 - [ ] Optimize mobile responsiveness, image loading, and micro-animations
