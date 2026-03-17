@@ -5,18 +5,20 @@ This task board tracks the execution status of all tasks across Sprint 1 through
 ---
 
 ## 🎯 Sprint 1: Foundation, Database & Admin Auth
-- [ ] Initialize Next.js 14/15 project with TypeScript, Tailwind CSS, and Lucide Icons
+
+- [ ] Initialize Next.js 16 project with TypeScript, Tailwind CSS, and Lucide Icons
 - [ ] Configure Prisma ORM with SQLite database (`prisma/schema.prisma`)
 - [ ] Define DB Models (`AdminUser`, `AdminSession`, `City`, `Service`, `CityService`, `Inquiry`, `Portfolio`, `Testimonial`, `FAQ`, `SiteSetting`)
 - [ ] Write DB Seed script (`prisma/seed.ts`) with sample MP & MH cities, services, reviews, FAQs, site settings, and admin credentials
 - [ ] Implement Password Hashing (`bcryptjs`) & Session Token utilities (`lib/auth.ts`, `lib/session.ts`)
 - [ ] Implement Zod validation schemas (`lib/validations.ts`) & Rate Limiter (`lib/rate-limit.ts`)
 - [ ] Create `/admin/login` page UI & API endpoints (`/api/admin/login`, `/api/admin/logout`, `/api/admin/me`)
-- [ ] Implement Next.js Auth Middleware (`middleware.ts`) protecting `/admin/*` routes
+- [ ] Implement Next.js route guard (`proxy.ts`, Next 16 convention) protecting `/admin/*` routes
 
 ---
 
 ## 🎯 Sprint 2: Admin CMS & Inquiry Management
+
 - [ ] Create Admin Layout (`app/admin/layout.tsx`) with persistent sidebar and user context
 - [ ] Build Admin Dashboard (`app/admin/page.tsx`) with key metric cards & recent lead list
 - [ ] Build Inquiry Management Page (`app/admin/inquiries/page.tsx`) & API (`/api/admin/inquiries/[id]`)
