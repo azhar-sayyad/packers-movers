@@ -92,12 +92,14 @@ This document defines the 5-sprint agile roadmap for building the **Packers & Mo
 - Dynamic `sitemap.ts` (`/sitemap.xml`) and `robots.ts` (`/robots.txt`).
 
 ### Definition of Done:
+
 - Navigating to `/packers-movers/indore` or `/packers-movers/burhanpur` renders localized content, area lists, and valid JSON-LD schema.
 - `/sitemap.xml` dynamically outputs all active city and service URLs.
 
 ---
 
 ## Sprint 5: Verification, Polish & QA
+
 **Goal**: Execute comprehensive build checks, end-to-end user & admin flow tests, visual responsiveness polish, and final documentation.
 
 ### Deliverables:
