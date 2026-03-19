@@ -91,7 +91,7 @@ export const faqSchema = z.object({
 });
 
 export const siteSettingSchema = z.object({
-  key: z.string().min(2, 'Key required'),
-  value: z.string().min(1, 'Value required'),
+  key: z.string().min(2, "Key required"),
+  value: z.string().min(1, "Value required"),
   description: z.string().optional(),
 });
