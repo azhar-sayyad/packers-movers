@@ -8,10 +8,12 @@ const adapter = new PrismaBetterSqlite3({
 const prisma = new PrismaClient({ adapter });
 
 async function main() {
-  console.log('🌱 Starting database seeding...');
+  console.log("Starting database seeding...");
 
-  // 1. Seed Admin User
-  const adminPasswordHash = await bcrypt.hash('admin123', 10);
+  // 1. Seed Admin User (dev-only defaults, override via ADMIN_EMAIL / ADMIN_PASSWORD)
+  const adminEmail = process.env.ADMIN_EMAIL ?? "admin@packers.local";
+  const adminPassword = process.env.ADMIN_PASSWORD ?? "change-me-in-production";
+  const adminPasswordHash = await bcrypt.hash(adminPassword, 10);
   const admin = await prisma.adminUser.upsert({
     where: { email: 'admin@packers.com' },
     update: {
