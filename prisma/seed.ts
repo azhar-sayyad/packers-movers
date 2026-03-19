@@ -104,26 +104,33 @@ async function main() {
         "Premier packing and moving company in Jalgaon MH. Doorstep packing, safe unloading, and vehicle shipping at transparent rates.",
     },
     {
-      name: 'Bhusawal',
-      slug: 'bhusawal',
-      state: 'Maharashtra',
-      district: 'Jalgaon',
-      description: 'Dedicated shifting & parcel transport services in Bhusawal railway junction & residential hubs.',
-      contentText: 'Serving Bhusawal\'s vibrant community with high-grade packing materials, covered container trucks, and punctual delivery. Perfect for railway personnel, defense staff, and local residents moving locally or interstate.',
-      localAreas: 'Khadka Road, Ordnance Factory Colony, Jamner Road, Station Road, Pandurang Nagar, Nahata Chowk, Varangaon Road',
-      metaTitle: 'Packers and Movers Bhusawal | Fast & Secure Shifting Services',
-      metaDescription: 'Reliable household packing and moving services in Bhusawal. Affordable rates, trained staff, and complete transit protection.',
+      name: "Bhusawal",
+      slug: "bhusawal",
+      state: "Maharashtra",
+      district: "Jalgaon",
+      description:
+        "Dedicated shifting & parcel transport services in Bhusawal railway junction & residential hubs.",
+      contentText:
+        "Serving Bhusawal's vibrant community with high-grade packing materials, covered container trucks, and punctual delivery. Perfect for railway personnel, defense staff, and local residents moving locally or interstate.",
+      localAreas:
+        "Khadka Road, Ordnance Factory Colony, Jamner Road, Station Road, Pandurang Nagar, Nahata Chowk, Varangaon Road",
+      metaTitle: "Packers and Movers Bhusawal | Fast & Secure Shifting Services",
+      metaDescription:
+        "Reliable household packing and moving services in Bhusawal. Affordable rates, trained staff, and complete transit protection.",
     },
     {
-      name: 'Buldhana',
-      slug: 'buldhana',
-      state: 'Maharashtra',
-      district: 'Buldhana',
-      description: 'Safe and hassle-free domestic packers and movers in Buldhana district.',
-      contentText: 'Whether you are transferring to Chikhali, Khamgaon, or out of Maharashtra, our Buldhana moving crew ensures smooth disassembly, bubble packing, zero-scratch transportation, and doorstep re-assembly.',
-      localAreas: 'Sundar Khed, Chikhali Road, Circular Road, Trisharan Chowk, Sahakar Nagar, Malkapur Road',
-      metaTitle: 'Packers and Movers in Buldhana MH | Professional Relocation',
-      metaDescription: 'Hassle-free packing, loading, and transit in Buldhana. Contact us today for quick pricing estimates and instant booking.',
+      name: "Buldhana",
+      slug: "buldhana",
+      state: "Maharashtra",
+      district: "Buldhana",
+      description: "Safe and hassle-free domestic packers and movers in Buldhana district.",
+      contentText:
+        "Whether you are transferring to Chikhali, Khamgaon, or out of Maharashtra, our Buldhana moving crew ensures smooth disassembly, bubble packing, zero-scratch transportation, and doorstep re-assembly.",
+      localAreas:
+        "Sundar Khed, Chikhali Road, Circular Road, Trisharan Chowk, Sahakar Nagar, Malkapur Road",
+      metaTitle: "Packers and Movers in Buldhana MH | Professional Relocation",
+      metaDescription:
+        "Hassle-free packing, loading, and transit in Buldhana. Contact us today for quick pricing estimates and instant booking.",
     },
     {
       name: 'Dhule',
