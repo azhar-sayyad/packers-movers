@@ -212,15 +212,17 @@ async function main() {
         "GPS Tracked Transit Vehicle",
         "Doorstep Pick-up & Delivery",
       ]),
-      metaTitle: 'Car & Bike Transport Services | Safe Vehicle Shipping',
-      metaDescription: 'Enclosed vehicle carrier transport for cars and bikes. Scratch-free delivery with doorstep pickup.',
+      metaTitle: "Car & Bike Transport Services | Safe Vehicle Shipping",
+      metaDescription:
+        "Enclosed vehicle carrier transport for cars and bikes. Scratch-free delivery with doorstep pickup.",
     },
     {
-      name: 'Warehousing & Storage',
-      slug: 'warehousing',
-      icon: 'Warehouse',
-      shortDesc: 'Clean, secure, 24/7 monitored household & commercial storage spaces.',
-      fullDesc: 'Need short-term or long-term storage while renovating or waiting for your new home key? Our modern warehouse facilities offer pest-controlled, CCTV-monitored, palletized storage with flexible monthly plans.',
+      name: "Warehousing & Storage",
+      slug: "warehousing",
+      icon: "Warehouse",
+      shortDesc: "Clean, secure, 24/7 monitored household & commercial storage spaces.",
+      fullDesc:
+        "Need short-term or long-term storage while renovating or waiting for your new home key? Our modern warehouse facilities offer pest-controlled, CCTV-monitored, palletized storage with flexible monthly plans.",
       features: JSON.stringify([
         '24/7 CCTV Camera Monitoring & Security',
         'Pest-Controlled & Moisture-Proof Environment',
