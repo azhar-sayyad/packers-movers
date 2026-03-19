@@ -46,26 +46,34 @@ async function main() {
         "Verified packers and movers in Indore MP. Get free instant price estimates for household shifting, office relocation, and car transport in Indore.",
     },
     {
-      name: 'Bhopal',
-      slug: 'bhopal',
-      state: 'Madhya Pradesh',
-      district: 'Bhopal',
-      description: 'Trusted local & domestic shifting services across Bhopal city and surrounding areas.',
-      contentText: 'Relocating in the City of Lakes? Our experienced movers in Bhopal specialize in household packing, heavy furniture disassembling, electronics wrapping, and door-to-door transit. We serve all prime localities including MP Nagar, Arera Colony, and Kolar Road.',
-      localAreas: 'MP Nagar, Arera Colony, Kolar Road, Hoshangabad Road, Ayodhya Bypass, Bairagarh, Govindpura, Shahpura, Chunabhatti',
-      metaTitle: 'Professional Packers and Movers in Bhopal | 100% Damage Free',
-      metaDescription: 'Book reliable packers and movers in Bhopal for home shifting, furniture transport, and warehouse storage at standard rates.',
+      name: "Bhopal",
+      slug: "bhopal",
+      state: "Madhya Pradesh",
+      district: "Bhopal",
+      description:
+        "Trusted local & domestic shifting services across Bhopal city and surrounding areas.",
+      contentText:
+        "Relocating in the City of Lakes? Our experienced movers in Bhopal specialize in household packing, heavy furniture disassembling, electronics wrapping, and door-to-door transit. We serve all prime localities including MP Nagar, Arera Colony, and Kolar Road.",
+      localAreas:
+        "MP Nagar, Arera Colony, Kolar Road, Hoshangabad Road, Ayodhya Bypass, Bairagarh, Govindpura, Shahpura, Chunabhatti",
+      metaTitle: "Professional Packers and Movers in Bhopal | 100% Damage Free",
+      metaDescription:
+        "Book reliable packers and movers in Bhopal for home shifting, furniture transport, and warehouse storage at standard rates.",
     },
     {
-      name: 'Burhanpur',
-      slug: 'burhanpur',
-      state: 'Madhya Pradesh',
-      district: 'Burhanpur',
-      description: 'Top local moving company in Burhanpur for seamless domestic home & shop shifting.',
-      contentText: 'Providing fast, reliable, and secure packing and moving solutions in Burhanpur. From Lalbagh to the main Bus Stand area, our team handles household goods, textile machinery, and commercial items with extreme care and zero delays.',
-      localAreas: 'Bus Stand Area, Lalbagh, Shanwara, Rajora, Rastipura, Jainabad, Shahpur, Railway Station Road, Emadpur',
-      metaTitle: 'Top Packers and Movers in Burhanpur MP | Relocation Services',
-      metaDescription: 'Trusted Burhanpur packers & movers for household goods transport, bike packing, and local shifting across Burhanpur district.',
+      name: "Burhanpur",
+      slug: "burhanpur",
+      state: "Madhya Pradesh",
+      district: "Burhanpur",
+      description:
+        "Top local moving company in Burhanpur for seamless domestic home & shop shifting.",
+      contentText:
+        "Providing fast, reliable, and secure packing and moving solutions in Burhanpur. From Lalbagh to the main Bus Stand area, our team handles household goods, textile machinery, and commercial items with extreme care and zero delays.",
+      localAreas:
+        "Bus Stand Area, Lalbagh, Shanwara, Rajora, Rastipura, Jainabad, Shahpur, Railway Station Road, Emadpur",
+      metaTitle: "Top Packers and Movers in Burhanpur MP | Relocation Services",
+      metaDescription:
+        "Trusted Burhanpur packers & movers for household goods transport, bike packing, and local shifting across Burhanpur district.",
     },
     {
       name: 'Khandwa',
