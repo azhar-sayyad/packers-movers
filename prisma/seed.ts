@@ -21,9 +21,9 @@ async function main() {
       name: "Operations Manager",
     },
     create: {
-      email: 'admin@packers.com',
+      email: adminEmail,
       passwordHash: adminPasswordHash,
-      name: 'Operations Manager',
+      name: "Operations Manager",
     },
   });
   console.log('✅ Admin User seeded:', admin.email);
