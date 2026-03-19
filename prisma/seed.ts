@@ -187,14 +187,15 @@ async function main() {
       fullDesc:
         "Minimize business interruption with our planned weekend and overnight office shifting solutions. We specialize in computer server packing, modular desk dismantling, file archiving, and office furniture transport.",
       features: JSON.stringify([
-        'Minimal Operations Downtime Strategy',
-        'Antistatic Server & IT Equipment Packing',
-        'Modular Workstation Disassembly',
-        'Systematic Box Tagging & Inventory Control',
-        'Dedicated Commercial Moving Supervisor',
+        "Minimal Operations Downtime Strategy",
+        "Antistatic Server & IT Equipment Packing",
+        "Modular Workstation Disassembly",
+        "Systematic Box Tagging & Inventory Control",
+        "Dedicated Commercial Moving Supervisor",
       ]),
-      metaTitle: 'Office Relocation & Commercial Shifting Services',
-      metaDescription: 'Fast, secure commercial office moving services with anti-static packaging and minimal operational downtime.',
+      metaTitle: "Office Relocation & Commercial Shifting Services",
+      metaDescription:
+        "Fast, secure commercial office moving services with anti-static packaging and minimal operational downtime.",
     },
     {
       name: 'Car & Bike Transportation',
