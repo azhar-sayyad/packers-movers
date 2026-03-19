@@ -174,15 +174,18 @@ async function main() {
         "Door-to-Door Loading & Unloading",
         "Transit Insurance Coverage Available",
       ]),
-      metaTitle: 'Household Shifting Services | Safe Home Packing & Moving',
-      metaDescription: 'Professional house shifting services with multi-layer wrapping, trained handlers, and weatherproof vehicles.',
+      metaTitle: "Household Shifting Services | Safe Home Packing & Moving",
+      metaDescription:
+        "Professional house shifting services with multi-layer wrapping, trained handlers, and weatherproof vehicles.",
     },
     {
-      name: 'Office & Commercial Relocation',
-      slug: 'office-shifting',
-      icon: 'Building2',
-      shortDesc: 'Zero-downtime office relocation, IT equipment handling, and workstation shifting.',
-      fullDesc: 'Minimize business interruption with our planned weekend and overnight office shifting solutions. We specialize in computer server packing, modular desk dismantling, file archiving, and office furniture transport.',
+      name: "Office & Commercial Relocation",
+      slug: "office-shifting",
+      icon: "Building2",
+      shortDesc:
+        "Zero-downtime office relocation, IT equipment handling, and workstation shifting.",
+      fullDesc:
+        "Minimize business interruption with our planned weekend and overnight office shifting solutions. We specialize in computer server packing, modular desk dismantling, file archiving, and office furniture transport.",
       features: JSON.stringify([
         'Minimal Operations Downtime Strategy',
         'Antistatic Server & IT Equipment Packing',
