@@ -133,15 +133,18 @@ async function main() {
         "Hassle-free packing, loading, and transit in Buldhana. Contact us today for quick pricing estimates and instant booking.",
     },
     {
-      name: 'Dhule',
-      slug: 'dhule',
-      state: 'Maharashtra',
-      district: 'Dhule',
-      description: 'Expert home and commercial shifting services across Dhule city and MIDC.',
-      contentText: 'Dhule sits at the crossroads of major national highways. We leverage top-quality container vehicles and experienced labor for seamless house shifting, office moves, and bike/car shipping from Deopur to MIDC.',
-      localAreas: 'Deopur, MIDC, Sakri Road, Chittod Road, Wadibhokar Road, Mohadi, Mumbai-Agra Highway Hub',
-      metaTitle: 'Best Packers and Movers in Dhule | Local & Interstate Shifting',
-      metaDescription: 'Reliable packers and movers in Dhule Maharashtra. Experienced moving team for home, office, and vehicle transport.',
+      name: "Dhule",
+      slug: "dhule",
+      state: "Maharashtra",
+      district: "Dhule",
+      description: "Expert home and commercial shifting services across Dhule city and MIDC.",
+      contentText:
+        "Dhule sits at the crossroads of major national highways. We leverage top-quality container vehicles and experienced labor for seamless house shifting, office moves, and bike/car shipping from Deopur to MIDC.",
+      localAreas:
+        "Deopur, MIDC, Sakri Road, Chittod Road, Wadibhokar Road, Mohadi, Mumbai-Agra Highway Hub",
+      metaTitle: "Best Packers and Movers in Dhule | Local & Interstate Shifting",
+      metaDescription:
+        "Reliable packers and movers in Dhule Maharashtra. Experienced moving team for home, office, and vehicle transport.",
     },
   ];
 
@@ -152,7 +155,7 @@ async function main() {
       create: city,
     });
   }
-  console.log(`✅ ${cities.length} Cities seeded.`);
+  console.log(`${cities.length} Cities seeded.`);
 
   // 3. Seed Services
   const services = [
