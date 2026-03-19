@@ -224,14 +224,15 @@ async function main() {
       fullDesc:
         "Need short-term or long-term storage while renovating or waiting for your new home key? Our modern warehouse facilities offer pest-controlled, CCTV-monitored, palletized storage with flexible monthly plans.",
       features: JSON.stringify([
-        '24/7 CCTV Camera Monitoring & Security',
-        'Pest-Controlled & Moisture-Proof Environment',
-        'Flexible Short-Term & Long-Term Leases',
-        'Palletized Stacking & Sealed Wooden Crates',
-        'Individual Access & Inventory Records',
+        "24/7 CCTV Camera Monitoring & Security",
+        "Pest-Controlled & Moisture-Proof Environment",
+        "Flexible Short-Term & Long-Term Leases",
+        "Palletized Stacking & Sealed Wooden Crates",
+        "Individual Access & Inventory Records",
       ]),
-      metaTitle: 'Warehousing & Household Storage Services',
-      metaDescription: 'Secure, CCTV-monitored household goods storage and commercial warehousing with flexible monthly plans.',
+      metaTitle: "Warehousing & Household Storage Services",
+      metaDescription:
+        "Secure, CCTV-monitored household goods storage and commercial warehousing with flexible monthly plans.",
     },
     {
       name: 'Local Relocation',
