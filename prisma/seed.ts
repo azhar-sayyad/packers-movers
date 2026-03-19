@@ -76,26 +76,32 @@ async function main() {
         "Trusted Burhanpur packers & movers for household goods transport, bike packing, and local shifting across Burhanpur district.",
     },
     {
-      name: 'Khandwa',
-      slug: 'khandwa',
-      state: 'Madhya Pradesh',
-      district: 'Khandwa',
-      description: 'Express packing and transport services in Khandwa city & nearby towns.',
-      contentText: 'Moving home or shop in Khandwa? Count on our expert crew for sturdy corrugated box packaging, waterproof plastic wrapping, and swift container transit across Anand Nagar, Civil Lines, and Jaswadi Road.',
-      localAreas: 'Anand Nagar, Jaswadi Road, Civil Lines, Railway Colony, Padawa, Rameshwar, Bombay Bazar, Snawad Road',
-      metaTitle: 'Packers and Movers Khandwa | Household & Commercial Shifting',
-      metaDescription: 'Get instant quotes for home shifting in Khandwa MP. Safe loading, unloading, and transit insurance options available.',
+      name: "Khandwa",
+      slug: "khandwa",
+      state: "Madhya Pradesh",
+      district: "Khandwa",
+      description: "Express packing and transport services in Khandwa city & nearby towns.",
+      contentText:
+        "Moving home or shop in Khandwa? Count on our expert crew for sturdy corrugated box packaging, waterproof plastic wrapping, and swift container transit across Anand Nagar, Civil Lines, and Jaswadi Road.",
+      localAreas:
+        "Anand Nagar, Jaswadi Road, Civil Lines, Railway Colony, Padawa, Rameshwar, Bombay Bazar, Snawad Road",
+      metaTitle: "Packers and Movers Khandwa | Household & Commercial Shifting",
+      metaDescription:
+        "Get instant quotes for home shifting in Khandwa MP. Safe loading, unloading, and transit insurance options available.",
     },
     {
-      name: 'Jalgaon',
-      slug: 'jalgaon',
-      state: 'Maharashtra',
-      district: 'Jalgaon',
-      description: 'Leading relocation service provider in Jalgaon city and MIDC industrial area.',
-      contentText: 'As a prime commercial center in Northern Maharashtra, Jalgaon requires fast and reliable logistics. We offer customized home shifting, industrial goods transport, and vehicle carrier services across Ring Road, MIDC, and Mahabal.',
-      localAreas: 'GS Ground, Ring Road, MIDC, Mahabal, Mehrun, Shivam Colony, Premier City, Koliwada, Ajanta Road',
-      metaTitle: 'Best Packers and Movers in Jalgaon Maharashtra | Safe Transport',
-      metaDescription: 'Premier packing and moving company in Jalgaon MH. Doorstep packing, safe unloading, and vehicle shipping at transparent rates.',
+      name: "Jalgaon",
+      slug: "jalgaon",
+      state: "Maharashtra",
+      district: "Jalgaon",
+      description: "Leading relocation service provider in Jalgaon city and MIDC industrial area.",
+      contentText:
+        "As a prime commercial center in Northern Maharashtra, Jalgaon requires fast and reliable logistics. We offer customized home shifting, industrial goods transport, and vehicle carrier services across Ring Road, MIDC, and Mahabal.",
+      localAreas:
+        "GS Ground, Ring Road, MIDC, Mahabal, Mehrun, Shivam Colony, Premier City, Koliwada, Ajanta Road",
+      metaTitle: "Best Packers and Movers in Jalgaon Maharashtra | Safe Transport",
+      metaDescription:
+        "Premier packing and moving company in Jalgaon MH. Doorstep packing, safe unloading, and vehicle shipping at transparent rates.",
     },
     {
       name: 'Bhusawal',
