@@ -15,10 +15,10 @@ async function main() {
   const adminPassword = process.env.ADMIN_PASSWORD ?? "change-me-in-production";
   const adminPasswordHash = await bcrypt.hash(adminPassword, 10);
   const admin = await prisma.adminUser.upsert({
-    where: { email: 'admin@packers.com' },
+    where: { email: adminEmail },
     update: {
       passwordHash: adminPasswordHash,
-      name: 'Operations Manager',
+      name: "Operations Manager",
     },
     create: {
       email: 'admin@packers.com',
