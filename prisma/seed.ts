@@ -26,20 +26,24 @@ async function main() {
       name: "Operations Manager",
     },
   });
-  console.log('✅ Admin User seeded:', admin.email);
+  console.log("Admin user seeded:", admin.email);
 
   // 2. Seed Cities (MP & MH focus)
   const cities = [
     {
-      name: 'Indore',
-      slug: 'indore',
-      state: 'Madhya Pradesh',
-      district: 'Indore',
-      description: 'Top-rated packers and movers in Indore offering home shifting, office relocation, vehicle transport, and storage.',
-      contentText: 'Indore is Madhya Pradesh\'s commercial capital and fastest-growing hub. Whether you are moving from Vijay Nagar to Super Corridor or relocating interstate to Mumbai or Delhi, our professional moving crew provides multi-layer bubble wrapping, enclosed container trucks, and 100% damage-free delivery across all major Indori neighborhoods.',
-      localAreas: 'Vijay Nagar, Palasia, Rau, M G Road, Super Corridor, Dewas Naka, Nipania, Annapurna, Mahalaxmi Nagar, Scheme 54, Bengani Area',
-      metaTitle: 'Best Packers and Movers in Indore | Safe & Affordable Shifting',
-      metaDescription: 'Verified packers and movers in Indore MP. Get free instant price estimates for household shifting, office relocation, and car transport in Indore.',
+      name: "Indore",
+      slug: "indore",
+      state: "Madhya Pradesh",
+      district: "Indore",
+      description:
+        "Top-rated packers and movers in Indore offering home shifting, office relocation, vehicle transport, and storage.",
+      contentText:
+        "Indore is Madhya Pradesh's commercial capital and fastest-growing hub. Whether you are moving from Vijay Nagar to Super Corridor or relocating interstate to Mumbai or Delhi, our professional moving crew provides multi-layer bubble wrapping, enclosed container trucks, and 100% damage-free delivery across all major Indori neighborhoods.",
+      localAreas:
+        "Vijay Nagar, Palasia, Rau, M G Road, Super Corridor, Dewas Naka, Nipania, Annapurna, Mahalaxmi Nagar, Scheme 54, Bengani Area",
+      metaTitle: "Best Packers and Movers in Indore | Safe & Affordable Shifting",
+      metaDescription:
+        "Verified packers and movers in Indore MP. Get free instant price estimates for household shifting, office relocation, and car transport in Indore.",
     },
     {
       name: 'Bhopal',
