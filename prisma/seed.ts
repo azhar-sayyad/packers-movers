@@ -160,17 +160,19 @@ async function main() {
   // 3. Seed Services
   const services = [
     {
-      name: 'Household Shifting',
-      slug: 'household-shifting',
-      icon: 'Home',
-      shortDesc: 'Complete residential packing, loading, transportation, and setup for stress-free home moving.',
-      fullDesc: 'Our Household Shifting service handles everything from fragile kitchen glassware and heavy wooden beds to sensitive LED TVs and appliances. We use 3-layer protective wrapping including bubble wrap, corrugated sheets, and stretch film.',
+      name: "Household Shifting",
+      slug: "household-shifting",
+      icon: "Home",
+      shortDesc:
+        "Complete residential packing, loading, transportation, and setup for stress-free home moving.",
+      fullDesc:
+        "Our Household Shifting service handles everything from fragile kitchen glassware and heavy wooden beds to sensitive LED TVs and appliances. We use 3-layer protective wrapping including bubble wrap, corrugated sheets, and stretch film.",
       features: JSON.stringify([
-        '3-Layer Protective Bubble & Foam Packaging',
-        'Expert Furniture Disassembly & Re-assembly',
-        'Enclosed Weatherproof Container Trucks',
-        'Door-to-Door Loading & Unloading',
-        'Transit Insurance Coverage Available',
+        "3-Layer Protective Bubble & Foam Packaging",
+        "Expert Furniture Disassembly & Re-assembly",
+        "Enclosed Weatherproof Container Trucks",
+        "Door-to-Door Loading & Unloading",
+        "Transit Insurance Coverage Available",
       ]),
       metaTitle: 'Household Shifting Services | Safe Home Packing & Moving',
       metaDescription: 'Professional house shifting services with multi-layer wrapping, trained handlers, and weatherproof vehicles.',
