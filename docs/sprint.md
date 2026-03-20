@@ -25,10 +25,11 @@ This document defines the 5-sprint agile roadmap for building the **Packers & Mo
 - Initialize Next.js 16 project with TypeScript, Tailwind CSS, Lucide Icons.
 - Setup Prisma ORM with SQLite database configuration (`prisma/schema.prisma`).
 - Create Prisma seed script (`prisma/seed.ts`) populating MP & MH cities, services, FAQs, testimonials, portfolio items, site settings, and initial admin account.
-- Build authentication helpers (`lib/auth.ts`, `lib/session.ts`, `middleware.ts`) for password hashing, token validation, and HttpOnly session cookies.
+- Build authentication helpers (`lib/auth.ts`, `lib/session.ts`, `proxy.ts`) for password hashing, token validation, and HttpOnly session cookies.
 - Build `/admin/login` page and login/logout API endpoints (`/api/admin/login`, `/api/admin/logout`).
 
 ### Definition of Done:
+
 - `npx prisma db seed` runs cleanly and populates database.
 - Admin user can log in at `/admin/login` and receive secure HttpOnly cookie.
 - Unauthenticated access to `/admin` routes redirects to `/admin/login`.
