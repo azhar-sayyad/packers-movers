@@ -305,15 +305,17 @@ async function main() {
       order: 3,
     },
     {
-      question: 'What materials do you use for packing fragile items?',
-      answer: 'We use heavy-duty double-walled corrugated boxes, air bubble wrapping rolls, corrugated sheets, foam sheets, stretch film, and heavy adhesive tape.',
-      category: 'Packing Quality',
+      question: "What materials do you use for packing fragile items?",
+      answer:
+        "We use heavy-duty double-walled corrugated boxes, air bubble wrapping rolls, corrugated sheets, foam sheets, stretch film, and heavy adhesive tape.",
+      category: "Packing Quality",
       order: 4,
     },
     {
-      question: 'Do you disassemble and re-assemble beds and wardrobes?',
-      answer: 'Yes, our team includes skilled carpenters who disassemble wooden beds, modular wardrobes, and dining tables prior to packing and re-assemble them at your new location.',
-      category: 'Services',
+      question: "Do you disassemble and re-assemble beds and wardrobes?",
+      answer:
+        "Yes, our team includes skilled carpenters who disassemble wooden beds, modular wardrobes, and dining tables prior to packing and re-assemble them at your new location.",
+      category: "Services",
       order: 5,
     },
   ];
