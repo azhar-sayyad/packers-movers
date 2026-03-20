@@ -261,13 +261,14 @@ async function main() {
       fullDesc:
         "Already have your own vehicle? Hire our expert packers to carefully wrap, box, label, and organize your valuable items using top-quality cardboard boxes, tape, and protective rolls.",
       features: JSON.stringify([
-        'Premium Quality Packing Material Provided',
-        'Professional Fragile Item Handling',
-        'Color-Coded Box Labeling',
-        'Unpacking & Furniture Placement Help',
+        "Premium Quality Packing Material Provided",
+        "Professional Fragile Item Handling",
+        "Color-Coded Box Labeling",
+        "Unpacking & Furniture Placement Help",
       ]),
-      metaTitle: 'Professional Packing & Unpacking Services',
-      metaDescription: 'Expert packing and unpacking crew for hire. High quality materials, fragile items protection, and quick turnaround.',
+      metaTitle: "Professional Packing & Unpacking Services",
+      metaDescription:
+        "Expert packing and unpacking crew for hire. High quality materials, fragile items protection, and quick turnaround.",
     },
   ];
 
