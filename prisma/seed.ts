@@ -347,11 +347,12 @@ async function main() {
       customerName: "Sheikh Murtaza",
       citySlug: "burhanpur",
       rating: 5,
-      reviewText: 'Very honest pricing and clean work in Burhanpur. Moving household goods from Lalbagh to Indore was seamless. The truck driver was polite and punctual.',
+      reviewText:
+        "Very honest pricing and clean work in Burhanpur. Moving household goods from Lalbagh to Indore was seamless. The truck driver was polite and punctual.",
     },
     {
-      customerName: 'Vikram Singh',
-      citySlug: 'bhopal',
+      customerName: "Vikram Singh",
+      citySlug: "bhopal",
       rating: 5,
       reviewText: 'Transported my Hyundai Creta car along with household stuff from Bhopal to Pune. Got real-time updates and my car arrived in perfect condition.',
     },
