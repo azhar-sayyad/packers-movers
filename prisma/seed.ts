@@ -279,14 +279,15 @@ async function main() {
       create: service,
     });
   }
-  console.log(`✅ ${services.length} Services seeded.`);
+  console.log(`${services.length} Services seeded.`);
 
   // 4. Seed FAQs
   const faqs = [
     {
-      question: 'How are packing and moving charges calculated?',
-      answer: 'Charges depend on the volume of goods (truck size required), total distance between cities, property floor level, presence of an elevator, and any add-on services like vehicle transport or storage.',
-      category: 'Pricing & Estimates',
+      question: "How are packing and moving charges calculated?",
+      answer:
+        "Charges depend on the volume of goods (truck size required), total distance between cities, property floor level, presence of an elevator, and any add-on services like vehicle transport or storage.",
+      category: "Pricing & Estimates",
       order: 1,
     },
     {
