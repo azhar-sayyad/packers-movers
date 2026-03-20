@@ -17,10 +17,12 @@ This document defines the 5-sprint agile roadmap for building the **Packers & Mo
 ---
 
 ## Sprint 1: Foundation, Database & Admin Auth
+
 **Goal**: Establish the core repository structure, database models, seed data engine, helper utilities, and secure admin authentication.
 
 ### Deliverables:
-- Initialize Next.js 14/15 project with TypeScript, Tailwind CSS, Lucide Icons.
+
+- Initialize Next.js 16 project with TypeScript, Tailwind CSS, Lucide Icons.
 - Setup Prisma ORM with SQLite database configuration (`prisma/schema.prisma`).
 - Create Prisma seed script (`prisma/seed.ts`) populating MP & MH cities, services, FAQs, testimonials, portfolio items, site settings, and initial admin account.
 - Build authentication helpers (`lib/auth.ts`, `lib/session.ts`, `middleware.ts`) for password hashing, token validation, and HttpOnly session cookies.
