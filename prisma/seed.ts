@@ -389,12 +389,12 @@ async function main() {
   }
   console.log(`${settings.length} Site Settings seeded.`);
 
-  console.log('🎉 Seeding completed successfully!');
+  console.log("Seeding completed successfully!");
 }
 
 main()
   .catch((e) => {
-    console.error('❌ Error during database seeding:', e);
+    console.error("❌ Error during database seeding:", e);
     process.exit(1);
   })
   .finally(async () => {
