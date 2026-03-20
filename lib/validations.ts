@@ -66,16 +66,16 @@ export const inquiryStatusSchema = z.object({
 });
 
 export const portfolioSchema = z.object({
-  title: z.string().min(2, 'Title required'),
-  citySlug: z.string().optional().or(z.literal('')),
-  serviceSlug: z.string().optional().or(z.literal('')),
-  imageUrl: z.string().min(5, 'Image URL required'),
-  tag: z.string().default('Completed Project'),
+  title: requiredString(2, "Title required"),
+  citySlug: optionalSlug(),
+  serviceSlug: optionalSlug(),
+  imageUrl: requiredString(5, "Image URL required"),
+  tag: z.string().default("Completed Project"),
 });
 
 export const testimonialSchema = z.object({
-  customerName: z.string().min(2, 'Customer name required'),
-  citySlug: z.string().optional().or(z.literal('')),
+  customerName: requiredString(2, "Customer name required"),
+  citySlug: optionalSlug(),
   rating: z.number().int().min(1).max(5).default(5),
   reviewText: z.string().min(10, 'Review text required'),
   isPublished: z.boolean().default(true),
