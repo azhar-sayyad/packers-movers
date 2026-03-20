@@ -37,9 +37,11 @@ This document defines the 5-sprint agile roadmap for building the **Packers & Mo
 ---
 
 ## Sprint 2: Admin CMS & Inquiry Management
+
 **Goal**: Build a complete, functional backend administration panel (`/admin`) for lead management and content editing.
 
 ### Deliverables:
+
 - Admin layout with persistent sidebar navigation and quick logout.
 - **Dashboard (`/admin`)**: Total leads count, today's leads count, active cities count, conversion percentage metric cards, and recent lead feed.
 - **Inquiry Management (`/admin/inquiries`)**: Lead table with status pipeline filter (`NEW`, `CONTACTED`, `QUOTATION_SENT`, `CONVERTED`, `CLOSED`), status update modal, internal note editing, and lead attribution metadata view.
