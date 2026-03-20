@@ -50,19 +50,18 @@ export const citySchema = z.object({
 });
 
 export const serviceSchema = z.object({
-  name: z.string().min(2, 'Service name required'),
-  slug: z.string().min(2, 'Slug required'),
-  icon: z.string().min(2, 'Icon name required'),
-  shortDesc: z.string().min(10, 'Short description required'),
-  fullDesc: z.string().min(20, 'Full description required'),
-  features: z.string().min(5, 'Features list required'),
-  isActive: z.boolean().default(true),
-  metaTitle: z.string().optional(),
-  metaDescription: z.string().optional(),
+  name: requiredString(2, "Service name required"),
+  slug: requiredString(2, "Slug required"),
+  icon: requiredString(2, "Icon name required"),
+  shortDesc: requiredString(10, "Short description required"),
+  fullDesc: requiredString(20, "Full description required"),
+  features: requiredString(5, "Features list required"),
+  isActive: activeFlag,
+  ...seoFields,
 });
 
 export const inquiryStatusSchema = z.object({
-  status: z.enum(['NEW', 'CONTACTED', 'QUOTATION_SENT', 'CONVERTED', 'CLOSED']),
+  status: z.enum(INQUIRY_STATUSES),
   internalNotes: z.string().optional(),
 });
 
