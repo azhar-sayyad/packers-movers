@@ -248,15 +248,18 @@ async function main() {
         "Trained Local Moving Crews",
         "No Hidden Charges Guarantee",
       ]),
-      metaTitle: 'Local City Shifting Services | Same Day Relocation',
-      metaDescription: 'Fast same-day local shifting services for houses, flats, and shops within the city.',
+      metaTitle: "Local City Shifting Services | Same Day Relocation",
+      metaDescription:
+        "Fast same-day local shifting services for houses, flats, and shops within the city.",
     },
     {
-      name: 'Packing & Unpacking Only',
-      slug: 'packing-unpacking',
-      icon: 'Package',
-      shortDesc: 'Hire professional packers to securely box your belongings with premium materials.',
-      fullDesc: 'Already have your own vehicle? Hire our expert packers to carefully wrap, box, label, and organize your valuable items using top-quality cardboard boxes, tape, and protective rolls.',
+      name: "Packing & Unpacking Only",
+      slug: "packing-unpacking",
+      icon: "Package",
+      shortDesc:
+        "Hire professional packers to securely box your belongings with premium materials.",
+      fullDesc:
+        "Already have your own vehicle? Hire our expert packers to carefully wrap, box, label, and organize your valuable items using top-quality cardboard boxes, tape, and protective rolls.",
       features: JSON.stringify([
         'Premium Quality Packing Material Provided',
         'Professional Fragile Item Handling',
