@@ -325,13 +325,13 @@ async function main() {
       data: faq,
     });
   }
-  console.log(`✅ ${faqs.length} FAQs seeded.`);
+  console.log(`${faqs.length} FAQs seeded.`);
 
   // 5. Seed Testimonials
   const testimonials = [
     {
-      customerName: 'Rajesh Sharma',
-      citySlug: 'indore',
+      customerName: "Rajesh Sharma",
+      citySlug: "indore",
       rating: 5,
       reviewText: 'Shifted my 3BHK flat from Vijay Nagar Indore to Bhopal. The crew reached on time, wrapped my sofa and fridge meticulously with heavy bubble sheet, and delivered without a single scratch. Highly recommended!',
     },
