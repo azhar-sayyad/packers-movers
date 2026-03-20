@@ -333,11 +333,12 @@ async function main() {
       customerName: "Rajesh Sharma",
       citySlug: "indore",
       rating: 5,
-      reviewText: 'Shifted my 3BHK flat from Vijay Nagar Indore to Bhopal. The crew reached on time, wrapped my sofa and fridge meticulously with heavy bubble sheet, and delivered without a single scratch. Highly recommended!',
+      reviewText:
+        "Shifted my 3BHK flat from Vijay Nagar Indore to Bhopal. The crew reached on time, wrapped my sofa and fridge meticulously with heavy bubble sheet, and delivered without a single scratch. Highly recommended!",
     },
     {
-      customerName: 'Priya Kulkarni',
-      citySlug: 'jalgaon',
+      customerName: "Priya Kulkarni",
+      citySlug: "jalgaon",
       rating: 5,
       reviewText: 'Excellent service for my office relocation in Jalgaon MIDC! They completed the computer and furniture packing overnight without disrupting our regular working hours.',
     },
