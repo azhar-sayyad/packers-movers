@@ -354,7 +354,8 @@ async function main() {
       customerName: "Vikram Singh",
       citySlug: "bhopal",
       rating: 5,
-      reviewText: 'Transported my Hyundai Creta car along with household stuff from Bhopal to Pune. Got real-time updates and my car arrived in perfect condition.',
+      reviewText:
+        "Transported my Hyundai Creta car along with household stuff from Bhopal to Pune. Got real-time updates and my car arrived in perfect condition.",
     },
   ];
 
@@ -363,7 +364,7 @@ async function main() {
       data: t,
     });
   }
-  console.log(`✅ ${testimonials.length} Testimonials seeded.`);
+  console.log(`${testimonials.length} Testimonials seeded.`);
 
   // 6. Seed Site Settings
   const settings = [
