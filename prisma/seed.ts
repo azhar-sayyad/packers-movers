@@ -291,15 +291,17 @@ async function main() {
       order: 1,
     },
     {
-      question: 'How far in advance should I book my relocation?',
-      answer: 'We recommend booking 3 to 7 days before your planned move date for local shifting, and 7 to 10 days prior for interstate moves to ensure vehicle availability.',
-      category: 'Booking',
+      question: "How far in advance should I book my relocation?",
+      answer:
+        "We recommend booking 3 to 7 days before your planned move date for local shifting, and 7 to 10 days prior for interstate moves to ensure vehicle availability.",
+      category: "Booking",
       order: 2,
     },
     {
-      question: 'Do you provide transit insurance for household goods?',
-      answer: 'Yes! We offer optional full transit insurance that covers your goods against unforeseen accidents or severe natural events during transit.',
-      category: 'Safety & Insurance',
+      question: "Do you provide transit insurance for household goods?",
+      answer:
+        "Yes! We offer optional full transit insurance that covers your goods against unforeseen accidents or severe natural events during transit.",
+      category: "Safety & Insurance",
       order: 3,
     },
     {
