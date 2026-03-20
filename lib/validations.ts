@@ -36,18 +36,17 @@ export const inquirySchema = z.object({
 });
 
 export const citySchema = z.object({
-  name: z.string().min(2, 'City name required'),
-  slug: z.string().min(2, 'Slug required'),
-  state: z.string().min(2, 'State required'),
-  district: z.string().min(2, 'District required'),
-  description: z.string().min(10, 'Description required'),
-  contentText: z.string().min(20, 'Localized text content required'),
-  localAreas: z.string().min(3, 'Local areas list required'),
+  name: requiredString(2, "City name required"),
+  slug: requiredString(2, "Slug required"),
+  state: requiredString(2, "State required"),
+  district: requiredString(2, "District required"),
+  description: requiredString(10, "Description required"),
+  contentText: requiredString(20, "Localized text content required"),
+  localAreas: requiredString(3, "Local areas list required"),
   phoneOverride: z.string().optional(),
   whatsappOverride: z.string().optional(),
-  isActive: z.boolean().default(true),
-  metaTitle: z.string().optional(),
-  metaDescription: z.string().optional(),
+  isActive: activeFlag,
+  ...seoFields,
 });
 
 export const serviceSchema = z.object({
