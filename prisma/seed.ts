@@ -368,12 +368,16 @@ async function main() {
 
   // 6. Seed Site Settings
   const settings = [
-    { key: 'siteName', value: 'Packers & Movers Logistics', description: 'Brand Name' },
-    { key: 'phone', value: '+91 98765 43210', description: 'Primary Hotline' },
-    { key: 'whatsapp', value: '+91 98765 43210', description: 'WhatsApp Business Number' },
-    { key: 'email', value: 'support@packersmovers.com', description: 'Support Email' },
-    { key: 'address', value: '102, Logistics Tower, AB Road, Vijay Nagar, Indore, MP 452001', description: 'Head Office Address' },
-    { key: 'workingHours', value: '24 Hours / 7 Days Available', description: 'Working Hours' },
+    { key: "siteName", value: "Packers & Movers Logistics", description: "Brand Name" },
+    { key: "phone", value: "+91 98765 43210", description: "Primary Hotline" },
+    { key: "whatsapp", value: "+91 98765 43210", description: "WhatsApp Business Number" },
+    { key: "email", value: "support@packersmovers.com", description: "Support Email" },
+    {
+      key: "address",
+      value: "102, Logistics Tower, AB Road, Vijay Nagar, Indore, MP 452001",
+      description: "Head Office Address",
+    },
+    { key: "workingHours", value: "24 Hours / 7 Days Available", description: "Working Hours" },
   ];
 
   for (const s of settings) {
@@ -383,7 +387,7 @@ async function main() {
       create: s,
     });
   }
-  console.log(`✅ ${settings.length} Site Settings seeded.`);
+  console.log(`${settings.length} Site Settings seeded.`);
 
   console.log('🎉 Seeding completed successfully!');
 }
