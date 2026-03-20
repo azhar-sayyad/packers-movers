@@ -340,11 +340,12 @@ async function main() {
       customerName: "Priya Kulkarni",
       citySlug: "jalgaon",
       rating: 5,
-      reviewText: 'Excellent service for my office relocation in Jalgaon MIDC! They completed the computer and furniture packing overnight without disrupting our regular working hours.',
+      reviewText:
+        "Excellent service for my office relocation in Jalgaon MIDC! They completed the computer and furniture packing overnight without disrupting our regular working hours.",
     },
     {
-      customerName: 'Sheikh Murtaza',
-      citySlug: 'burhanpur',
+      customerName: "Sheikh Murtaza",
+      citySlug: "burhanpur",
       rating: 5,
       reviewText: 'Very honest pricing and clean work in Burhanpur. Moving household goods from Lalbagh to Indore was seamless. The truck driver was polite and punctual.',
     },
