@@ -6,13 +6,13 @@ This document defines the 5-sprint agile roadmap for building the **Packers & Mo
 
 ## 🚀 Overview of Sprints
 
-| Sprint | Focus Area | Key Deliverables |
-|---|---|---|
-| **Sprint 1** | **Foundation, Database & Admin Auth** | Next.js setup, Tailwind CSS, Prisma Schema, SQLite, Seed Data script, Auth Helper & `/admin/login` |
-| **Sprint 2** | **Admin CMS & Inquiry Management** | Dashboard, Inquiry Pipeline, City CMS, Service CMS, Portfolio CMS, Testimonials & FAQ CMS |
-| **Sprint 3** | **Public Core & Lead System** | Design System, Header/Footer/Mobile CTAs, Homepage, Lead API (`/api/inquiries`) with Attribution & Anti-Spam |
+| Sprint       | Focus Area                            | Key Deliverables                                                                                                                 |
+| ------------ | ------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------- |
+| **Sprint 1** | **Foundation, Database & Admin Auth** | Next.js setup, Tailwind CSS, Prisma Schema, SQLite, Seed Data script, Auth Helper & `/admin/login`                               |
+| **Sprint 2** | **Admin CMS & Inquiry Management**    | Dashboard, Inquiry Pipeline, City CMS, Service CMS, Portfolio CMS, Testimonials & FAQ CMS                                        |
+| **Sprint 3** | **Public Core & Lead System**         | Design System, Header/Footer/Mobile CTAs, Homepage, Lead API (`/api/inquiries`) with Attribution & Anti-Spam                     |
 | **Sprint 4** | **Dynamic SEO Engine & Public Pages** | Dynamic City Pages (`/packers-movers/[city]`), Service Pages (`/services/[slug]`), Locations Directory, Dynamic Sitemap & Robots |
-| **Sprint 5** | **Verification, Polish & QA** | E2E build check, manual workflow verification, responsiveness polish, performance optimization |
+| **Sprint 5** | **Verification, Polish & QA**         | E2E build check, manual workflow verification, responsiveness polish, performance optimization                                   |
 
 ---
 
