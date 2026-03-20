@@ -77,15 +77,15 @@ export const testimonialSchema = z.object({
   customerName: requiredString(2, "Customer name required"),
   citySlug: optionalSlug(),
   rating: z.number().int().min(1).max(5).default(5),
-  reviewText: z.string().min(10, 'Review text required'),
+  reviewText: requiredString(10, "Review text required"),
   isPublished: z.boolean().default(true),
 });
 
 export const faqSchema = z.object({
-  question: z.string().min(5, 'Question required'),
-  answer: z.string().min(5, 'Answer required'),
-  category: z.string().default('General'),
-  citySlug: z.string().optional().or(z.literal('')),
+  question: requiredString(5, "Question required"),
+  answer: requiredString(5, "Answer required"),
+  category: z.string().default("General"),
+  citySlug: optionalSlug(),
   order: z.number().int().default(0),
   isPublished: z.boolean().default(true),
 });
